@@ -1,0 +1,8 @@
+# Нильсен — Итоги 2025 и векторы 2026
+
+> Расшифровка презентации (39 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [nielsen-itogi-2025-vektory-2026.md](nielsen-itogi-2025-vektory-2026.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 836 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

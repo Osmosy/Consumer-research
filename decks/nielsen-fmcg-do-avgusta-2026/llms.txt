@@ -1,0 +1,8 @@
+# Нильсен — Отчёт по FMCG-рынку России до августа 2026
+
+> Расшифровка презентации (18 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [nielsen-fmcg-do-avgusta-2026.md](nielsen-fmcg-do-avgusta-2026.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 453 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

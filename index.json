@@ -17,7 +17,8 @@
     "deck.original.json",
     "index.html",
     "inkofood-2026-print.pdf",
-    "inkofood-2026.md"
+    "inkofood-2026.md",
+    "llms.txt"
    ],
    "md": "decks/inkofood-2026/inkofood-2026.md",
    "html": "decks/inkofood-2026/index.html",
@@ -39,6 +40,7 @@
     "VERIFICATION.md",
     "deck.json",
     "index.html",
+    "llms.txt",
     "nielsen-itogi-2025-vektory-2026-print.pdf",
     "nielsen-itogi-2025-vektory-2026.md"
    ],
@@ -62,6 +64,7 @@
     "VERIFICATION.md",
     "deck.json",
     "index.html",
+    "llms.txt",
     "nielsen-fmcg-do-avgusta-2026-print.pdf",
     "nielsen-fmcg-do-avgusta-2026.md"
    ],
@@ -85,6 +88,7 @@
     "VERIFICATION.md",
     "deck.json",
     "index.html",
+    "llms.txt",
     "romir-trendy-2026-print.pdf",
     "romir-trendy-2026.md"
    ],
@@ -108,6 +112,7 @@
     "VERIFICATION.md",
     "deck.json",
     "index.html",
+    "llms.txt",
     "sbermarket-globalnye-trendy-2026-print.pdf",
     "sbermarket-globalnye-trendy-2026.md"
    ],
@@ -131,6 +136,7 @@
     "VERIFICATION.md",
     "deck.json",
     "index.html",
+    "llms.txt",
     "sbermarket-serebryanyy-vozrast-2026-print.pdf",
     "sbermarket-serebryanyy-vozrast-2026.md"
    ],
@@ -155,7 +161,8 @@
     "deck.json",
     "ekopsi-debaty-pro-pokoleniya-print.pdf",
     "ekopsi-debaty-pro-pokoleniya.md",
-    "index.html"
+    "index.html",
+    "llms.txt"
    ],
    "md": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya.md",
    "html": "decks/ekopsi-debaty-pro-pokoleniya/index.html",

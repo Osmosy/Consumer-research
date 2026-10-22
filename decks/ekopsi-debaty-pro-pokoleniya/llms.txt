@@ -1,0 +1,8 @@
+# ЭКОПСИ — Дебаты про поколения
+
+> Расшифровка презентации (21 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [ekopsi-debaty-pro-pokoleniya.md](ekopsi-debaty-pro-pokoleniya.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 26 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

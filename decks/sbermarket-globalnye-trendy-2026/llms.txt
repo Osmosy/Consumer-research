@@ -1,0 +1,8 @@
+# СберМаркетинг — Глобальные тренды 2026
+
+> Расшифровка презентации (36 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [sbermarket-globalnye-trendy-2026.md](sbermarket-globalnye-trendy-2026.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 36 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

@@ -1,0 +1,54 @@
+{
+ "note": "Оригинальные PDF в репозиторий не включены (весят ~80 МБ). Здесь — имена, размеры и sha256, чтобы проверить происхождение выгрузки.",
+ "sources": [
+  {
+   "deck": "inkofood-2026",
+   "file": "InkofoodRepOct2026.pdf",
+   "bytes": 48675114,
+   "sha256": "6817051010b717c5410f7265967ad3ba9770b41d772458ae4c5579b5cd98a966",
+   "original_path": "/home/lenovo/Загрузки/Исследования потребителя/InkofoodRepOct2026.pdf"
+  },
+  {
+   "deck": "nielsen-itogi-2025-vektory-2026",
+   "file": "Нильсен итоги 2025 и векторы 2026.pdf",
+   "bytes": 2246586,
+   "sha256": "bab7596892e06c0e3d6369c6153ad04ffad7938794ad62f0a426718c3519082d",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/nielsen-itogi-2025-vektory-2026/Нильсен итоги 2025 и векторы 2026.pdf"
+  },
+  {
+   "deck": "nielsen-fmcg-do-avgusta-2026",
+   "file": "Нильсен опубликовал отчёт по FMCG рынку России до августа 26 года.pdf",
+   "bytes": 505367,
+   "sha256": "a666b014ad56d9f49c467e940be513b843f63d707d8961e4b9e608d9b59c8014",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/nielsen-fmcg-do-avgusta-2026/Нильсен опубликовал отчёт по FMCG рынку России до августа 26 года.pdf"
+  },
+  {
+   "deck": "romir-trendy-2026",
+   "file": "РОМИР_Тренды_покупательского_поведения_2026_47_стр.pdf",
+   "bytes": 4003909,
+   "sha256": "63a44170cf0295fc2defa51cc158b771e222b46f392099fd7d7886c81a10d937",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/romir-trendy-2026/РОМИР_Тренды_покупательского_поведения_2026_47_стр.pdf"
+  },
+  {
+   "deck": "sbermarket-globalnye-trendy-2026",
+   "file": "СберМаркетинг_Глобальные_тренды_2026_.pdf",
+   "bytes": 13131875,
+   "sha256": "00f078d66cf68e7661592b88dd829ddb8a1647b3a28a82eecd1d86d88b318e5e",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/sbermarket-globalnye-trendy-2026/СберМаркетинг_Глобальные_тренды_2026_.pdf"
+  },
+  {
+   "deck": "sbermarket-serebryanyy-vozrast-2026",
+   "file": "СберМаркетинг_Серебряный_возраст_2026.pdf",
+   "bytes": 10681471,
+   "sha256": "795de51b0b27e291f654de1d93ac9449b113baf3d2112a9d8e1361cea05c46d7",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/sbermarket-serebryanyy-vozrast-2026/СберМаркетинг_Серебряный_возраст_2026.pdf"
+  },
+  {
+   "deck": "ekopsi-debaty-pro-pokoleniya",
+   "file": "ЭКОПСИ_Дебаты_про_поколения.pdf",
+   "bytes": 1289170,
+   "sha256": "9192d03c5be96e153a691676e37f4b6327dec7928a4bc3906b19d466ada57773",
+   "original_path": "/home/lenovo/Загрузки/данные для анализа/ekopsi-debaty-pro-pokoleniya/ЭКОПСИ_Дебаты_про_поколения.pdf"
+  }
+ ]
+}

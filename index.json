@@ -1,0 +1,172 @@
+{
+ "generated_at": "2026-10-22",
+ "decks": [
+  {
+   "slug": "inkofood-2026",
+   "title": "Инкофуд — Исследование потребителя, октябрь 2026",
+   "topic": "мясная гастрономия, У&A",
+   "pages": 69,
+   "table_rows": 771,
+   "source_pdf": "InkofoodRepOct2026.pdf",
+   "source_pdf_sha256": "6817051010b717c5410f7265967ad3ba9770b41d772458ae4c5579b5cd98a966",
+   "dir": "decks/inkofood-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "deck.original.json",
+    "index.html",
+    "inkofood-2026-print.pdf",
+    "inkofood-2026.md"
+   ],
+   "md": "decks/inkofood-2026/inkofood-2026.md",
+   "html": "decks/inkofood-2026/index.html",
+   "json": "decks/inkofood-2026/deck.json",
+   "slides_dir": "decks/inkofood-2026/slides",
+   "print_pdf": "decks/inkofood-2026/inkofood-2026-print.pdf"
+  },
+  {
+   "slug": "nielsen-itogi-2025-vektory-2026",
+   "title": "Нильсен — Итоги 2025 и векторы 2026",
+   "topic": "рынок FMCG, тренды",
+   "pages": 39,
+   "table_rows": 836,
+   "source_pdf": "Нильсен итоги 2025 и векторы 2026.pdf",
+   "source_pdf_sha256": "bab7596892e06c0e3d6369c6153ad04ffad7938794ad62f0a426718c3519082d",
+   "dir": "decks/nielsen-itogi-2025-vektory-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "nielsen-itogi-2025-vektory-2026-print.pdf",
+    "nielsen-itogi-2025-vektory-2026.md"
+   ],
+   "md": "decks/nielsen-itogi-2025-vektory-2026/nielsen-itogi-2025-vektory-2026.md",
+   "html": "decks/nielsen-itogi-2025-vektory-2026/index.html",
+   "json": "decks/nielsen-itogi-2025-vektory-2026/deck.json",
+   "slides_dir": "decks/nielsen-itogi-2025-vektory-2026/slides",
+   "print_pdf": "decks/nielsen-itogi-2025-vektory-2026/nielsen-itogi-2025-vektory-2026-print.pdf"
+  },
+  {
+   "slug": "nielsen-fmcg-do-avgusta-2026",
+   "title": "Нильсен — Отчёт по FMCG-рынку России до августа 2026",
+   "topic": "рынок FMCG, каналы и регионы",
+   "pages": 18,
+   "table_rows": 453,
+   "source_pdf": "Нильсен опубликовал отчёт по FMCG рынку России до августа 26 года.pdf",
+   "source_pdf_sha256": "a666b014ad56d9f49c467e940be513b843f63d707d8961e4b9e608d9b59c8014",
+   "dir": "decks/nielsen-fmcg-do-avgusta-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "nielsen-fmcg-do-avgusta-2026-print.pdf",
+    "nielsen-fmcg-do-avgusta-2026.md"
+   ],
+   "md": "decks/nielsen-fmcg-do-avgusta-2026/nielsen-fmcg-do-avgusta-2026.md",
+   "html": "decks/nielsen-fmcg-do-avgusta-2026/index.html",
+   "json": "decks/nielsen-fmcg-do-avgusta-2026/deck.json",
+   "slides_dir": "decks/nielsen-fmcg-do-avgusta-2026/slides",
+   "print_pdf": "decks/nielsen-fmcg-do-avgusta-2026/nielsen-fmcg-do-avgusta-2026-print.pdf"
+  },
+  {
+   "slug": "romir-trendy-2026",
+   "title": "РОМИР — Тренды покупательского поведения 2026",
+   "topic": "потребительская панель, поведение",
+   "pages": 47,
+   "table_rows": 337,
+   "source_pdf": "РОМИР_Тренды_покупательского_поведения_2026_47_стр.pdf",
+   "source_pdf_sha256": "63a44170cf0295fc2defa51cc158b771e222b46f392099fd7d7886c81a10d937",
+   "dir": "decks/romir-trendy-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "romir-trendy-2026-print.pdf",
+    "romir-trendy-2026.md"
+   ],
+   "md": "decks/romir-trendy-2026/romir-trendy-2026.md",
+   "html": "decks/romir-trendy-2026/index.html",
+   "json": "decks/romir-trendy-2026/deck.json",
+   "slides_dir": "decks/romir-trendy-2026/slides",
+   "print_pdf": "decks/romir-trendy-2026/romir-trendy-2026-print.pdf"
+  },
+  {
+   "slug": "sbermarket-globalnye-trendy-2026",
+   "title": "СберМаркетинг — Глобальные тренды 2026",
+   "topic": "глобальные тренды, маркетинг",
+   "pages": 36,
+   "table_rows": 36,
+   "source_pdf": "СберМаркетинг_Глобальные_тренды_2026_.pdf",
+   "source_pdf_sha256": "00f078d66cf68e7661592b88dd829ddb8a1647b3a28a82eecd1d86d88b318e5e",
+   "dir": "decks/sbermarket-globalnye-trendy-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "sbermarket-globalnye-trendy-2026-print.pdf",
+    "sbermarket-globalnye-trendy-2026.md"
+   ],
+   "md": "decks/sbermarket-globalnye-trendy-2026/sbermarket-globalnye-trendy-2026.md",
+   "html": "decks/sbermarket-globalnye-trendy-2026/index.html",
+   "json": "decks/sbermarket-globalnye-trendy-2026/deck.json",
+   "slides_dir": "decks/sbermarket-globalnye-trendy-2026/slides",
+   "print_pdf": "decks/sbermarket-globalnye-trendy-2026/sbermarket-globalnye-trendy-2026-print.pdf"
+  },
+  {
+   "slug": "sbermarket-serebryanyy-vozrast-2026",
+   "title": "СберМаркетинг — Серебряный возраст 2026",
+   "topic": "сегмент 55+, поведение",
+   "pages": 30,
+   "table_rows": 299,
+   "source_pdf": "СберМаркетинг_Серебряный_возраст_2026.pdf",
+   "source_pdf_sha256": "795de51b0b27e291f654de1d93ac9449b113baf3d2112a9d8e1361cea05c46d7",
+   "dir": "decks/sbermarket-serebryanyy-vozrast-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "sbermarket-serebryanyy-vozrast-2026-print.pdf",
+    "sbermarket-serebryanyy-vozrast-2026.md"
+   ],
+   "md": "decks/sbermarket-serebryanyy-vozrast-2026/sbermarket-serebryanyy-vozrast-2026.md",
+   "html": "decks/sbermarket-serebryanyy-vozrast-2026/index.html",
+   "json": "decks/sbermarket-serebryanyy-vozrast-2026/deck.json",
+   "slides_dir": "decks/sbermarket-serebryanyy-vozrast-2026/slides",
+   "print_pdf": "decks/sbermarket-serebryanyy-vozrast-2026/sbermarket-serebryanyy-vozrast-2026-print.pdf"
+  },
+  {
+   "slug": "ekopsi-debaty-pro-pokoleniya",
+   "title": "ЭКОПСИ — Дебаты про поколения",
+   "topic": "HR, вовлечённость, поколения",
+   "pages": 21,
+   "table_rows": 26,
+   "source_pdf": "ЭКОПСИ_Дебаты_про_поколения.pdf",
+   "source_pdf_sha256": "9192d03c5be96e153a691676e37f4b6327dec7928a4bc3906b19d466ada57773",
+   "dir": "decks/ekopsi-debaty-pro-pokoleniya",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "ekopsi-debaty-pro-pokoleniya-print.pdf",
+    "ekopsi-debaty-pro-pokoleniya.md",
+    "index.html"
+   ],
+   "md": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya.md",
+   "html": "decks/ekopsi-debaty-pro-pokoleniya/index.html",
+   "json": "decks/ekopsi-debaty-pro-pokoleniya/deck.json",
+   "slides_dir": "decks/ekopsi-debaty-pro-pokoleniya/slides",
+   "print_pdf": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya-print.pdf"
+  }
+ ],
+ "totals": {
+  "decks": 7,
+  "pages": 260,
+  "table_rows": 2758
+ }
+}

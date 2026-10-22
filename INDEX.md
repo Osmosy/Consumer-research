@@ -4,7 +4,7 @@
 
 | Колода | Тема | Слайдов | Строк | md | json | html |
 |---|---|---|---|---|---|---|
-| `inkofood-2026` — Инкофуд — Исследование потребителя, октябрь 2026 | мясная гастрономия, У&A | 69 | 771 | [md](decks/inkofood-2026/inkofood-2026.md) | [json](decks/inkofood-2026/deck.json) | [html](decks/inkofood-2026/index.html) |
+| `inkofood-2026` — Инкофуд — Исследование потребителя, октябрь 2026 | мясная гастрономия, U&A | 69 | 771 | [md](decks/inkofood-2026/inkofood-2026.md) | [json](decks/inkofood-2026/deck.json) | [html](decks/inkofood-2026/index.html) |
 | `nielsen-itogi-2025-vektory-2026` — Нильсен — Итоги 2025 и векторы 2026 | рынок FMCG, тренды | 39 | 836 | [md](decks/nielsen-itogi-2025-vektory-2026/nielsen-itogi-2025-vektory-2026.md) | [json](decks/nielsen-itogi-2025-vektory-2026/deck.json) | [html](decks/nielsen-itogi-2025-vektory-2026/index.html) |
 | `nielsen-fmcg-do-avgusta-2026` — Нильсен — Отчёт по FMCG-рынку России до августа 2026 | рынок FMCG, каналы и регионы | 18 | 453 | [md](decks/nielsen-fmcg-do-avgusta-2026/nielsen-fmcg-do-avgusta-2026.md) | [json](decks/nielsen-fmcg-do-avgusta-2026/deck.json) | [html](decks/nielsen-fmcg-do-avgusta-2026/index.html) |
 | `romir-trendy-2026` — РОМИР — Тренды покупательского поведения 2026 | потребительская панель, поведение | 47 | 337 | [md](decks/romir-trendy-2026/romir-trendy-2026.md) | [json](decks/romir-trendy-2026/deck.json) | [html](decks/romir-trendy-2026/index.html) |

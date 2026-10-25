@@ -1,6 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 4,
+  "revision": 5,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -11,9 +11,10 @@
   },
   "iterations": {
     "agent-3-gemini": {
-      "current": "iteration 2",
+      "current": "iteration 2 (получены PDF и PPTX)",
       "previous": "agents/agent-3-gemini/iteration-1/",
-      "previous_checks": "checks/archive/a3-iteration-1.csv (78 строк: 46 подтверждено, 5 искажений, 27 отсутствуют)"
+      "previous_checks": "checks/archive/a3-iteration-1.csv (78 строк: 46 подтверждено, 5 искажений, 27 отсутствуют)",
+      "fixes": "agents/agent-3-gemini/iteration-3/FIXES.md — правки V-03…V-05 третьей итерации; файл автора не получен (остался в Canvas), правки оформлены в разборе"
     }
   },
   "checks": {
@@ -26,26 +27,35 @@
     "confirmed": 88,
     "distorted": 3,
     "absent": 0,
-    "source": "checks/verify_claims.py (python3 checks/verify_claims.py --write пересоздаёт checks.csv, appendix_a.md и check_stats.json)"
+    "source": "checks/verify_claims.py (python3 checks/verify_claims.py --write пересоздаёт checks.csv, appendix_a.md и check_stats.json)",
+    "after_fixes": {
+      "by_agent": {
+        "agent-1-claude": "18/18",
+        "agent-2-grok": "5/7",
+        "agent-3-gemini": "66/66"
+      },
+      "total": 91,
+      "confirmed": 89
+    }
   },
   "files": [
     {
       "path": "AGENT-REVIEW.md",
-      "bytes": 61314,
-      "sha256": "f420b2054e772c6d5f7b72b7f2e9dd1a0da07cfc33911fb57fe63141144a38e5",
-      "mtime": "2026-10-25T21:20:22"
+      "bytes": 63164,
+      "sha256": "dedf34a4968fecf4d02e82726ffcd893261747fa9baf4dece38fa09490a60ff5",
+      "mtime": "2026-10-25T21:45:23"
     },
     {
       "path": "AGENT-REVIEW.pdf",
-      "bytes": 745891,
-      "sha256": "8fecd91ddf739f3968a9843b22aac269c982d7c706d5bacf9f0854c84877a8a1",
-      "mtime": "2026-10-25T21:20:26"
+      "bytes": 759276,
+      "sha256": "a031d9f3ebf482a7b378ba1b822246b9dfcf4358dce759af69561efae2f08a1a",
+      "mtime": "2026-10-25T21:46:03"
     },
     {
       "path": "README.md",
-      "bytes": 8490,
-      "sha256": "2e645d7c3de33f7140cdd21d5382fa3f8cfc18dcb5c94f59af0d5cff1a966d8d",
-      "mtime": "2026-10-25T21:20:42"
+      "bytes": 9890,
+      "sha256": "44eb4b9622ccb1eb49299dec679a929c55c670fb464964f8786760d8761d9ae4",
+      "mtime": "2026-10-25T21:46:00"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -102,6 +112,12 @@
       "mtime": "2026-10-25T19:05:55"
     },
     {
+      "path": "agents/agent-3-gemini/iteration-3/FIXES.md",
+      "bytes": 7457,
+      "sha256": "66cafb6e8c9edab63395ea57f3cd56d2d44a5d942b911a841e0570c4eac7300b",
+      "mtime": "2026-10-25T21:45:18"
+    },
+    {
       "path": "checks/appendix_a.md",
       "bytes": 20875,
       "sha256": "9590b7254613f28e630ce2c3ca64e853b820492a59b3df1c2988fe0f497ea047",
@@ -151,27 +167,27 @@
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
-      "bytes": 389966,
-      "sha256": "298fdd311562dea3e9f3e2c50fe623e16ea43ed6e0c4da8c3852e6f93594f5e8",
-      "mtime": "2026-10-25T21:18:56"
+      "bytes": 390166,
+      "sha256": "9706461aaaed9e855333d06e621cc1e4a3aa36a4e0e0a01df7cbaf54e18f79c0",
+      "mtime": "2026-10-25T21:45:48"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
-      "bytes": 98935,
-      "sha256": "b1ac4e2807aa825af929980e885d503b1a46f834929653a9dddb3303b2cf9daf",
-      "mtime": "2026-10-25T21:18:55"
+      "bytes": 99032,
+      "sha256": "5f0454e403852318eaaf66db28ec07b41fb5ae929f61be7aa40accc47bc03b19",
+      "mtime": "2026-10-25T21:45:47"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 65151,
-      "sha256": "e3662b503b333f8a3e427c34a7e15e430c5f7bbf4f2b1e8c1fad44ed4da02498",
-      "mtime": "2026-10-25T21:19:42"
+      "bytes": 66057,
+      "sha256": "d20bf08a4aee62eee436d86aec61eb81368e5bd87912006d98ce75ac728730bb",
+      "mtime": "2026-10-25T21:45:44"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 729678,
-      "sha256": "040f7ed1a91ffe18002ac734d3355e195acde0aa6be11caf9c620f031c325d42",
-      "mtime": "2026-10-25T21:20:15"
+      "bytes": 734467,
+      "sha256": "6aab3f8f45be0841374d988c88e6fa28804c0e74c48fd75f2366e50f5e071c1d",
+      "mtime": "2026-10-25T21:45:49"
     },
     {
       "path": "summary/build_deck.py",

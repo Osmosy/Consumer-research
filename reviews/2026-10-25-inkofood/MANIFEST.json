@@ -1,6 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 7,
+  "revision": 8,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -53,9 +53,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 11579,
-      "sha256": "3daadb845c69d6f64936e4590ba03db7e276d72f14e095b7394d773b1f25b30c",
-      "mtime": "2026-10-25T21:57:23"
+      "bytes": 12496,
+      "sha256": "ab0ca03ce187ab43e8061d9689fd872fcc1aa2cb3f35f0917a8c939b89ae4520",
+      "mtime": "2026-10-25T22:24:14"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -178,6 +178,12 @@
       "mtime": "2026-10-25T21:49:30"
     },
     {
+      "path": "runs/2026-10-25-battlecard-vector-marketing.md",
+      "bytes": 10290,
+      "sha256": "d8e2c6c49b3bab43dd3c42c6049fa3e8b9908080d2fc3105cca362e06be66d7b",
+      "mtime": "2026-10-25T22:24:06"
+    },
+    {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
       "bytes": 422131,
       "sha256": "108c4b7299efae546d50ee74d848c2e163439c0a735be8471cac8cb2d20816ce",
@@ -232,5 +238,15 @@
       "27": "Что читалось: одна колода и шесть для анализа"
     },
     "dark_slides": 0
+  },
+  "runs": {
+    "file": "runs/2026-10-25-battlecard-vector-marketing.md",
+    "profile": "market-research v1.0.0 (Osmosy/vector-marketing), 29 навыков",
+    "task": "battlecard против «Ратимир» и «Окраина» на выверенных числах колод",
+    "tokens": 136005,
+    "api_calls": 6,
+    "checked_claims": 12,
+    "confirmed": 10,
+    "distorted": 2
   }
 }

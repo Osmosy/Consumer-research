@@ -24,15 +24,15 @@
   "files": [
     {
       "path": "AGENT-REVIEW.md",
-      "bytes": 60085,
-      "sha256": "b88669e7ca43d4275e5cbbd20d37c69bc5b829ce0f11932c16692d43389e24e8",
-      "mtime": "2026-10-25T20:12:52"
+      "bytes": 60082,
+      "sha256": "70c7ea32a1e55f4a206323c136d491fdacf8461bad41c154f51b94d545ed269a",
+      "mtime": "2026-10-25T20:15:34"
     },
     {
       "path": "AGENT-REVIEW.pdf",
-      "bytes": 798627,
-      "sha256": "124d392740878fd117c5a619d11d5599e932d85211cbfcba680a05b4788d394d",
-      "mtime": "2026-10-25T20:13:39"
+      "bytes": 798615,
+      "sha256": "cba4ade248671de023bdf20a770d955d88208a4911f27f02875610a1909136ca",
+      "mtime": "2026-10-25T20:15:38"
     },
     {
       "path": "README.md",
@@ -126,15 +126,15 @@
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 64038,
-      "sha256": "1c43946452b9470682622074e0519655473130c6ad868901fd108337484a5b6d",
-      "mtime": "2026-10-25T20:13:34"
+      "bytes": 64013,
+      "sha256": "76e145f7d32bf58f1fcf16f3c320c67bc995a79e25ea59563ff14453bafc501c",
+      "mtime": "2026-10-25T20:15:34"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 756543,
-      "sha256": "7fe0c6d425e9733213fa15223ba925ff032013be302a791ee82386073f90aefb",
-      "mtime": "2026-10-25T20:13:40"
+      "bytes": 757825,
+      "sha256": "70b1f6630540855d56c8ae40fc23eb42931f84196607d02a660e5342d0962ad3",
+      "mtime": "2026-10-25T20:15:39"
     },
     {
       "path": "summary/build_deck.py",

@@ -1,5 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
+  "revision": 2,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -9,31 +10,35 @@
     "agent-3-gemini": "Agent 3 · Гемини — спецификация MD 181 строка, отчёт PDF 11 страниц, презентация PPTX 12 слайдов"
   },
   "checks": {
-    "total": 102,
+    "total": 103,
     "by_agent": {
-      "agent-1-claude": "17/17",
+      "agent-1-claude": "18/18",
       "agent-2-grok": "5/7",
-      "agent-3-gemini": "44/78"
-    }
+      "agent-3-gemini": "46/78"
+    },
+    "confirmed": 69,
+    "distorted": 7,
+    "absent": 27,
+    "source": "checks/verify_claims.py (python3 checks/verify_claims.py --write пересоздаёт checks.csv и appendix_a.md)"
   },
   "files": [
     {
       "path": "AGENT-REVIEW.md",
-      "bytes": 52359,
-      "sha256": "61b222dc29df6d1217804e60dd8c9026c4a0b45b7a3cdb0b769b8219f8feb61a",
-      "mtime": "2026-10-25T19:52:03"
+      "bytes": 60085,
+      "sha256": "b88669e7ca43d4275e5cbbd20d37c69bc5b829ce0f11932c16692d43389e24e8",
+      "mtime": "2026-10-25T20:12:52"
     },
     {
       "path": "AGENT-REVIEW.pdf",
-      "bytes": 714833,
-      "sha256": "edb8a1121913c7707f322d4819de46a339e4a20adf5149108aa29469a7e517f1",
-      "mtime": "2026-10-25T19:52:09"
+      "bytes": 798627,
+      "sha256": "124d392740878fd117c5a619d11d5599e932d85211cbfcba680a05b4788d394d",
+      "mtime": "2026-10-25T20:13:39"
     },
     {
       "path": "README.md",
-      "bytes": 5671,
-      "sha256": "40a451ee4ba2186e0b4ba4b835ba33bdea9b8b2afa6983bb1b10e367d739415c",
-      "mtime": "2026-10-25T19:52:22"
+      "bytes": 7241,
+      "sha256": "aac5d2f84e59a562e5bace19c42f4444b155add2c87ecdb7c6039809b33361ca",
+      "mtime": "2026-10-25T20:13:56"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -78,46 +83,64 @@
       "mtime": "2026-10-25T19:05:55"
     },
     {
+      "path": "checks/appendix_a.md",
+      "bytes": 21030,
+      "sha256": "7a2cddd2b1805f85a76a07e99955c7efe4347d0f29bb4b1884a2ee4f098ce275",
+      "mtime": "2026-10-25T20:13:52"
+    },
+    {
       "path": "checks/audit_deck_numbers.py",
-      "bytes": 2581,
-      "sha256": "fc6d2f2458b82d2c7251953c8caa8f9ae30314758f0f85078ff895684ba349b7",
-      "mtime": "2026-10-25T19:52:56"
+      "bytes": 3461,
+      "sha256": "6d8ed567815a67f1b04874642e11d711e65e0c84de835569438ad5d20d27b06f",
+      "mtime": "2026-10-25T20:11:41"
+    },
+    {
+      "path": "checks/check_stats.json",
+      "bytes": 1511,
+      "sha256": "744257e401d8719b0daefef407707adc4b3d7c9f408d4639c518495de7bbf4bc",
+      "mtime": "2026-10-25T20:13:52"
     },
     {
       "path": "checks/checks.csv",
-      "bytes": 17781,
-      "sha256": "06bf1ff58624f55cb0fec75c6d58268a058b6273f94469b87fadf6f16eabf15a",
-      "mtime": "2026-10-25T19:52:03"
+      "bytes": 19750,
+      "sha256": "85840353dbb5c024c517750818cd9c7660f0345c0478000cb870ea4eb3694f4f",
+      "mtime": "2026-10-25T20:13:52"
     },
     {
       "path": "checks/verify_claims.py",
-      "bytes": 22122,
-      "sha256": "f9625e0bb75f03e3df94845a4120794026b2d38d10891d24f8fae54f94f2d279",
-      "mtime": "2026-10-25T19:52:48"
+      "bytes": 24819,
+      "sha256": "134dc2227c3a323b89ac9c816a72a2886a6f53a5ebb235bc5400e2e75af8f276",
+      "mtime": "2026-10-25T20:10:25"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
-      "bytes": 375121,
-      "sha256": "b902a714184b98bca97ce75bc9ced1efef1be4a890e040b63a373f078ad38707",
-      "mtime": "2026-10-25T19:37:10"
+      "bytes": 377989,
+      "sha256": "b8fea03ba81a3b6a65fd82c365ed3ce006860f4e7751a157b59ab0cb05050263",
+      "mtime": "2026-10-25T20:13:52"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
-      "bytes": 97924,
-      "sha256": "642d1e053f155ae1b18cc839cd338b8033c19aa697a986ffac9e476bf45c6aa4",
-      "mtime": "2026-10-25T19:37:09"
+      "bytes": 98475,
+      "sha256": "2921db8b7b1af01c963a0e14534b3a998e9b9feb10abec257daf261125e341f7",
+      "mtime": "2026-10-25T20:13:51"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 58807,
-      "sha256": "a9bdf85f10e0f5bf3dc79caa020a2ce32bbbb0ca5b85703784cdaac1f259fdb4",
-      "mtime": "2026-10-25T19:37:06"
+      "bytes": 64038,
+      "sha256": "1c43946452b9470682622074e0519655473130c6ad868901fd108337484a5b6d",
+      "mtime": "2026-10-25T20:13:34"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 724948,
-      "sha256": "7e943c9a849c5362951f924ac7e3df56a14fd1be9535fbbf9f4a43d6c80d60fd",
-      "mtime": "2026-10-25T19:37:13"
+      "bytes": 756543,
+      "sha256": "7fe0c6d425e9733213fa15223ba925ff032013be302a791ee82386073f90aefb",
+      "mtime": "2026-10-25T20:13:40"
+    },
+    {
+      "path": "summary/build_deck.py",
+      "bytes": 71367,
+      "sha256": "8a4ad7288a07069a18e4a75ce295e3f2eccd93048c6c8297cda06f43e8b44694",
+      "mtime": "2026-10-25T20:13:47"
     }
   ],
   "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя."

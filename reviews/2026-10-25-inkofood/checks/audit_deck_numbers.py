@@ -5,10 +5,21 @@ import re, csv, sys
 from pptx import Presentation
 
 from pathlib import Path
-# скрипт лежит в reviews/<дата>-inkofood/checks/, презентация — в ../summary/
+import os
+# В репозитории: reviews/<дата>-inkofood/checks/ → корень репозитория на два уровня выше.
+# Локально: скрипт лежит рядом с презентацией, репозиторий ищется вверх по дереву.
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parents[2]
 DECK = HERE.parent / "summary" / "Inkofood_tri_agent_synthesis_2026.pptx"
+if not DECK.exists():
+    DECK = HERE / "Inkofood_tri_agent_synthesis_2026.pptx"
+REPO = Path(os.environ.get("CONSUMER_RESEARCH_REPO", ""))
+if not (REPO / "data" / "values.csv").exists():
+    REPO = next((p for p in HERE.parents if (p / "data" / "values.csv").exists()), None)
+    if REPO is None:   # локальный случай: рядом лежит клон репозитория
+        REPO = next((q for p in HERE.parents for q in (p / "consumer-research", p / "Consumer-research")
+                     if (q / "data" / "values.csv").exists()), None)
+if REPO is None:
+    raise SystemExit("не найден data/values.csv: укажи корень репозитория в CONSUMER_RESEARCH_REPO")
 
 vals = {}
 for r in csv.DictReader(open(f"{REPO}/data/values.csv")):

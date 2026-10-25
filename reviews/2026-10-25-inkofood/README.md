@@ -17,6 +17,7 @@
 | Работа Agent 1 · Клод | [`agents/agent-1-claude/`](agents/agent-1-claude) — MD 382 строки, PPTX 25 слайдов |
 | Работа Agent 2 · Грок | [`agents/agent-2-grok/`](agents/agent-2-grok) — MD 85 строк, PPTX 12 слайдов |
 | Работа Agent 3 · Гемини, вторая итерация | [`agents/agent-3-gemini/`](agents/agent-3-gemini) — PDF 8 страниц, PPTX 12 слайдов |
+| Факт-лист для прогонов | [`checks/facts.csv`](checks/facts.csv) — 88 фактов с адресами, [`facts-rejected.csv`](checks/facts-rejected.csv) — 3 запрета, [`facts.md`](checks/facts.md) — описание колонок |
 | Что нужно для полноценных прогонов | [`plans/2026-10-25-progons-runbook.md`](plans/2026-10-25-progons-runbook.md) — инфраструктура, контекст, данные, процесс, приёмка |
 | Прогон в Vector Marketing: battlecard и его проверка | [`runs/2026-10-25-battlecard-vector-marketing.md`](runs/2026-10-25-battlecard-vector-marketing.md) — 12 утверждений, 10 верны, 2 искажения |
 | Планы по пробелам G-01 и G-03 | [`plans/2026-10-25-G01-G03.md`](plans/2026-10-25-G01-G03.md) и `.pdf` — квота добора 55+ и полевой тест «готовности к пользе» |
@@ -79,6 +80,10 @@ python3 summary/build_deck.py            # создаёт summary/Inkofood_tri_a
 
 - Работы агентов включены как есть, включая ошибки — в этом и смысл разбора. Ничего в них не правилось.
 - Файлы сняты с сохранением времени файла, sha256 каждого — в `MANIFEST.json`.
+- Ревизия 9: собран машиночитаемый факт-лист `checks/facts.csv` из 91 проверки — 88 строк с адресами
+  `deck/page` (83 дословных, 5 с оговоркой), плюс `facts-rejected.csv` с тремя запрещёнными
+  утверждениями и `facts-summary.json` со счётом по колодам и блокам. Сборка — `checks/build_facts.py`
+  из `verify_claims.py`, поэтому номера строк совпадают с `checks.csv` и приложением A.
 - Ревизия 8: добавлен `runs/` — прогон профиля `market-research` из Vector Marketing на выверенных
   числах: battlecard против «Ратимир» и «Окраина». Артефакт опубликован как есть, рядом — построчная
   сверка: 10 утверждений верны, 2 искажения в пороге усечения таблиц известности. Это проверка

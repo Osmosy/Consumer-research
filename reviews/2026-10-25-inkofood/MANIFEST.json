@@ -1,6 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 8,
+  "revision": 9,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -53,9 +53,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 12496,
-      "sha256": "ab0ca03ce187ab43e8061d9689fd872fcc1aa2cb3f35f0917a8c939b89ae4520",
-      "mtime": "2026-10-25T22:24:14"
+      "bytes": 12741,
+      "sha256": "1f42f3a28a0a2eb2730b4d800ffa1e184953b4ef4a8728f2da5db311f3baa349",
+      "mtime": "2026-10-25T22:30:41"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -178,6 +178,12 @@
       "mtime": "2026-10-25T21:49:30"
     },
     {
+      "path": "plans/2026-10-25-progons-runbook.md",
+      "bytes": 12366,
+      "sha256": "847c33e938b06a22700f3b0b3432569b6db41c845871a063e9353f71cc3d7d84",
+      "mtime": "2026-10-25T22:30:33"
+    },
+    {
       "path": "runs/2026-10-25-battlecard-vector-marketing.md",
       "bytes": 10290,
       "sha256": "d8e2c6c49b3bab43dd3c42c6049fa3e8b9908080d2fc3105cca362e06be66d7b",
@@ -228,7 +234,8 @@
       "G-05 регионы",
       "G-06 сезонность",
       "G-07 конкуренты"
-    ]
+    ],
+    "runbook": "plans/2026-10-25-progons-runbook.md"
   },
   "summary_deck": {
     "file": "summary/Inkofood_tri_agent_synthesis_2026.pptx",

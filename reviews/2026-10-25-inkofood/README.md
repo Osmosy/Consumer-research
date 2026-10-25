@@ -17,6 +17,7 @@
 | Работа Agent 1 · Клод | [`agents/agent-1-claude/`](agents/agent-1-claude) — MD 382 строки, PPTX 25 слайдов |
 | Работа Agent 2 · Грок | [`agents/agent-2-grok/`](agents/agent-2-grok) — MD 85 строк, PPTX 12 слайдов |
 | Работа Agent 3 · Гемини, вторая итерация | [`agents/agent-3-gemini/`](agents/agent-3-gemini) — PDF 8 страниц, PPTX 12 слайдов |
+| Что нужно для полноценных прогонов | [`plans/2026-10-25-progons-runbook.md`](plans/2026-10-25-progons-runbook.md) — инфраструктура, контекст, данные, процесс, приёмка |
 | Прогон в Vector Marketing: battlecard и его проверка | [`runs/2026-10-25-battlecard-vector-marketing.md`](runs/2026-10-25-battlecard-vector-marketing.md) — 12 утверждений, 10 верны, 2 искажения |
 | Планы по пробелам G-01 и G-03 | [`plans/2026-10-25-G01-G03.md`](plans/2026-10-25-G01-G03.md) и `.pdf` — квота добора 55+ и полевой тест «готовности к пользе» |
 | Правки третьей итерации Agent 3 | [`agents/agent-3-gemini/iteration-3/FIXES.md`](agents/agent-3-gemini/iteration-3/FIXES.md) — V-03…V-05: адрес, «было / стало», причина, таблица `calc` со слагаемыми |

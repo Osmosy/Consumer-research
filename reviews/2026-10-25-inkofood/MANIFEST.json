@@ -1,0 +1,124 @@
+{
+  "what": "Разбор работ трёх агентов по колоде inkofood-2026",
+  "source_repo": "https://github.com/Osmosy/Consumer-research",
+  "primary_deck": "decks/inkofood-2026",
+  "date": "2026-10-25",
+  "agents": {
+    "agent-1-claude": "Agent 1 · Клод — спецификация MD 382 строки, презентация PPTX 25 слайдов",
+    "agent-2-grok": "Agent 2 · Грок — спецификация MD 85 строк, презентация PPTX 12 слайдов",
+    "agent-3-gemini": "Agent 3 · Гемини — спецификация MD 181 строка, отчёт PDF 11 страниц, презентация PPTX 12 слайдов"
+  },
+  "checks": {
+    "total": 102,
+    "by_agent": {
+      "agent-1-claude": "17/17",
+      "agent-2-grok": "5/7",
+      "agent-3-gemini": "44/78"
+    }
+  },
+  "files": [
+    {
+      "path": "AGENT-REVIEW.md",
+      "bytes": 52359,
+      "sha256": "61b222dc29df6d1217804e60dd8c9026c4a0b45b7a3cdb0b769b8219f8feb61a",
+      "mtime": "2026-10-25T19:52:03"
+    },
+    {
+      "path": "AGENT-REVIEW.pdf",
+      "bytes": 719869,
+      "sha256": "c3b894d6826158212aecf49ac1073a86f3e5227de580bf49a8e2eef483127b21",
+      "mtime": "2026-10-25T19:52:09"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5671,
+      "sha256": "40a451ee4ba2186e0b4ba4b835ba33bdea9b8b2afa6983bb1b10e367d739415c",
+      "mtime": "2026-10-25T19:52:22"
+    },
+    {
+      "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
+      "bytes": 37706,
+      "sha256": "1008c8d9d4214383e519391fad3241ebdaaf9a3754b47c6351d51246c44f697f",
+      "mtime": "2026-10-25T19:00:58"
+    },
+    {
+      "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.pptx",
+      "bytes": 150749,
+      "sha256": "030eb25041e9196f4a2b3e39cf76bab4dd5d8b1e61ceb2c182c38de24ea7ca6d",
+      "mtime": "2026-10-25T18:55:13"
+    },
+    {
+      "path": "agents/agent-2-grok/Inkofood_Synthesis_2026.pptx",
+      "bytes": 163105,
+      "sha256": "4060955a2f111ac1cbec0bd69e78e13705f98364079f168b0d575b5310b2a400",
+      "mtime": "2026-10-25T19:04:24"
+    },
+    {
+      "path": "agents/agent-2-grok/Inkofood_Synthesis_Agent.md",
+      "bytes": 9798,
+      "sha256": "94761053fd8973acf2cdac844ca5ab5fd72e4972cf8e347338aefbd72df2857a",
+      "mtime": "2026-10-25T19:04:25"
+    },
+    {
+      "path": "agents/agent-3-gemini/Inkofood Consumer Research 2026 Agent Spec.md",
+      "bytes": 49804,
+      "sha256": "c3c21ca702d9fc41b0aa5a5b73b9030dc435f7184b6dfae0a18e198280dd2a0c",
+      "mtime": "2026-10-25T19:05:55"
+    },
+    {
+      "path": "agents/agent-3-gemini/inkofood_consumer_research_2026_report.pdf",
+      "bytes": 473325,
+      "sha256": "a766d7778c1e38ae665034b6979a8f43b73c15d8771bef48f393dbf6522b98d5",
+      "mtime": "2026-10-25T19:06:05"
+    },
+    {
+      "path": "agents/agent-3-gemini/inkofood_consumer_research_strategy_2026.pptx",
+      "bytes": 18510133,
+      "sha256": "343780435591947ad971de5843a78ce222556a382601c57a85a1e207299b6042",
+      "mtime": "2026-10-25T19:05:55"
+    },
+    {
+      "path": "checks/audit_deck_numbers.py",
+      "bytes": 2581,
+      "sha256": "fc6d2f2458b82d2c7251953c8caa8f9ae30314758f0f85078ff895684ba349b7",
+      "mtime": "2026-10-25T19:52:56"
+    },
+    {
+      "path": "checks/checks.csv",
+      "bytes": 17781,
+      "sha256": "06bf1ff58624f55cb0fec75c6d58268a058b6273f94469b87fadf6f16eabf15a",
+      "mtime": "2026-10-25T19:52:03"
+    },
+    {
+      "path": "checks/verify_claims.py",
+      "bytes": 22122,
+      "sha256": "f9625e0bb75f03e3df94845a4120794026b2d38d10891d24f8fae54f94f2d279",
+      "mtime": "2026-10-25T19:52:48"
+    },
+    {
+      "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
+      "bytes": 375121,
+      "sha256": "b902a714184b98bca97ce75bc9ced1efef1be4a890e040b63a373f078ad38707",
+      "mtime": "2026-10-25T19:37:10"
+    },
+    {
+      "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
+      "bytes": 97924,
+      "sha256": "642d1e053f155ae1b18cc839cd338b8033c19aa697a986ffac9e476bf45c6aa4",
+      "mtime": "2026-10-25T19:37:09"
+    },
+    {
+      "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
+      "bytes": 58807,
+      "sha256": "a9bdf85f10e0f5bf3dc79caa020a2ce32bbbb0ca5b85703784cdaac1f259fdb4",
+      "mtime": "2026-10-25T19:37:06"
+    },
+    {
+      "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
+      "bytes": 724948,
+      "sha256": "7e943c9a849c5362951f924ac7e3df56a14fd1be9535fbbf9f4a43d6c80d60fd",
+      "mtime": "2026-10-25T19:37:13"
+    }
+  ],
+  "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя."
+}

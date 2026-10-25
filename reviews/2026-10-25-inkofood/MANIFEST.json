@@ -1,6 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 5,
+  "revision": 6,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -41,21 +41,21 @@
   "files": [
     {
       "path": "AGENT-REVIEW.md",
-      "bytes": 63164,
-      "sha256": "dedf34a4968fecf4d02e82726ffcd893261747fa9baf4dece38fa09490a60ff5",
-      "mtime": "2026-10-25T21:45:23"
+      "bytes": 66178,
+      "sha256": "3590564230a7669b6d2ee11fe9ff7ec56338b3c4bc28bfd759ba8055b9eb65a8",
+      "mtime": "2026-10-25T21:49:19"
     },
     {
       "path": "AGENT-REVIEW.pdf",
-      "bytes": 759276,
-      "sha256": "a031d9f3ebf482a7b378ba1b822246b9dfcf4358dce759af69561efae2f08a1a",
-      "mtime": "2026-10-25T21:46:03"
+      "bytes": 774947,
+      "sha256": "b690b5ff3ea5407f7c853dbd4bf5bee66adfe91a4c4b1bcff1a57cca3baffd73",
+      "mtime": "2026-10-25T21:49:31"
     },
     {
       "path": "README.md",
-      "bytes": 9890,
-      "sha256": "44eb4b9622ccb1eb49299dec679a929c55c670fb464964f8786760d8761d9ae4",
-      "mtime": "2026-10-25T21:46:00"
+      "bytes": 10977,
+      "sha256": "59e21b655fa02baad26466c831acdd946fe2f34f7d30079bf0d8e76edbdca7b0",
+      "mtime": "2026-10-25T21:49:46"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -166,35 +166,62 @@
       "mtime": "2026-10-25T21:17:47"
     },
     {
+      "path": "plans/2026-10-25-G01-G03.md",
+      "bytes": 21826,
+      "sha256": "7815e3caa33b4b3a8a6a8428a50e1b0c0ff9671205b0484300efa9ea405d35d7",
+      "mtime": "2026-10-25T21:48:42"
+    },
+    {
+      "path": "plans/2026-10-25-G01-G03.pdf",
+      "bytes": 227712,
+      "sha256": "813f2de0ea636f7217331b05bd16c7a56059160f4ab974b36f64dbd8e32c9e67",
+      "mtime": "2026-10-25T21:49:30"
+    },
+    {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
-      "bytes": 390200,
-      "sha256": "441e235f6bccbec8c4cc0c07e079e0e4257309337c94ab2943d45f63b668a3a0",
-      "mtime": "2026-10-25T21:46:50"
+      "bytes": 391872,
+      "sha256": "199c072954dbac8c7f8422fcdfc5c0216abc492b142691923817b15a592be428",
+      "mtime": "2026-10-25T21:48:53"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
-      "bytes": 99058,
-      "sha256": "260a4bad684f28c725faeefe04a608927d3e37543294cf83b44f7ee0357cc151",
-      "mtime": "2026-10-25T21:46:46"
+      "bytes": 99309,
+      "sha256": "8e043b9f973720a4c20882b9a42dcbb20882ab1a265517ce7970d4f105049bb8",
+      "mtime": "2026-10-25T21:48:52"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 66057,
-      "sha256": "d20bf08a4aee62eee436d86aec61eb81368e5bd87912006d98ce75ac728730bb",
-      "mtime": "2026-10-25T21:45:44"
+      "bytes": 66934,
+      "sha256": "b79659bb123d676d7488381e547a85bd40258387da891665b72dd527d7731b84",
+      "mtime": "2026-10-25T21:49:23"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 734467,
-      "sha256": "6aab3f8f45be0841374d988c88e6fa28804c0e74c48fd75f2366e50f5e071c1d",
-      "mtime": "2026-10-25T21:45:49"
+      "bytes": 731272,
+      "sha256": "b255720d68272e49fa47d3413c3cde61e82978149d88fb84386d69f532893b29",
+      "mtime": "2026-10-25T21:49:31"
     },
     {
       "path": "summary/build_deck.py",
-      "bytes": 72011,
-      "sha256": "eb4ad7bebe46098f1891991ccb1bccc2e15cfd73493f0a2f7a900fc7d9306e9e",
-      "mtime": "2026-10-25T21:18:53"
+      "bytes": 72686,
+      "sha256": "907690ce8cfbf6a5420143d8975eefba166702a7747ec1b7bdf13c8067b67cd5",
+      "mtime": "2026-10-25T21:48:50"
     }
   ],
-  "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя."
+  "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя.",
+  "plans": {
+    "file": "plans/2026-10-25-G01-G03.md",
+    "pdf": "plans/2026-10-25-G01-G03.pdf",
+    "closes": [
+      "G-01: квота добора 55+",
+      "G-03: полевой тест «готовности к пользе»"
+    ],
+    "open": [
+      "G-02 экономика",
+      "G-04 СТМ",
+      "G-05 регионы",
+      "G-06 сезонность",
+      "G-07 конкуренты"
+    ]
+  }
 }

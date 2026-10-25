@@ -1,45 +1,51 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 3,
+  "revision": 4,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
   "agents": {
     "agent-1-claude": "Agent 1 · Клод — спецификация MD 382 строки, презентация PPTX 25 слайдов",
     "agent-2-grok": "Agent 2 · Грок — спецификация MD 85 строк, презентация PPTX 12 слайдов",
-    "agent-3-gemini": "Agent 3 · Гемини — спецификация MD 181 строка, отчёт PDF 11 страниц, презентация PPTX 12 слайдов"
+    "agent-3-gemini": "Agent 3 · Гемини — вторая итерация: отчёт PDF 8 страниц, презентация PPTX 12 слайдов; первая итерация — в iteration-1/"
+  },
+  "iterations": {
+    "agent-3-gemini": {
+      "current": "iteration 2",
+      "previous": "agents/agent-3-gemini/iteration-1/",
+      "previous_checks": "checks/archive/a3-iteration-1.csv (78 строк: 46 подтверждено, 5 искажений, 27 отсутствуют)"
+    }
   },
   "checks": {
-    "total": 103,
+    "total": 91,
     "by_agent": {
       "agent-1-claude": "18/18",
       "agent-2-grok": "5/7",
-      "agent-3-gemini": "46/78"
+      "agent-3-gemini": "65/66"
     },
-    "confirmed": 69,
-    "distorted": 7,
-    "absent": 27,
-    "source": "checks/verify_claims.py (python3 checks/verify_claims.py --write пересоздаёт checks.csv и appendix_a.md)",
-    "note": "ревизия 3: правила следующей итерации, приоритеты пробелов, чек-листы по агентам; №14 и №67 приведены к колоде (page=53 и page=51)"
+    "confirmed": 88,
+    "distorted": 3,
+    "absent": 0,
+    "source": "checks/verify_claims.py (python3 checks/verify_claims.py --write пересоздаёт checks.csv, appendix_a.md и check_stats.json)"
   },
   "files": [
     {
       "path": "AGENT-REVIEW.md",
-      "bytes": 65014,
-      "sha256": "d3a2e684654fd190365a8b099316ae4fe3fda2c68da6b98559537ac729d15995",
-      "mtime": "2026-10-25T20:18:39"
+      "bytes": 61314,
+      "sha256": "f420b2054e772c6d5f7b72b7f2e9dd1a0da07cfc33911fb57fe63141144a38e5",
+      "mtime": "2026-10-25T21:20:22"
     },
     {
       "path": "AGENT-REVIEW.pdf",
-      "bytes": 827147,
-      "sha256": "64e135de6098fee666e7070a8b3b59fccd36572bd7884a0b04601fac3e4a69a9",
-      "mtime": "2026-10-25T20:18:41"
+      "bytes": 745891,
+      "sha256": "8fecd91ddf739f3968a9843b22aac269c982d7c706d5bacf9f0854c84877a8a1",
+      "mtime": "2026-10-25T21:20:26"
     },
     {
       "path": "README.md",
-      "bytes": 7241,
-      "sha256": "aac5d2f84e59a562e5bace19c42f4444b155add2c87ecdb7c6039809b33361ca",
-      "mtime": "2026-10-25T20:13:56"
+      "bytes": 8490,
+      "sha256": "2e645d7c3de33f7140cdd21d5382fa3f8cfc18dcb5c94f59af0d5cff1a966d8d",
+      "mtime": "2026-10-25T21:20:42"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -66,28 +72,52 @@
       "mtime": "2026-10-25T19:04:25"
     },
     {
-      "path": "agents/agent-3-gemini/Inkofood Consumer Research 2026 Agent Spec.md",
+      "path": "agents/agent-3-gemini/inkofood_consumer_research_2026_report.pdf",
+      "bytes": 479236,
+      "sha256": "62cfdd985725e65f00b20f8dbd9e5f721b0d683a916d67f9383a9adebd9b2982",
+      "mtime": "2026-10-25T21:12:41"
+    },
+    {
+      "path": "agents/agent-3-gemini/inkofood_consumer_research_strategy_2026.pptx",
+      "bytes": 18509863,
+      "sha256": "a0bf037096343afd588adade6d9942bda51eff861ee177616a21078572f58609",
+      "mtime": "2026-10-25T21:12:40"
+    },
+    {
+      "path": "agents/agent-3-gemini/iteration-1/Inkofood Consumer Research 2026 Agent Spec.md",
       "bytes": 49804,
       "sha256": "c3c21ca702d9fc41b0aa5a5b73b9030dc435f7184b6dfae0a18e198280dd2a0c",
       "mtime": "2026-10-25T19:05:55"
     },
     {
-      "path": "agents/agent-3-gemini/inkofood_consumer_research_2026_report.pdf",
+      "path": "agents/agent-3-gemini/iteration-1/inkofood_consumer_research_2026_report.pdf",
       "bytes": 473325,
       "sha256": "a766d7778c1e38ae665034b6979a8f43b73c15d8771bef48f393dbf6522b98d5",
       "mtime": "2026-10-25T19:06:05"
     },
     {
-      "path": "agents/agent-3-gemini/inkofood_consumer_research_strategy_2026.pptx",
+      "path": "agents/agent-3-gemini/iteration-1/inkofood_consumer_research_strategy_2026.pptx",
       "bytes": 18510133,
       "sha256": "343780435591947ad971de5843a78ce222556a382601c57a85a1e207299b6042",
       "mtime": "2026-10-25T19:05:55"
     },
     {
       "path": "checks/appendix_a.md",
-      "bytes": 21017,
-      "sha256": "ac8f52520402714519fc8a3064c0c57fa54c48075bdd5b61c11c8c75d388d609",
-      "mtime": "2026-10-25T20:18:44"
+      "bytes": 20875,
+      "sha256": "9590b7254613f28e630ce2c3ca64e853b820492a59b3df1c2988fe0f497ea047",
+      "mtime": "2026-10-25T21:20:35"
+    },
+    {
+      "path": "checks/archive/a3-iteration-1-checks.py",
+      "bytes": 16843,
+      "sha256": "c45406c5be8a2c079f5a3e242eec28418d8078e0c958e378d597c23171740bbc",
+      "mtime": "2026-10-25T21:20:08"
+    },
+    {
+      "path": "checks/archive/a3-iteration-1.csv",
+      "bytes": 14885,
+      "sha256": "02e8ce8511464e2f0aa34387c2420005c8bbaaa169ba3dcdac3b97033c23c590",
+      "mtime": "2026-10-25T21:20:08"
     },
     {
       "path": "checks/audit_deck_numbers.py",
@@ -103,51 +133,51 @@
     },
     {
       "path": "checks/check_stats.json",
-      "bytes": 1511,
-      "sha256": "744257e401d8719b0daefef407707adc4b3d7c9f408d4639c518495de7bbf4bc",
-      "mtime": "2026-10-25T20:18:44"
+      "bytes": 1362,
+      "sha256": "2e491c114e0ae8bfe9217bf8b2bf8651a6c5a822a116dbcbe27e9a88b4bd2cbb",
+      "mtime": "2026-10-25T21:20:35"
     },
     {
       "path": "checks/checks.csv",
-      "bytes": 19739,
-      "sha256": "ade57f0b66e6098801727f01a8fb728457c7ef33f3ea0c228baed9bcca2281a8",
-      "mtime": "2026-10-25T20:18:44"
+      "bytes": 19590,
+      "sha256": "00fb36ba096c879235b51023eaca6a4682be98e20137e83fabb1d9b502ecb235",
+      "mtime": "2026-10-25T21:20:35"
     },
     {
       "path": "checks/verify_claims.py",
-      "bytes": 24806,
-      "sha256": "39071e65254bc85aa0bc6cff14a47acbecb0995b761ce10b16f524b57549350c",
-      "mtime": "2026-10-25T20:18:33"
+      "bytes": 24682,
+      "sha256": "55d870228aa9a0fd29d1bce3fbae2a3b4ee05439f2786086710d78217a86e8f4",
+      "mtime": "2026-10-25T21:17:47"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
-      "bytes": 377989,
-      "sha256": "b8fea03ba81a3b6a65fd82c365ed3ce006860f4e7751a157b59ab0cb05050263",
-      "mtime": "2026-10-25T20:13:52"
+      "bytes": 389966,
+      "sha256": "298fdd311562dea3e9f3e2c50fe623e16ea43ed6e0c4da8c3852e6f93594f5e8",
+      "mtime": "2026-10-25T21:18:56"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
-      "bytes": 98475,
-      "sha256": "2921db8b7b1af01c963a0e14534b3a998e9b9feb10abec257daf261125e341f7",
-      "mtime": "2026-10-25T20:13:51"
+      "bytes": 98935,
+      "sha256": "b1ac4e2807aa825af929980e885d503b1a46f834929653a9dddb3303b2cf9daf",
+      "mtime": "2026-10-25T21:18:55"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 65101,
-      "sha256": "02064dfb308e46564550778cdd209d1c741a8cac1d81db2851883a593956f3e7",
-      "mtime": "2026-10-25T20:18:39"
+      "bytes": 65151,
+      "sha256": "e3662b503b333f8a3e427c34a7e15e430c5f7bbf4f2b1e8c1fad44ed4da02498",
+      "mtime": "2026-10-25T21:19:42"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 761545,
-      "sha256": "8ee7558de5fda39178ae83091b2b8646e79ac3a2d01aa517359681ad6418e76a",
-      "mtime": "2026-10-25T20:18:41"
+      "bytes": 729678,
+      "sha256": "040f7ed1a91ffe18002ac734d3355e195acde0aa6be11caf9c620f031c325d42",
+      "mtime": "2026-10-25T21:20:15"
     },
     {
       "path": "summary/build_deck.py",
-      "bytes": 71367,
-      "sha256": "8a4ad7288a07069a18e4a75ce295e3f2eccd93048c6c8297cda06f43e8b44694",
-      "mtime": "2026-10-25T20:13:47"
+      "bytes": 72011,
+      "sha256": "eb4ad7bebe46098f1891991ccb1bccc2e15cfd73493f0a2f7a900fc7d9306e9e",
+      "mtime": "2026-10-25T21:18:53"
     }
   ],
   "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя."

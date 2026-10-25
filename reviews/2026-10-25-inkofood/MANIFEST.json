@@ -1,6 +1,6 @@
 {
   "what": "Разбор работ трёх агентов по колоде inkofood-2026",
-  "revision": 6,
+  "revision": 7,
   "source_repo": "https://github.com/Osmosy/Consumer-research",
   "primary_deck": "decks/inkofood-2026",
   "date": "2026-10-25",
@@ -53,9 +53,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 10977,
-      "sha256": "59e21b655fa02baad26466c831acdd946fe2f34f7d30079bf0d8e76edbdca7b0",
-      "mtime": "2026-10-25T21:49:46"
+      "bytes": 11579,
+      "sha256": "3daadb845c69d6f64936e4590ba03db7e276d72f14e095b7394d773b1f25b30c",
+      "mtime": "2026-10-25T21:57:23"
     },
     {
       "path": "agents/agent-1-claude/Inkofood_vyvody_i_predlozheniya.md",
@@ -179,33 +179,33 @@
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pdf",
-      "bytes": 391872,
-      "sha256": "199c072954dbac8c7f8422fcdfc5c0216abc492b142691923817b15a592be428",
-      "mtime": "2026-10-25T21:48:53"
+      "bytes": 422131,
+      "sha256": "108c4b7299efae546d50ee74d848c2e163439c0a735be8471cac8cb2d20816ce",
+      "mtime": "2026-10-25T21:56:52"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
-      "bytes": 99309,
-      "sha256": "8e043b9f973720a4c20882b9a42dcbb20882ab1a265517ce7970d4f105049bb8",
-      "mtime": "2026-10-25T21:48:52"
+      "bytes": 106011,
+      "sha256": "f0f5bf96f123595adde8f4e435830edb60f6b8b67873b52d5508f91c23762d01",
+      "mtime": "2026-10-25T21:56:51"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md",
-      "bytes": 66934,
-      "sha256": "b79659bb123d676d7488381e547a85bd40258387da891665b72dd527d7731b84",
-      "mtime": "2026-10-25T21:49:23"
+      "bytes": 69690,
+      "sha256": "f0066131f4ee43c345fdcffe40342726726deabeeb7bf7066263e3cc54830feb",
+      "mtime": "2026-10-25T21:56:48"
     },
     {
       "path": "summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf",
-      "bytes": 731272,
-      "sha256": "b255720d68272e49fa47d3413c3cde61e82978149d88fb84386d69f532893b29",
-      "mtime": "2026-10-25T21:49:31"
+      "bytes": 747563,
+      "sha256": "416db45263bf65c4a5a894b7d4c1c8592a093be3d737cb63515c6833b9aae10c",
+      "mtime": "2026-10-25T21:57:08"
     },
     {
       "path": "summary/build_deck.py",
-      "bytes": 72686,
-      "sha256": "907690ce8cfbf6a5420143d8975eefba166702a7747ec1b7bdf13c8067b67cd5",
-      "mtime": "2026-10-25T21:48:50"
+      "bytes": 81136,
+      "sha256": "97f024c6acea48e18dd8aaf1020bdfb8a8883075a483db2ef5042499ca720eb8",
+      "mtime": "2026-10-25T21:56:48"
     }
   ],
   "note": "Файлы агентов включены без изменений, копии сняты с сохранением времени файла; sha256 — контроль целостности. MANIFEST.json не хеширует сам себя.",
@@ -223,5 +223,14 @@
       "G-06 сезонность",
       "G-07 конкуренты"
     ]
+  },
+  "summary_deck": {
+    "file": "summary/Inkofood_tri_agent_synthesis_2026.pptx",
+    "slides": 28,
+    "new_slides": {
+      "26": "Добор 55+ и полевой тест",
+      "27": "Что читалось: одна колода и шесть для анализа"
+    },
+    "dark_slides": 0
   }
 }

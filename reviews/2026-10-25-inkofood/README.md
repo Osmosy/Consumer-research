@@ -12,7 +12,7 @@
 | Что | Файл |
 |---|---|
 | Документ для агентов: что у каждого подтвердилось, что исправить, что взять дальше | [`AGENT-REVIEW.md`](AGENT-REVIEW.md), [`AGENT-REVIEW.pdf`](AGENT-REVIEW.pdf) |
-| Сводная презентация: совпадения, расхождения, уникальные находки | [`summary/Inkofood_tri_agent_synthesis_2026.pptx`](summary/Inkofood_tri_agent_synthesis_2026.pptx), [`.pdf`](summary/Inkofood_tri_agent_synthesis_2026.pdf) |
+| Сводная презентация: совпадения, расхождения, уникальные находки, план и источники | [`summary/Inkofood_tri_agent_synthesis_2026.pptx`](summary/Inkofood_tri_agent_synthesis_2026.pptx) — 28 слайдов, [`.pdf`](summary/Inkofood_tri_agent_synthesis_2026.pdf) |
 | Пояснение по слайдам со ссылками на колоду | [`summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md`](summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.md), [`.pdf`](summary/Inkofood_tri_agent_synthesis_2026_poyasnenie.pdf) |
 | Работа Agent 1 · Клод | [`agents/agent-1-claude/`](agents/agent-1-claude) — MD 382 строки, PPTX 25 слайдов |
 | Работа Agent 2 · Грок | [`agents/agent-2-grok/`](agents/agent-2-grok) — MD 85 строк, PPTX 12 слайдов |
@@ -77,6 +77,9 @@ python3 summary/build_deck.py            # создаёт summary/Inkofood_tri_a
 
 - Работы агентов включены как есть, включая ошибки — в этом и смысл разбора. Ничего в них не правилось.
 - Файлы сняты с сохранением времени файла, sha256 каждого — в `MANIFEST.json`.
+- Ревизия 7: презентация пересобрана под новые данные — 28 слайдов. Добавлены слайд 26 «Добор 55+ и полевой
+  тест» и слайд 27 «Что читалось: одна колода и шесть для анализа» (список источников с числом слайдов).
+  Тёмные слайды убраны: титул и три разделителя переведены на светлый фон, финальный слайд тоже.
 - Ревизия 6: закрыты два первых пробела раздела 8 — `plans/2026-10-25-G01-G03.md`: квота добора 55+
   (385 человек при ±5 п.п., волна 1070 против 900, взвешивание по РОМИР, четыре канала, критерии приёмки)
   и полевой тест «готовности к пользе» (слепой вкус, полка с клеймом и без, три ценовые точки, повтор

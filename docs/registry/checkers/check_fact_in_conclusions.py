@@ -13,6 +13,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+import dispositions  # noqa: E402
+
 REGISTRY = Path("docs/requirements-registry.jsonl")
 CONCLUSIONS = (
     "reviews/2026-10-25-inkofood/AGENT-REVIEW.md",
@@ -20,6 +23,7 @@ CONCLUSIONS = (
     "reviews/2026-10-25-inkofood/summary",
     "reviews/2026-10-25-inkofood/agents",
 )
+INFO = ("reviews/2026-10-25-inkofood/APPENDIX-INFO.md",)
 CELL = re.compile(r"\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|")
 NUMBER = re.compile(r"\d+(?:[.,]\d+)?")
 
@@ -42,9 +46,9 @@ def load_record(root: Path, req_id: str) -> dict | None:
     return latest
 
 
-def conclusion_texts(root: Path) -> list[tuple[str, str]]:
+def conclusion_texts(root: Path, sources=CONCLUSIONS) -> list[tuple[str, str]]:
     out: list[tuple[str, str]] = []
-    for relative in CONCLUSIONS:
+    for relative in sources:
         path = root / relative
         if path.is_file():
             out.append((relative, path.read_text("utf-8")))
@@ -86,9 +90,18 @@ def main() -> int:
         print(json.dumps({"ok": False, "detail": "в строке не нашлось подписи"}, ensure_ascii=False))
         return 1
 
-    texts = conclusion_texts(root)
+    target = dispositions.target_of(root, args.transition.strip())
+    if target == "waive":
+        entry = dispositions.load(root).get(args.transition.strip(), {})
+        print(json.dumps({"ok": True,
+                          "detail": f"обязательство снято: {entry.get('reason', 'без причины')}"},
+                         ensure_ascii=False))
+        return 0
+
+    texts = conclusion_texts(root) if target == "conclusions" else conclusion_texts(root, INFO)
     if not texts:
-        print(json.dumps({"ok": False, "detail": "текстов выводов нет"}, ensure_ascii=False))
+        where = "текстов выводов нет" if target == "conclusions" else "приложения «Справочно» нет"
+        print(json.dumps({"ok": False, "detail": where}, ensure_ascii=False))
         return 1
 
     for name, text in texts:

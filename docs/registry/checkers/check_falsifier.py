@@ -31,10 +31,17 @@ def page_text(root: Path, slug: str, page: int) -> str | None:
         if number == page:
             end = marks[index + 1][1] if index + 1 < len(marks) else len(text)
             body = text[start:end]
-            body = body.split("\n", 1)[1] if "\n" in body else ""
+            lines = body.splitlines()
+            if lines and lines[0].startswith("##"):
+                # Заголовок страницы несёт содержательное утверждение («почти 50 % оборота»),
+                # поэтому снимаем только префикс «## Слайд N —», а не строку целиком:
+                # иначе из проверки выпадают факты, записанные в заголовке.
+                lines[0] = re.sub(
+                    r"^##\s+(?:Слайд|Slide)\s+\d+\s*[—–-]?\s*", "", lines[0]
+                )
             # якоря вида <a id="slide-17"></a> несут цифры, но данными не являются
             return "\n".join(
-                line for line in body.splitlines() if not line.strip().startswith("<a id=")
+                line for line in lines if not line.strip().startswith("<a id=")
             )
     return None
 

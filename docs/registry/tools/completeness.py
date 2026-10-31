@@ -10,20 +10,21 @@
 """
 import csv
 import json
-import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import matching  # noqa: E402
 
 REPO = Path.home() / "projects" / "consumer-research"
 FACTS = REPO / "docs/registry/page_facts.json"
 CHECKS = REPO / "reviews/2026-10-25-inkofood/checks/checks.csv"
 WAIVERS = REPO / "docs/registry/waivers.json"
 OUT = REPO / "docs/registry/completeness.json"
-NUMBER = re.compile(r"\d+(?:[.,]\d+)?")
 
 
 def numbers(text: str) -> set[str]:
-    return {n.replace(".", ",") for n in NUMBER.findall(text or "")}
+    return matching.numbers(text)
 
 
 def main() -> int:
@@ -31,20 +32,15 @@ def main() -> int:
     waivers = json.loads(WAIVERS.read_text("utf-8")) if WAIVERS.exists() else {}
     rows = list(csv.DictReader(CHECKS.open(encoding="utf-8")))
 
-    by_page: dict[tuple[str, int], set[str]] = {}
-    by_number: dict[tuple[str, str], set[int]] = {}
+    checks_by_deck: dict[str, list[str]] = {}
     for row in rows:
         slug = row["ref"].split(",")[0].strip()
-        pages = [int(x) for x in re.findall(r"\d+", row["ref"].split("page=")[-1])] if "page=" in row["ref"] else []
-        values = numbers(f"{row['value']} {row['fact']}")
-        for page in pages:
-            by_page.setdefault((slug, page), set()).update(values)
-        for value in values:
-            by_number.setdefault((slug, value), set()).update(pages)
+        checks_by_deck.setdefault(slug, []).append(f"{row['claim']} {row['value']} {row['fact']}")
 
     report = {"decks": {}, "totals": {}}
     totals = {"used": 0, "unused": 0, "waived": 0, "used_elsewhere": 0}
     for slug, deck in facts.items():
+        texts = checks_by_deck.get(slug, [])
         used, unused, waived, elsewhere = [], [], [], []
         for page_key, page in deck["pages"].items():
             page_number = int(page_key)
@@ -52,18 +48,17 @@ def main() -> int:
                 if not fact.get("verified"):
                     continue
                 value = (fact.get("value") or "").replace(".", ",")
-                key = f"{slug}#{page_number}#{value}"
-                if value in by_page.get((slug, page_number), set()):
-                    used.append({"page": page_number, "label": fact["label"], "value": fact["value"]})
-                elif waivers.get(f"{slug}|{page_number}|{value}"):
-                    waived.append({"page": page_number, "label": fact["label"], "value": fact["value"],
-                                   "reason": waivers[f"{slug}|{page_number}|{value}"]})
-                elif by_number.get((slug, value)):
-                    elsewhere.append({"page": page_number, "label": fact["label"], "value": fact["value"],
-                                      "cited_pages": sorted(by_number[(slug, value)])})
+                item = {"page": page_number, "label": fact["label"], "value": fact["value"]}
+                waiver_key = f"{slug}|{page_number}|{value}"
+                if waivers.get(waiver_key):
+                    item["reason"] = waivers[waiver_key]
+                    waived.append(item)
+                elif any(matching.score(fact["label"], text) >= 0.34 for text in texts):
+                    used.append(item)
+                elif any(matching.numbers(value) & matching.numbers(text) for text in texts):
+                    elsewhere.append(item)
                 else:
-                    unused.append({"page": page_number, "label": fact["label"], "value": fact["value"]})
-                del key
+                    unused.append(item)
         report["decks"][slug] = {
             "used": len(used), "unused": len(unused), "waived": len(waived),
             "used_elsewhere": len(elsewhere),

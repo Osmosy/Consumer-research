@@ -103,40 +103,11 @@ def main() -> int:
     DISPOSITIONS.write_text(json.dumps(dispositions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     info_rows = [(fid, d) for fid, d in decisions.items() if d["target"] == "info"]
-    req_texts = {}
-    for line in REQUIREMENTS.read_text("utf-8").splitlines():
-        if line.strip():
-            record = json.loads(line)
-            req_texts[record["req_id"]] = record.get("raw_text", "").strip()
-
-    lines = [
-        "# Справочно",
-        "",
-        "Факты, которые решением от 31.10.2026 отмечены как информация, а не как опора выводов.",
-        "Они не обязаны попадать в выводы, но обязаны быть видны: колода, страница, число, причина.",
-        "",
-        "| колода | стр. | факт | значение | причина |",
-        "|---|---|---|---|---|",
-    ]
-    for fid, decision in sorted(info_rows, key=lambda item: (item[1]["deck"], item[1]["page"])):
-        # если факт уже был требованием, цитируем строку требования дословно — иначе предикат
-        # не найдёт в приложении ту формулировку, по которой зарегистрировано обязательство
-        raw = req_texts.get(decision.get("req_id") or "", "")
-        if raw:
-            cells = [cell.strip() for cell in raw.strip("|").split("|")]
-            label, value = cells[0], " / ".join(cell for cell in cells[1:] if cell)
-        else:
-            label, value = decision["label"], decision["value"]
-        lines.append(f"| {decision['deck']} | {decision['page']} | {label} | {value or decision['value']} "
-                     f"| {decision['reason']} |")
-    APPENDIX.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
     print(f"решений по фактам: {len(decisions)} (справочно {len(info_rows)}, "
           f"в выводы {len(decisions) - len(info_rows)}); требований затронуто: {len(dispositions)}")
     for note in missing:
         print("  ", note)
-    print(f"→ {DECISIONS.relative_to(REPO)}, {DISPOSITIONS.relative_to(REPO)}, "
-          f"{APPENDIX.relative_to(REPO)}")
+    print(f"→ {DECISIONS.relative_to(REPO)}, {DISPOSITIONS.relative_to(REPO)}")
     return 0
 
 

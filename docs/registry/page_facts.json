@@ -1,0 +1,113 @@
+{
+ "deck": "inkofood-2026",
+ "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+ "extracted_by": "zcode:GLM-5.3-Flash/sess_22ee736f",
+ "verified": 16,
+ "rejected": 0,
+ "pages": [
+  {
+   "page": 4,
+   "note": "Слайд 4 «Потребление мясной гастрономии»; значения в порядке РФ (50,7; 33,7) и РБ (55,8; 20,9).",
+   "facts": [
+    {
+     "label": "2-3 раза в неделю",
+     "value": "50,7 %",
+     "verified": true
+    },
+    {
+     "label": "2-3 раза в неделю",
+     "value": "55,8 %",
+     "verified": true
+    },
+    {
+     "label": "Раз в неделю",
+     "value": "33,7 %",
+     "verified": true
+    },
+    {
+     "label": "Ежедневно",
+     "value": "20,9 %",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "note": "Слайд 5 «Для кого покупают мясные изделия»; значения в порядке РФ (76,7; 16,3) и РБ (78,1; 9,7).",
+   "facts": [
+    {
+     "label": "Для себя и других членов семьи",
+     "value": "76,7 %",
+     "verified": true
+    },
+    {
+     "label": "Для себя и других членов семьи",
+     "value": "78,1 %",
+     "verified": true
+    },
+    {
+     "label": "В основном для себя",
+     "value": "16,3 %",
+     "verified": true
+    },
+    {
+     "label": "В основном для себя",
+     "value": "9,7 %",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "page": 21,
+   "note": "Слайд 21 «Какой продукт выглядит дороже?»; значения в порядке РФ (59; 22,7) и РБ (60,6; 23,2).",
+   "facts": [
+    {
+     "label": "Вариант 2",
+     "value": "59 %",
+     "verified": true
+    },
+    {
+     "label": "Вариант 2",
+     "value": "60,6 %",
+     "verified": true
+    },
+    {
+     "label": "Вариант 3",
+     "value": "22,7 %",
+     "verified": true
+    },
+    {
+     "label": "Вариант 3",
+     "value": "23,2 %",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "page": 57,
+   "note": "Слайд 57 «Оценка нейма Natura», шкала 1–10; среднее 6,6 — РФ, 6,5 — РБ; 19,8 % и 16 % — мода и доля оценки 10 в РФ.",
+   "facts": [
+    {
+     "label": "Среднее",
+     "value": "6,6",
+     "verified": true
+    },
+    {
+     "label": "Среднее",
+     "value": "6,5",
+     "verified": true
+    },
+    {
+     "label": "5",
+     "value": "19,8 %",
+     "verified": true
+    },
+    {
+     "label": "10",
+     "value": "16 %",
+     "verified": true
+    }
+   ]
+  }
+ ]
+}

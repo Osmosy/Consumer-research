@@ -1,0 +1,472 @@
+{
+  "ollama": {
+    "meta": {
+      "usage": {
+        "prompt_tokens": 2084,
+        "completion_tokens": 13494,
+        "total_tokens": 15578,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        }
+      },
+      "model": "deepseek-v4.1-flash",
+      "answer_found": true
+    },
+    "verdicts": {
+      "F-c6b114e60367": {
+        "fact_id": "F-c6b114e60367",
+        "verdict": "irrelevant",
+        "why": "Ценности компании, не покупка мясной гастрономии."
+      },
+      "F-f782f641e5cc": {
+        "fact_id": "F-f782f641e5cc",
+        "verdict": "irrelevant",
+        "why": "Методология ценностных профилей, к категории не относится."
+      },
+      "F-0f22df085bb3": {
+        "fact_id": "F-0f22df085bb3",
+        "verdict": "material",
+        "why": "Быстрый перекус — значимый повод покупки."
+      },
+      "F-2f12ca1c781b": {
+        "fact_id": "F-2f12ca1c781b",
+        "verdict": "material",
+        "why": "Повод перекуса подтверждён; важен для позиционирования."
+      },
+      "F-17f33fac1514": {
+        "fact_id": "F-17f33fac1514",
+        "verdict": "material",
+        "why": "Плохой/изменившийся вкус — барьер повторной покупки."
+      },
+      "F-b0fdc41a8a95": {
+        "fact_id": "F-b0fdc41a8a95",
+        "verdict": "material",
+        "why": "Неожиданный вкус — риск и барьер для категории."
+      },
+      "F-df244df9d056": {
+        "fact_id": "F-df244df9d056",
+        "verdict": "material",
+        "why": "Совместная покупка 77–78% — потенциал кросс-продаж."
+      },
+      "F-bd8a8f55ce4f": {
+        "fact_id": "F-bd8a8f55ce4f",
+        "verdict": "material",
+        "why": "Повреждённая упаковка — барьер и риск качества."
+      },
+      "F-bd0a47fe304e": {
+        "fact_id": "F-bd0a47fe304e",
+        "verdict": "material",
+        "why": "Особый вкус/аромат — ключевой драйвер выбора."
+      },
+      "F-becd605434fc": {
+        "fact_id": "F-becd605434fc",
+        "verdict": "material",
+        "why": "Высокое содержание мяса — прямой драйвер покупки."
+      },
+      "F-59e2a92380a0": {
+        "fact_id": "F-59e2a92380a0",
+        "verdict": "material",
+        "why": "Высокое содержание мяса важно и в другом сегменте."
+      },
+      "F-7498b111bfea": {
+        "fact_id": "F-7498b111bfea",
+        "verdict": "material",
+        "why": "Простой состав без добавок — драйвер выбора."
+      },
+      "F-9a647f8e8d7d": {
+        "fact_id": "F-9a647f8e8d7d",
+        "verdict": "material",
+        "why": "Чистый состав важен и в другом сегменте."
+      },
+      "F-a0b85637b0de": {
+        "fact_id": "F-a0b85637b0de",
+        "verdict": "material",
+        "why": "Гродненский мясокомбинат — конкурентный ориентир."
+      },
+      "F-7ef3e8371c46": {
+        "fact_id": "F-7ef3e8371c46",
+        "verdict": "material",
+        "why": "Брестский мясокомбинат доминирует; важный конкурентный бенчмарк."
+      },
+      "F-0d723aa1d297": {
+        "fact_id": "F-0d723aa1d297",
+        "verdict": "material",
+        "why": "Непригодность для мясной продукции — ограничение формата/упаковки."
+      },
+      "F-31adf778c2a0": {
+        "fact_id": "F-31adf778c2a0",
+        "verdict": "material",
+        "why": "Слабая связь с колбасой ограничивает позиционирование."
+      },
+      "F-20e7ce2a328f": {
+        "fact_id": "F-20e7ce2a328f",
+        "verdict": "background",
+        "why": "Доходный сегмент, общий фон без связи с мясом."
+      },
+      "F-6e3a3079b57f": {
+        "fact_id": "F-6e3a3079b57f",
+        "verdict": "background",
+        "why": "Доходный сегмент, общий потребительский контекст."
+      },
+      "F-a4c695c14522": {
+        "fact_id": "F-a4c695c14522",
+        "verdict": "background",
+        "why": "Доходный сегмент, общий потребительский контекст."
+      },
+      "F-141dc488c87f": {
+        "fact_id": "F-141dc488c87f",
+        "verdict": "irrelevant",
+        "why": "Товары для животных, не мясная гастрономия."
+      },
+      "F-63fced649347": {
+        "fact_id": "F-63fced649347",
+        "verdict": "irrelevant",
+        "why": "Шоколадные плитки, другая категория."
+      },
+      "F-24437fd20f19": {
+        "fact_id": "F-24437fd20f19",
+        "verdict": "background",
+        "why": "Тренд готовой еды, смежная, не целевая категория."
+      },
+      "F-253170795826": {
+        "fact_id": "F-253170795826",
+        "verdict": "background",
+        "why": "Заказ готовой еды, смежный тренд удобства."
+      },
+      "F-96626c3cf00f": {
+        "fact_id": "F-96626c3cf00f",
+        "verdict": "background",
+        "why": "Возраст покупателей готовой еды, смежный тренд."
+      },
+      "F-c6ff8983cacd": {
+        "fact_id": "F-c6ff8983cacd",
+        "verdict": "background",
+        "why": "Возраст покупателей готовой еды, смежный тренд."
+      },
+      "F-54747c55ee0f": {
+        "fact_id": "F-54747c55ee0f",
+        "verdict": "background",
+        "why": "Восприятие готовой еды, не мясная гастрономия."
+      },
+      "F-d6c090b21da9": {
+        "fact_id": "F-d6c090b21da9",
+        "verdict": "background",
+        "why": "Вкус готовой еды, смежная категория."
+      },
+      "F-e86e4bcfb2f8": {
+        "fact_id": "F-e86e4bcfb2f8",
+        "verdict": "background",
+        "why": "Доля 55+, демографический фон."
+      },
+      "F-cbe89c77dc54": {
+        "fact_id": "F-cbe89c77dc54",
+        "verdict": "irrelevant",
+        "why": "Непродовольственные товары, не категория."
+      },
+      "F-0fe9a2a0ecb8": {
+        "fact_id": "F-0fe9a2a0ecb8",
+        "verdict": "irrelevant",
+        "why": "Автомобиль, не покупка мясной гастрономии."
+      },
+      "F-625b1448999a": {
+        "fact_id": "F-625b1448999a",
+        "verdict": "background",
+        "why": "СТМ в целом, возможный фон для стратегии."
+      },
+      "F-fbb47a7701f1": {
+        "fact_id": "F-fbb47a7701f1",
+        "verdict": "irrelevant",
+        "why": "Прочие виды деятельности, вне категории."
+      },
+      "F-5658ed3b3b8a": {
+        "fact_id": "F-5658ed3b3b8a",
+        "verdict": "background",
+        "why": "Онлайн-канал, общий фон каналов продаж."
+      },
+      "F-00c2ec303951": {
+        "fact_id": "F-00c2ec303951",
+        "verdict": "irrelevant",
+        "why": "Число ценностей, не покупка категории."
+      },
+      "F-4555cb8ecd42": {
+        "fact_id": "F-4555cb8ecd42",
+        "verdict": "irrelevant",
+        "why": "Число ценностей, не покупка категории."
+      },
+      "F-8a8de2b1c174": {
+        "fact_id": "F-8a8de2b1c174",
+        "verdict": "irrelevant",
+        "why": "Число ценностей, не покупка категории."
+      },
+      "F-1b0dc264a855": {
+        "fact_id": "F-1b0dc264a855",
+        "verdict": "irrelevant",
+        "why": "Число ценностей, не покупка категории."
+      },
+      "F-c31af36a0037": {
+        "fact_id": "F-c31af36a0037",
+        "verdict": "irrelevant",
+        "why": "Число ценностей, не покупка категории."
+      },
+      "F-3f7faca640c7": {
+        "fact_id": "F-3f7faca640c7",
+        "verdict": "irrelevant",
+        "why": "AI-агенты, не мясная гастрономия."
+      },
+      "F-a929e96a86ec": {
+        "fact_id": "F-a929e96a86ec",
+        "verdict": "irrelevant",
+        "why": "Ресейл, не категория мясной гастрономии."
+      },
+      "F-ea2494dc2a56": {
+        "fact_id": "F-ea2494dc2a56",
+        "verdict": "irrelevant",
+        "why": "Макияж, не мясная гастрономия."
+      },
+      "F-fb6b99434db9": {
+        "fact_id": "F-fb6b99434db9",
+        "verdict": "background",
+        "why": "Серебряный возраст, общий демографический фон."
+      }
+    },
+    "missing": []
+  },
+  "zcode": {
+    "meta": {
+      "exit": 0,
+      "stdout_tail": "Tokens\": 14720,\n    \"cacheWriteTokens\": 0,\n    \"reasoningTokens\": 0,\n    \"webFetchRequests\": 0,\n    \"webSearchRequests\": 0\n  },\n  \"eventCount\": 5280,\n  \"projection\": {\n    \"status\": \"idle\",\n    \"turnCount\": 1,\n    \"totalTokenCount\": 56638,\n    \"contextUsed\": 56638,\n    \"contextWindow\": 200000\n  }\n}\n",
+      "session": "sess_abead131-965b-4ee1-b520-f8c0f93dd79e",
+      "usage": {
+        "source": "provider",
+        "modelRequestCount": 1,
+        "inputTokens": 51368,
+        "outputTokens": 5270,
+        "totalTokens": 56638,
+        "cacheReadTokens": 14720,
+        "cacheWriteTokens": 0,
+        "reasoningTokens": 0,
+        "webFetchRequests": 0,
+        "webSearchRequests": 0
+      },
+      "answer_found": true
+    },
+    "verdicts": {
+      "F-c6b114e60367": {
+        "fact_id": "F-c6b114e60367",
+        "verdict": "irrelevant",
+        "why": "Ценности сотрудников компаний — HR-тема, не покупка гастрономии"
+      },
+      "F-f782f641e5cc": {
+        "fact_id": "F-f782f641e5cc",
+        "verdict": "irrelevant",
+        "why": "Сводный HR-анализ ценностных профилей, к категории не относится"
+      },
+      "F-0f22df085bb3": {
+        "fact_id": "F-0f22df085bb3",
+        "verdict": "material",
+        "why": "Снек-повод потребления — ключевой сценарий покупки мясной гастрономии"
+      },
+      "F-2f12ca1c781b": {
+        "fact_id": "F-2f12ca1c781b",
+        "verdict": "background",
+        "why": "Дубль повода перекуса по параллельной группе; подтверждает тренд"
+      },
+      "F-17f33fac1514": {
+        "fact_id": "F-17f33fac1514",
+        "verdict": "material",
+        "why": "Вкус как барьер повторной покупки — прямое влияние на удержание"
+      },
+      "F-b0fdc41a8a95": {
+        "fact_id": "F-b0fdc41a8a95",
+        "verdict": "material",
+        "why": "Неожиданный вкус — барьер категории, важен для качества"
+      },
+      "F-df244df9d056": {
+        "fact_id": "F-df244df9d056",
+        "verdict": "material",
+        "why": "Совместная покупка категорий — основа для кросс-мерчандайзинга"
+      },
+      "F-bd8a8f55ce4f": {
+        "fact_id": "F-bd8a8f55ce4f",
+        "verdict": "background",
+        "why": "Поврежденная упаковка ~9% — второстепенный операционный барьер"
+      },
+      "F-bd0a47fe304e": {
+        "fact_id": "F-bd0a47fe304e",
+        "verdict": "material",
+        "why": "Особый вкус и аромат — главный драйвер выбора, 31%"
+      },
+      "F-becd605434fc": {
+        "fact_id": "F-becd605434fc",
+        "verdict": "material",
+        "why": "Высокое содержание мяса — прямой драйвер выбора, 39%"
+      },
+      "F-59e2a92380a0": {
+        "fact_id": "F-59e2a92380a0",
+        "verdict": "material",
+        "why": "Подтверждение драйвера мясистости по второй группе, 37%"
+      },
+      "F-7498b111bfea": {
+        "fact_id": "F-7498b111bfea",
+        "verdict": "material",
+        "why": "Простой понятный состав — ключевой драйвер, 40%"
+      },
+      "F-9a647f8e8d7d": {
+        "fact_id": "F-9a647f8e8d7d",
+        "verdict": "material",
+        "why": "Подтверждение драйвера чистого состава по второй группе, 35%"
+      },
+      "F-a0b85637b0de": {
+        "fact_id": "F-a0b85637b0de",
+        "verdict": "background",
+        "why": "Справка по конкуренту Гродненский МК, без выводов"
+      },
+      "F-7ef3e8371c46": {
+        "fact_id": "F-7ef3e8371c46",
+        "verdict": "background",
+        "why": "Показатель Брестского МК — конкурентный ориентир, не драйвер"
+      },
+      "F-0d723aa1d297": {
+        "fact_id": "F-0d723aa1d297",
+        "verdict": "background",
+        "why": "Тест ассоциаций упаковки, нишевый результат ~5%"
+      },
+      "F-31adf778c2a0": {
+        "fact_id": "F-31adf778c2a0",
+        "verdict": "background",
+        "why": "Нишевая ассоциация с подарками ~6%, деталь теста упаковки"
+      },
+      "F-20e7ce2a328f": {
+        "fact_id": "F-20e7ce2a328f",
+        "verdict": "background",
+        "why": "Доходная стратификация — фон покупательной способности"
+      },
+      "F-6e3a3079b57f": {
+        "fact_id": "F-6e3a3079b57f",
+        "verdict": "background",
+        "why": "Страта длительного пользования — общий фон достатка"
+      },
+      "F-a4c695c14522": {
+        "fact_id": "F-a4c695c14522",
+        "verdict": "background",
+        "why": "Страта дорогих покупок — общий фон достатка"
+      },
+      "F-141dc488c87f": {
+        "fact_id": "F-141dc488c87f",
+        "verdict": "irrelevant",
+        "why": "Товары для животных, к мясной гастрономии не относятся"
+      },
+      "F-63fced649347": {
+        "fact_id": "F-63fced649347",
+        "verdict": "irrelevant",
+        "why": "Цены на шоколад, другая категория"
+      },
+      "F-24437fd20f19": {
+        "fact_id": "F-24437fd20f19",
+        "verdict": "background",
+        "why": "Демография готовой еды — смежный канал конкуренции за перекус"
+      },
+      "F-253170795826": {
+        "fact_id": "F-253170795826",
+        "verdict": "background",
+        "why": "Проникновение готовой еды — смежный контекст потребления"
+      },
+      "F-96626c3cf00f": {
+        "fact_id": "F-96626c3cf00f",
+        "verdict": "background",
+        "why": "Возрастной срез готовой еды — смежный контекст"
+      },
+      "F-c6ff8983cacd": {
+        "fact_id": "F-c6ff8983cacd",
+        "verdict": "background",
+        "why": "Возрастной срез готовой еды — смежный контекст"
+      },
+      "F-54747c55ee0f": {
+        "fact_id": "F-54747c55ee0f",
+        "verdict": "background",
+        "why": "Аттитюд к готовой еде — фон конкуренции за occasions"
+      },
+      "F-d6c090b21da9": {
+        "fact_id": "F-d6c090b21da9",
+        "verdict": "background",
+        "why": "Аттитюд к готовой еде у заказчиков — фон конкуренции"
+      },
+      "F-e86e4bcfb2f8": {
+        "fact_id": "F-e86e4bcfb2f8",
+        "verdict": "background",
+        "why": "Доля 55+ — демографический фон аудитории"
+      },
+      "F-cbe89c77dc54": {
+        "fact_id": "F-cbe89c77dc54",
+        "verdict": "irrelevant",
+        "why": "Динамика непродовольственных товаров, вне категории"
+      },
+      "F-0fe9a2a0ecb8": {
+        "fact_id": "F-0fe9a2a0ecb8",
+        "verdict": "irrelevant",
+        "why": "Готовность отказаться от автомобиля, не про еду"
+      },
+      "F-625b1448999a": {
+        "fact_id": "F-625b1448999a",
+        "verdict": "background",
+        "why": "Регулярная покупка СТМ 13% — фон ценового давления"
+      },
+      "F-fbb47a7701f1": {
+        "fact_id": "F-fbb47a7701f1",
+        "verdict": "irrelevant",
+        "why": "Прочие виды деятельности на диаграмме, нерасшифрованная цифра"
+      },
+      "F-5658ed3b3b8a": {
+        "fact_id": "F-5658ed3b3b8a",
+        "verdict": "background",
+        "why": "Лояльность онлайна — фон канальной стратегии"
+      },
+      "F-00c2ec303951": {
+        "fact_id": "F-00c2ec303951",
+        "verdict": "irrelevant",
+        "why": "Счетчик базовых ценностей 2015, к покупке не относится"
+      },
+      "F-4555cb8ecd42": {
+        "fact_id": "F-4555cb8ecd42",
+        "verdict": "irrelevant",
+        "why": "Дубль счетчика ценностей, методологическая деталь"
+      },
+      "F-8a8de2b1c174": {
+        "fact_id": "F-8a8de2b1c174",
+        "verdict": "irrelevant",
+        "why": "Счетчик ценностей 2026, к покупке не относится"
+      },
+      "F-1b0dc264a855": {
+        "fact_id": "F-1b0dc264a855",
+        "verdict": "irrelevant",
+        "why": "Дубль счетчика ценностей FY, методологическая деталь"
+      },
+      "F-c31af36a0037": {
+        "fact_id": "F-c31af36a0037",
+        "verdict": "irrelevant",
+        "why": "Дубль счетчика ценностей FY 2026, вне темы"
+      },
+      "F-3f7faca640c7": {
+        "fact_id": "F-3f7faca640c7",
+        "verdict": "irrelevant",
+        "why": "Рынок AI-агентов, не связан с категорией"
+      },
+      "F-a929e96a86ec": {
+        "fact_id": "F-a929e96a86ec",
+        "verdict": "irrelevant",
+        "why": "Планы покупки ресейла, вне категории"
+      },
+      "F-ea2494dc2a56": {
+        "fact_id": "F-ea2494dc2a56",
+        "verdict": "irrelevant",
+        "why": "Тренд макияжа из Pinterest, вне категории"
+      },
+      "F-fb6b99434db9": {
+        "fact_id": "F-fb6b99434db9",
+        "verdict": "background",
+        "why": "Частота покупок 55+ — фон серебряного возраста"
+      }
+    },
+    "missing": []
+  }
+}

@@ -90,7 +90,7 @@ def extract_object(text: str, must_have: str) -> dict | None:
     return None
 
 
-def call_zcode(prompt: str) -> tuple[str, dict]:
+def call_zcode(prompt: str, keys: tuple[str, ...] = ("selected", "conclusions")) -> tuple[str, dict]:
     proc = subprocess.run(
         [str(Path.home() / ".local/bin/zcode-start-plan"), "-p", prompt, "--cwd", str(REPO),
          "--mode", "plan", "--json"],
@@ -127,14 +127,14 @@ def call_zcode(prompt: str) -> tuple[str, dict]:
         if isinstance(response, dict):
             answer = response
         elif isinstance(response, str):
-            answer = extract_object(response, "selected") or extract_object(response, "conclusions")
+            answer = next((found for key in keys if (found := extract_object(response, key))), None)
     if answer is None:
-        answer = extract_object(proc.stdout, "selected")
+        answer = next((found for key in keys if (found := extract_object(proc.stdout, key))), None)
     meta["answer_found"] = answer is not None
     return json.dumps(answer, ensure_ascii=False) if answer else "", meta
 
 
-def call_ollama(prompt: str, model: str) -> tuple[str, dict]:
+def call_ollama(prompt: str, model: str, keys: tuple[str, ...] = ("selected", "conclusions")) -> tuple[str, dict]:
     body = json.dumps(
         {"model": model, "messages": [{"role": "user", "content": prompt}], "stream": False,
          "temperature": 0.2},
@@ -149,7 +149,7 @@ def call_ollama(prompt: str, model: str) -> tuple[str, dict]:
         payload = json.loads(response.read().decode("utf-8"))
     text = payload["choices"][0]["message"]["content"]
     meta = {"usage": payload.get("usage"), "model": payload.get("model")}
-    answer = extract_object(text, "selected") or extract_object(text, "conclusions")
+    answer = next((found for key in keys if (found := extract_object(text, key))), None)
     meta["answer_found"] = answer is not None
     return json.dumps(answer, ensure_ascii=False) if answer else "", meta
 

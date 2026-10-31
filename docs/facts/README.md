@@ -4,12 +4,17 @@
 в машиночитаемую форму, затем модели анализируют и выделяют важное для себя, затем сравниваем
 и собираем итоговый документ.
 
+Скрипты конвейера живут в навыке `fact-corpus-pipeline` (`~/.hermes/skills/research/fact-corpus-pipeline/scripts/`),
+проект хранит только данные. Запуск из корня проекта: `CORPUS_ROOT=$PWD python3 $SKILL/<скрипт>.py`,
+где `$SKILL=~/.hermes/skills/research/fact-corpus-pipeline/scripts`. План решений — данные проекта:
+`docs/facts/plan.json` (`{fact_id: [target, reason]}`).
+
 | шаг | что делает | файл | команда |
 |---|---|---|---|
 | 1. Найти материал | 7 колод, 260 страниц, 653 факта; тематических 119 | `docs/registry/page_facts.json` | `docs/registry/tools/unused_relevant.py` |
-| 2. Машиночитаемая форма | факт = строка JSON со стабильным id, координатами и признаком темы | `docs/facts/facts.jsonl` | `python3 docs/facts/build_facts.py` |
-| 3. Анализ моделями | каждая модель выбирает значимые факты и пишет выводы со ссылками на них | `docs/facts/runs/<колода>.<backend>-<штамп>.json` | `python3 docs/facts/run_analysis.py --backend zcode --deck inkofood-2026` |
-| 4. Сравнение | кто что выбрал, где сошлись, где разошлись, какие выводы совпали | `docs/facts/COMPARISON.md`, `COMPARISON.json` | `python3 docs/facts/compare_analyses.py inkofood-2026` |
+| 2. Машиночитаемая форма | факт = строка JSON со стабильным id, координатами и признаком темы | `docs/facts/facts.jsonl` | `python3 $SKILL/build_facts.py` |
+| 3. Анализ моделями | каждая модель выбирает значимые факты и пишет выводы со ссылками на них | `docs/facts/runs/<колода>.<backend>-<штамп>.json` | `python3 $SKILL/run_analysis.py --backend zcode --deck inkofood-2026` |
+| 4. Сравнение | кто что выбрал, где сошлись, где разошлись, какие выводы совпали | `docs/facts/COMPARISON-<колода>.md`, `.json` | `python3 $SKILL/compare_analyses.py inkofood-2026` |
 
 ## Формат факта
 

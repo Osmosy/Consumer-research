@@ -21,7 +21,7 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 49,
     "label": "Гродненский мясокомбинат",
     "value": "9,7 %",
     "req_id": "REQ-0026"
@@ -48,10 +48,10 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 50,
     "label": "Брестский мясокомбинат",
-    "value": "89,0 % / 66,5 %",
-    "req_id": "REQ-0028"
+    "value": "66,5 %",
+    "req_id": "REQ-0027"
   },
   "F-20e7ce2a328f": {
     "target": "info",
@@ -84,7 +84,7 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 7,
     "label": "Варёная колбаса",
     "value": "65,8 %",
     "req_id": "REQ-0005"
@@ -93,7 +93,7 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 34,
     "label": "Дата производства и срок годности на лицевой стороне упаковки",
     "value": "59,4 %",
     "req_id": "REQ-0013"
@@ -102,16 +102,16 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 44,
     "label": "Продукту с простым и понятным составом без лишних добавок",
     "value": "40 %",
-    "req_id": "REQ-0021"
+    "req_id": "REQ-0019"
   },
   "F-554a70863fd4": {
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 49,
     "label": "Брестский мясокомбинат",
     "value": "33,5 %",
     "req_id": "REQ-0025"
@@ -120,7 +120,7 @@
     "target": "info",
     "reason": "рынок РБ: основная цель — рынок РФ",
     "deck": "inkofood-2026",
-    "page": null,
+    "page": 44,
     "label": "Продукту с высоким содержанием мяса",
     "value": "39 %",
     "req_id": "REQ-0037"

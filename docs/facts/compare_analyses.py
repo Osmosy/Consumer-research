@@ -21,8 +21,8 @@ from pathlib import Path
 REPO = Path.home() / "projects" / "consumer-research"
 RUNS = REPO / "docs/facts/runs"
 FACTS = REPO / "docs/facts/facts.jsonl"
-OUT_MD = REPO / "docs/facts/COMPARISON.md"
-OUT_JSON = REPO / "docs/facts/COMPARISON.json"
+OUT_MD = None  # задаётся по имени колоды в main()
+OUT_JSON = None
 SIMILAR = 0.55
 
 
@@ -31,7 +31,10 @@ def norm(text: str) -> str:
 
 
 def main() -> int:
+    global OUT_MD, OUT_JSON
     deck = sys.argv[1] if len(sys.argv) > 1 else "inkofood-2026"
+    OUT_MD = REPO / f"docs/facts/COMPARISON-{deck}.md"
+    OUT_JSON = REPO / f"docs/facts/COMPARISON-{deck}.json"
     runs = []
     for path in sorted(RUNS.glob(f"{deck}.*.json")):
         body = json.loads(path.read_text("utf-8"))

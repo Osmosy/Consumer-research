@@ -1,0 +1,76 @@
+{
+ "sources": [
+  {
+   "file": "docs/verification.md",
+   "channel": "document",
+   "speaker": "наш протокол проверки колод",
+   "date": "2026-10-25",
+   "split": "paragraph",
+   "role": "requirements"
+  },
+  {
+   "file": "reviews/2026-10-25-inkofood/README.md",
+   "channel": "document",
+   "speaker": "описание разбора трёх агентов",
+   "date": "2026-10-25",
+   "split": "paragraph",
+   "role": "requirements"
+  },
+  {
+   "file": "decks/inkofood-2026/inkofood-2026.md",
+   "channel": "document",
+   "speaker": "Инкофуд, U&A, октябрь 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/nielsen-fmcg-do-avgusta-2026/nielsen-fmcg-do-avgusta-2026.md",
+   "channel": "document",
+   "speaker": "NielsenIQ, FMCG до августа 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/nielsen-itogi-2025-vektory-2026/nielsen-itogi-2025-vektory-2026.md",
+   "channel": "document",
+   "speaker": "NielsenIQ, итоги 2025 и векторы 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/romir-trendy-2026/romir-trendy-2026.md",
+   "channel": "document",
+   "speaker": "РОМИР, тренды покупательского поведения 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/sbermarket-globalnye-trendy-2026/sbermarket-globalnye-trendy-2026.md",
+   "channel": "document",
+   "speaker": "СберМаркетинг, глобальные тренды 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/sbermarket-serebryanyy-vozrast-2026/sbermarket-serebryanyy-vozrast-2026.md",
+   "channel": "document",
+   "speaker": "СберМаркетинг, серебряный возраст 2026",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  },
+  {
+   "file": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya.md",
+   "channel": "document",
+   "speaker": "ЭКОПСИ, дебаты про поколения",
+   "date": "2026-10-25",
+   "split": "pages",
+   "role": "evidence"
+  }
+ ]
+}

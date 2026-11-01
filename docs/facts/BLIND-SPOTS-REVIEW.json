@@ -2,11 +2,11 @@
   "ollama": {
     "meta": {
       "usage": {
-        "prompt_tokens": 2084,
-        "completion_tokens": 13494,
-        "total_tokens": 15578,
+        "prompt_tokens": 482,
+        "completion_tokens": 2598,
+        "total_tokens": 3080,
         "prompt_tokens_details": {
-          "cached_tokens": 2048
+          "cached_tokens": 384
         }
       },
       "model": "deepseek-v4.1-flash",
@@ -227,6 +227,46 @@
         "fact_id": "F-fb6b99434db9",
         "verdict": "background",
         "why": "Серебряный возраст, общий демографический фон."
+      },
+      "F-b1e3b14d6fa4": {
+        "fact_id": "F-b1e3b14d6fa4",
+        "verdict": "material",
+        "why": "Показывает завтрак как повод; важно для оценки утреннего потенциала."
+      },
+      "F-d6bcde13dc47": {
+        "fact_id": "F-d6bcde13dc47",
+        "verdict": "material",
+        "why": "Ужин/вечер — значимый повод, влияет на позиционирование мясной гастрономии."
+      },
+      "F-d9b82ba4a871": {
+        "fact_id": "F-d9b82ba4a871",
+        "verdict": "material",
+        "why": "Праздники и гости — отдельный повод, потенциал для деликатесов."
+      },
+      "F-f092ba8f051c": {
+        "fact_id": "F-f092ba8f051c",
+        "verdict": "material",
+        "why": "Семья — ключевой повод; определяет семейное позиционирование и рост."
+      },
+      "F-3c448d1afb9a": {
+        "fact_id": "F-3c448d1afb9a",
+        "verdict": "material",
+        "why": "Доля ужина/вечера во второй линейке важна для сравнения поводов."
+      },
+      "F-5bbc847b46a3": {
+        "fact_id": "F-5bbc847b46a3",
+        "verdict": "material",
+        "why": "Семья и близкие — сильный повод; основа стратегии семейного потребления."
+      },
+      "F-c82208cd4dcf": {
+        "fact_id": "F-c82208cd4dcf",
+        "verdict": "material",
+        "why": "Завтрак 28% указывает на значимый утренний сегмент и возможность роста."
+      },
+      "F-837258653e64": {
+        "fact_id": "F-837258653e64",
+        "verdict": "background",
+        "why": "Общий тренд семейного времени; фон для family-occasion, не прямой драйвер."
       }
     },
     "missing": []
@@ -234,15 +274,15 @@
   "zcode": {
     "meta": {
       "exit": 0,
-      "stdout_tail": "Tokens\": 14720,\n    \"cacheWriteTokens\": 0,\n    \"reasoningTokens\": 0,\n    \"webFetchRequests\": 0,\n    \"webSearchRequests\": 0\n  },\n  \"eventCount\": 5280,\n  \"projection\": {\n    \"status\": \"idle\",\n    \"turnCount\": 1,\n    \"totalTokenCount\": 56638,\n    \"contextUsed\": 56638,\n    \"contextWindow\": 200000\n  }\n}\n",
-      "session": "sess_abead131-965b-4ee1-b520-f8c0f93dd79e",
+      "stdout_tail": "adTokens\": 2432,\n    \"cacheWriteTokens\": 0,\n    \"reasoningTokens\": 0,\n    \"webFetchRequests\": 0,\n    \"webSearchRequests\": 0\n  },\n  \"eventCount\": 462,\n  \"projection\": {\n    \"status\": \"idle\",\n    \"turnCount\": 1,\n    \"totalTokenCount\": 50251,\n    \"contextUsed\": 50251,\n    \"contextWindow\": 200000\n  }\n}\n",
+      "session": "sess_562deaa9-1cf2-456f-9991-5da60f75f247",
       "usage": {
         "source": "provider",
         "modelRequestCount": 1,
-        "inputTokens": 51368,
-        "outputTokens": 5270,
-        "totalTokens": 56638,
-        "cacheReadTokens": 14720,
+        "inputTokens": 49798,
+        "outputTokens": 453,
+        "totalTokens": 50251,
+        "cacheReadTokens": 2432,
         "cacheWriteTokens": 0,
         "reasoningTokens": 0,
         "webFetchRequests": 0,
@@ -465,6 +505,46 @@
         "fact_id": "F-fb6b99434db9",
         "verdict": "background",
         "why": "Частота покупок 55+ — фон серебряного возраста"
+      },
+      "F-b1e3b14d6fa4": {
+        "fact_id": "F-b1e3b14d6fa4",
+        "verdict": "background",
+        "why": "Завтрак 14% — контекст потребления, но сам по себе не определяет стратегию"
+      },
+      "F-d6bcde13dc47": {
+        "fact_id": "F-d6bcde13dc47",
+        "verdict": "material",
+        "why": "Ужин 21% — главный повседневный повод, опора для выводов о потреблении"
+      },
+      "F-d9b82ba4a871": {
+        "fact_id": "F-d9b82ba4a871",
+        "verdict": "background",
+        "why": "Праздник 16% — вторичный повод, дополняет картину, не ведущий драйвер"
+      },
+      "F-f092ba8f051c": {
+        "fact_id": "F-f092ba8f051c",
+        "verdict": "material",
+        "why": "Семья 43% — ведущий повод покупки, прямо определяет стратегию бренда"
+      },
+      "F-3c448d1afb9a": {
+        "fact_id": "F-3c448d1afb9a",
+        "verdict": "material",
+        "why": "Ужин 17% на другой когорте — подтверждает вечер как ключевой сценарий"
+      },
+      "F-5bbc847b46a3": {
+        "fact_id": "F-5bbc847b46a3",
+        "verdict": "material",
+        "why": "Семья 39% повторяет лидерство семейного повода — устойчивый вывод"
+      },
+      "F-c82208cd4dcf": {
+        "fact_id": "F-c82208cd4dcf",
+        "verdict": "material",
+        "why": "Завтрак 28% против 14% — разрыв показывает разные роли мяса между волнами"
+      },
+      "F-837258653e64": {
+        "fact_id": "F-837258653e64",
+        "verdict": "background",
+        "why": "Совместное время с семьей — фон о контексте, не о покупке гастрономии"
       }
     },
     "missing": []

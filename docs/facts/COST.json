@@ -74,19 +74,19 @@
     },
     "romir-trendy-2026": {
       "ollama": {
-        "runs": 1,
-        "input_tokens": 4038,
-        "output_tokens": 21740,
-        "pool_units": 25778,
-        "seconds": 74.6,
+        "runs": 4,
+        "input_tokens": 16152,
+        "output_tokens": 83489,
+        "pool_units": 99641,
+        "seconds": 245.1,
         "runs_no_usage": 0
       },
       "zcode": {
-        "runs": 2,
+        "runs": 4,
         "input_tokens": 0,
         "output_tokens": 0,
-        "pool_units": 128632,
-        "seconds": 312.6,
+        "pool_units": 279308,
+        "seconds": 1004.2,
         "runs_no_usage": 0
       }
     },
@@ -129,9 +129,9 @@
     "(разбор слепых зон)": {
       "ollama": {
         "runs": 1,
-        "input_tokens": 2084,
-        "output_tokens": 13494,
-        "pool_units": 15578,
+        "input_tokens": 482,
+        "output_tokens": 2598,
+        "pool_units": 3080,
         "seconds": 0.0,
         "runs_no_usage": 0
       },
@@ -139,7 +139,7 @@
         "runs": 1,
         "input_tokens": 0,
         "output_tokens": 0,
-        "pool_units": 56638,
+        "pool_units": 50251,
         "seconds": 0.0,
         "runs_no_usage": 0
       }
@@ -148,18 +148,18 @@
   "totals": {
     "ollama": {
       "runs": 8,
-      "input_tokens": 25857,
-      "output_tokens": 142013,
-      "pool_units": 167870,
-      "seconds": 488.3,
+      "input_tokens": 36369,
+      "output_tokens": 192866,
+      "pool_units": 229235,
+      "seconds": 658.8,
       "runs_no_usage": 0
     },
     "zcode": {
       "runs": 8,
       "input_tokens": 0,
       "output_tokens": 0,
-      "pool_units": 579830,
-      "seconds": 1322.5,
+      "pool_units": 724119,
+      "seconds": 2014.1,
       "runs_no_usage": 0
     }
   }

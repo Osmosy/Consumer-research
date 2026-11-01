@@ -1,8 +1,8 @@
 # Отчёт по корпусу
 
-фактов 653, тематических 119, взято 258 (тематических 81)
+фактов 653, тематических 139, взято 258 (тематических 93)
 
-слепых зон 38: материал 9, расходятся 6, фон 23
+слепых зон 46: материал 14, расходятся 8, фон 24
 
 кластеров выводов 73, сформулированы несколькими прогонами 19
 
@@ -15,16 +15,16 @@
 | ключ | значение |
 |---|---|
 | `facts.total` | 653 |
-| `facts.thematic` | 119 |
+| `facts.thematic` | 139 |
 | `taken.total` | 258 |
-| `taken.thematic` | 81 |
-| `blind.total` | 38 |
-| `blind.material` | 9 |
-| `blind.split` | 6 |
-| `blind.background` | 23 |
+| `taken.thematic` | 93 |
+| `blind.total` | 46 |
+| `blind.material` | 14 |
+| `blind.split` | 8 |
+| `blind.background` | 24 |
 | `blind.no_verdict` | 0 |
-| `blind.share_thematic` | 32 |
-| `blind.share_corpus` | 5.8 |
+| `blind.share_thematic` | 33 |
+| `blind.share_corpus` | 7.0 |
 | `comparison.consensus` | 141 |
 | `comparison.ignored` | 395 |
 | `comparison.clusters` | 73 |
@@ -68,7 +68,7 @@
 | `deck.ekopsi-debaty-pro-pokoleniya.thematic` | 4 |
 | `deck.ekopsi-debaty-pro-pokoleniya.taken` | 11 |
 | `deck.inkofood-2026.facts` | 209 |
-| `deck.inkofood-2026.thematic` | 59 |
+| `deck.inkofood-2026.thematic` | 77 |
 | `deck.inkofood-2026.taken` | 90 |
 | `deck.nielsen-fmcg-do-avgusta-2026.facts` | 54 |
 | `deck.nielsen-fmcg-do-avgusta-2026.thematic` | 6 |
@@ -77,11 +77,11 @@
 | `deck.nielsen-itogi-2025-vektory-2026.thematic` | 14 |
 | `deck.nielsen-itogi-2025-vektory-2026.taken` | 41 |
 | `deck.romir-trendy-2026.facts` | 111 |
-| `deck.romir-trendy-2026.thematic` | 21 |
+| `deck.romir-trendy-2026.thematic` | 22 |
 | `deck.romir-trendy-2026.taken` | 44 |
 | `deck.sbermarket-globalnye-trendy-2026.facts` | 47 |
 | `deck.sbermarket-globalnye-trendy-2026.thematic` | 11 |
 | `deck.sbermarket-globalnye-trendy-2026.taken` | 21 |
 | `deck.sbermarket-serebryanyy-vozrast-2026.facts` | 77 |
-| `deck.sbermarket-serebryanyy-vozrast-2026.thematic` | 4 |
+| `deck.sbermarket-serebryanyy-vozrast-2026.thematic` | 5 |
 | `deck.sbermarket-serebryanyy-vozrast-2026.taken` | 33 |

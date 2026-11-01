@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T06:30:17",
-  "count": 38,
+  "generated_at": "2026-11-01T08:57:07",
+  "count": 46,
   "facts_total": 653,
-  "thematic_total": 119,
+  "thematic_total": 139,
   "ids": {
     "F-c6b114e60367": {
       "deck": "ekopsi-debaty-pro-pokoleniya",
@@ -27,6 +27,48 @@
       "page": 9,
       "label": "Для быстрого перекуса, когда нет времени на полноценный приём пищи",
       "value": "53,5 %"
+    },
+    "F-b1e3b14d6fa4": {
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Завтрак",
+      "value": "14 %"
+    },
+    "F-d6bcde13dc47": {
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Ужин / вечер",
+      "value": "21 %"
+    },
+    "F-d9b82ba4a871": {
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Праздник, гости",
+      "value": "16 %"
+    },
+    "F-f092ba8f051c": {
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Семья и близкие",
+      "value": "43 %"
+    },
+    "F-3c448d1afb9a": {
+      "deck": "inkofood-2026",
+      "page": 11,
+      "label": "Ужин / вечер",
+      "value": "17 %"
+    },
+    "F-5bbc847b46a3": {
+      "deck": "inkofood-2026",
+      "page": 11,
+      "label": "Семья и близкие",
+      "value": "39 %"
+    },
+    "F-c82208cd4dcf": {
+      "deck": "inkofood-2026",
+      "page": 11,
+      "label": "Завтрак",
+      "value": "28 %"
     },
     "F-17f33fac1514": {
       "deck": "inkofood-2026",
@@ -183,6 +225,12 @@
       "page": 23,
       "label": "В центре кольцевой диаграммы прочих видов деятельности",
       "value": "26%"
+    },
+    "F-837258653e64": {
+      "deck": "romir-trendy-2026",
+      "page": 25,
+      "label": "Время в компании людей: с членами семьи (3 часа)",
+      "value": "12,6%"
     },
     "F-00c2ec303951": {
       "deck": "romir-trendy-2026",

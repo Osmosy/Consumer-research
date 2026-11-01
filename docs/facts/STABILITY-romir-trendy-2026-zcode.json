@@ -1,0 +1,81 @@
+{
+  "deck": "romir-trendy-2026",
+  "channel": "zcode",
+  "runs": 3,
+  "stamps": [
+    "trendy-2026.zcode-20261031-205027",
+    "trendy-2026.zcode-20261101-061805",
+    "trendy-2026.zcode-20261101-062618"
+  ],
+  "shuffled": true,
+  "jaccard_mean": 0.617,
+  "jaccard_min": 0.568,
+  "selected_all": 22,
+  "selected_part": 24,
+  "selected_none": 65,
+  "selected_share_all": 0.198,
+  "position": {
+    "deciles": [
+      {
+        "decile": 1,
+        "facts": 11,
+        "missed_share": 0.273
+      },
+      {
+        "decile": 2,
+        "facts": 11,
+        "missed_share": 1.0
+      },
+      {
+        "decile": 3,
+        "facts": 11,
+        "missed_share": 0.818
+      },
+      {
+        "decile": 4,
+        "facts": 11,
+        "missed_share": 0.636
+      },
+      {
+        "decile": 5,
+        "facts": 11,
+        "missed_share": 0.273
+      },
+      {
+        "decile": 6,
+        "facts": 11,
+        "missed_share": 0.909
+      },
+      {
+        "decile": 7,
+        "facts": 11,
+        "missed_share": 0.909
+      },
+      {
+        "decile": 8,
+        "facts": 11,
+        "missed_share": 0.0
+      },
+      {
+        "decile": 9,
+        "facts": 11,
+        "missed_share": 0.455
+      },
+      {
+        "decile": 10,
+        "facts": 12,
+        "missed_share": 0.583
+      }
+    ],
+    "spread": 1.0,
+    "p_value": 0.0,
+    "trials": 2000
+  },
+  "trend": {
+    "spearman": -0.202,
+    "first": 0.273,
+    "last": 0.583,
+    "monotone": false,
+    "verdict": "тренда нет: потери не привязаны к позиции"
+  }
+}

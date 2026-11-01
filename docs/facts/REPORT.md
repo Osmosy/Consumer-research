@@ -1,0 +1,67 @@
+# Отчёт по корпусу
+
+фактов 653, тематических 119, взято 258 (тематических 81)
+
+слепых зон 38: материал 9, расходятся 6, фон 23
+
+кластеров выводов 68, сформулированы несколькими прогонами 22
+
+обязательств 38, доказано 25, без доказательства 13
+
+гейт `coverage`: код 0, блокирующих 0
+гейт `drift`: код 1, блокирующих 13
+гейт `replay`: код 0, блокирующих 0
+
+| ключ | значение |
+|---|---|
+| `facts.total` | 653 |
+| `facts.thematic` | 119 |
+| `taken.total` | 258 |
+| `taken.thematic` | 81 |
+| `blind.total` | 38 |
+| `blind.material` | 9 |
+| `blind.split` | 6 |
+| `blind.background` | 23 |
+| `blind.no_verdict` | 0 |
+| `blind.share_thematic` | 32 |
+| `blind.share_corpus` | 5.8 |
+| `comparison.consensus` | 140 |
+| `comparison.ignored` | 408 |
+| `comparison.clusters` | 68 |
+| `comparison.clusters_shared` | 22 |
+| `single.total` | 105 |
+| `single.material` | 0 |
+| `requirements.live` | 38 |
+| `requirements.proven` | 25 |
+| `requirements.unproven` | 13 |
+| `stability.romir-trendy-2026.ollama.runs` | 4 |
+| `stability.romir-trendy-2026.ollama.jaccard` | 0.615 |
+| `stability.romir-trendy-2026.ollama.all` | 14 |
+| `stability.romir-trendy-2026.ollama.never` | 77 |
+| `stability.romir-trendy-2026.ollama.spearman` | 0.002 |
+| `stability.romir-trendy-2026.zcode.runs` | 3 |
+| `stability.romir-trendy-2026.zcode.jaccard` | 0.617 |
+| `stability.romir-trendy-2026.zcode.all` | 22 |
+| `stability.romir-trendy-2026.zcode.never` | 65 |
+| `stability.romir-trendy-2026.zcode.spearman` | -0.202 |
+| `deck.ekopsi-debaty-pro-pokoleniya.facts` | 34 |
+| `deck.ekopsi-debaty-pro-pokoleniya.thematic` | 4 |
+| `deck.ekopsi-debaty-pro-pokoleniya.taken` | 11 |
+| `deck.inkofood-2026.facts` | 209 |
+| `deck.inkofood-2026.thematic` | 59 |
+| `deck.inkofood-2026.taken` | 90 |
+| `deck.nielsen-fmcg-do-avgusta-2026.facts` | 54 |
+| `deck.nielsen-fmcg-do-avgusta-2026.thematic` | 6 |
+| `deck.nielsen-fmcg-do-avgusta-2026.taken` | 18 |
+| `deck.nielsen-itogi-2025-vektory-2026.facts` | 121 |
+| `deck.nielsen-itogi-2025-vektory-2026.thematic` | 14 |
+| `deck.nielsen-itogi-2025-vektory-2026.taken` | 41 |
+| `deck.romir-trendy-2026.facts` | 111 |
+| `deck.romir-trendy-2026.thematic` | 21 |
+| `deck.romir-trendy-2026.taken` | 44 |
+| `deck.sbermarket-globalnye-trendy-2026.facts` | 47 |
+| `deck.sbermarket-globalnye-trendy-2026.thematic` | 11 |
+| `deck.sbermarket-globalnye-trendy-2026.taken` | 21 |
+| `deck.sbermarket-serebryanyy-vozrast-2026.facts` | 77 |
+| `deck.sbermarket-serebryanyy-vozrast-2026.thematic` | 4 |
+| `deck.sbermarket-serebryanyy-vozrast-2026.taken` | 33 |

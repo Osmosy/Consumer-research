@@ -1,0 +1,166 @@
+{
+  "decks": {
+    "ekopsi-debaty-pro-pokoleniya": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 1574,
+        "output_tokens": 9164,
+        "pool_units": 10738,
+        "seconds": 44.7,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 53874,
+        "seconds": 68.8,
+        "runs_no_usage": 0
+      }
+    },
+    "inkofood-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 6293,
+        "output_tokens": 41329,
+        "pool_units": 47622,
+        "seconds": 146.6,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 94218,
+        "seconds": 429.4,
+        "runs_no_usage": 0
+      }
+    },
+    "nielsen-fmcg-do-avgusta-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 2207,
+        "output_tokens": 8973,
+        "pool_units": 11180,
+        "seconds": 32.7,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 58105,
+        "seconds": 108.9,
+        "runs_no_usage": 0
+      }
+    },
+    "nielsen-itogi-2025-vektory-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 4822,
+        "output_tokens": 23224,
+        "pool_units": 28046,
+        "seconds": 86.9,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 71288,
+        "seconds": 186.0,
+        "runs_no_usage": 0
+      }
+    },
+    "romir-trendy-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 4038,
+        "output_tokens": 21740,
+        "pool_units": 25778,
+        "seconds": 74.6,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 128632,
+        "seconds": 312.6,
+        "runs_no_usage": 0
+      }
+    },
+    "sbermarket-globalnye-trendy-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 2182,
+        "output_tokens": 10939,
+        "pool_units": 13121,
+        "seconds": 51.9,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 55370,
+        "seconds": 54.7,
+        "runs_no_usage": 0
+      }
+    },
+    "sbermarket-serebryanyy-vozrast-2026": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 2657,
+        "output_tokens": 13150,
+        "pool_units": 15807,
+        "seconds": 50.9,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 61705,
+        "seconds": 162.1,
+        "runs_no_usage": 0
+      }
+    },
+    "(разбор слепых зон)": {
+      "ollama": {
+        "runs": 1,
+        "input_tokens": 2084,
+        "output_tokens": 13494,
+        "pool_units": 15578,
+        "seconds": 0.0,
+        "runs_no_usage": 0
+      },
+      "zcode": {
+        "runs": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "pool_units": 56638,
+        "seconds": 0.0,
+        "runs_no_usage": 0
+      }
+    }
+  },
+  "totals": {
+    "ollama": {
+      "runs": 8,
+      "input_tokens": 25857,
+      "output_tokens": 142013,
+      "pool_units": 167870,
+      "seconds": 488.3,
+      "runs_no_usage": 0
+    },
+    "zcode": {
+      "runs": 8,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "pool_units": 579830,
+      "seconds": 1322.5,
+      "runs_no_usage": 0
+    }
+  }
+}

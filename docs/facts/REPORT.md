@@ -6,10 +6,10 @@
 
 кластеров выводов 68, сформулированы несколькими прогонами 22
 
-обязательств 40, доказано 29, без доказательства 11
+обязательств 39, доказано 39, без доказательства 0
 
 гейт `coverage`: код 0, блокирующих 0
-гейт `drift`: код 1, блокирующих 11
+гейт `drift`: код 0, блокирующих 0
 гейт `replay`: код 0, блокирующих 0
 
 | ключ | значение |
@@ -37,10 +37,11 @@
 | `theme.answered` | 40 |
 | `theme.mistaken` | 4 |
 | `theme.share` | 0.1 |
-| `requirements.live` | 40 |
-| `requirements.proven` | 29 |
-| `requirements.unproven` | 11 |
+| `requirements.live` | 39 |
+| `requirements.proven` | 39 |
+| `requirements.unproven` | 0 |
 | `definitions.total` | 3 |
+| `background.total` | 1 |
 | `requirements.info` | 13 |
 | `requirements.conclusions` | 7 |
 | `requirements.rb_info` | 8 |
@@ -49,8 +50,8 @@
 | `runs.base` | 14 |
 | `runs.stability` | 11 |
 | `runs.rejected` | 1 |
-| `registry.replay_total` | 275 |
-| `registry.replay_match` | 275 |
+| `registry.replay_total` | 276 |
+| `registry.replay_match` | 276 |
 | `rb_material.total` | 5 |
 | `owner_exceptions.total` | 4 |
 | `owner_exceptions.with_marker` | 4 |

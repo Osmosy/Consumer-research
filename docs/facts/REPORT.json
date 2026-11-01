@@ -22,10 +22,11 @@
   "theme.answered": 40,
   "theme.mistaken": 4,
   "theme.share": 0.1,
-  "requirements.live": 40,
-  "requirements.proven": 29,
-  "requirements.unproven": 11,
+  "requirements.live": 39,
+  "requirements.proven": 39,
+  "requirements.unproven": 0,
   "definitions.total": 3,
+  "background.total": 1,
   "requirements.info": 13,
   "requirements.conclusions": 7,
   "requirements.rb_info": 8,
@@ -34,8 +35,8 @@
   "runs.base": 14,
   "runs.stability": 11,
   "runs.rejected": 1,
-  "registry.replay_total": 275,
-  "registry.replay_match": 275,
+  "registry.replay_total": 276,
+  "registry.replay_match": 276,
   "rb_material.total": 5,
   "owner_exceptions.total": 4,
   "owner_exceptions.with_marker": 4,
@@ -188,14 +189,14 @@
       "tail": "coverage: ЧИСТО — блокирующих 0, предупреждений 0"
     },
     "drift": {
-      "exit": 1,
-      "blocking": 11,
-      "tail": "drift: БЛОК — блокирующих 11, предупреждений 0"
+      "exit": 0,
+      "blocking": 0,
+      "tail": "drift: ЧИСТО — блокирующих 0, предупреждений 0"
     },
     "replay": {
       "exit": 0,
       "blocking": 0,
-      "tail": "ok  REQ-0028 / INV-0170 / REQ-0028: в записи pass, сейчас pass"
+      "tail": "ok  REQ-0035 / INV-0164 / REQ-0035: в записи pass, сейчас pass"
     }
   }
 }

@@ -6,10 +6,10 @@
 
 кластеров выводов 68, сформулированы несколькими прогонами 22
 
-обязательств 43, доказано 31, без доказательства 12
+обязательств 43, доказано 32, без доказательства 11
 
 гейт `coverage`: код 0, блокирующих 0
-гейт `drift`: код 1, блокирующих 12
+гейт `drift`: код 1, блокирующих 11
 гейт `replay`: код 0, блокирующих 0
 
 | ключ | значение |
@@ -38,14 +38,27 @@
 | `theme.mistaken` | 4 |
 | `theme.share` | 0.1 |
 | `requirements.live` | 43 |
-| `requirements.proven` | 31 |
-| `requirements.unproven` | 12 |
+| `requirements.proven` | 32 |
+| `requirements.unproven` | 11 |
 | `requirements.content_live` | 40 |
-| `requirements.content_proven` | 28 |
+| `requirements.content_proven` | 29 |
 | `requirements.legend_proven` | 3 |
-| `requirements.info` | 17 |
-| `requirements.conclusions` | 3 |
-| `requirements.rb` | 12 |
+| `requirements.info` | 13 |
+| `requirements.conclusions` | 7 |
+| `requirements.rb` | 8 |
+| `owner_facts.total` | 2 |
+| `runs.base` | 14 |
+| `runs.stability` | 11 |
+| `runs.rejected` | 1 |
+| `registry.replay_total` | 271 |
+| `registry.replay_match` | 271 |
+| `rb_material.total` | 5 |
+| `decisions.rb` | 8 |
+| `decisions.profile` | 3 |
+| `decisions.other` | 2 |
+| `decisions.exceptions` | 4 |
+| `decisions.reasons_rf` | 3 |
+| `decisions.total` | 20 |
 | `stability.romir-trendy-2026.ollama.runs` | 3 |
 | `stability.romir-trendy-2026.ollama.jaccard` | 0.611 |
 | `stability.romir-trendy-2026.ollama.all` | 14 |

@@ -6,7 +6,7 @@
 
 кластеров выводов 68, сформулированы несколькими прогонами 22
 
-обязательств 43, доказано 32, без доказательства 11
+обязательств 40, доказано 29, без доказательства 11
 
 гейт `coverage`: код 0, блокирующих 0
 гейт `drift`: код 1, блокирующих 11
@@ -37,12 +37,10 @@
 | `theme.answered` | 40 |
 | `theme.mistaken` | 4 |
 | `theme.share` | 0.1 |
-| `requirements.live` | 43 |
-| `requirements.proven` | 32 |
+| `requirements.live` | 40 |
+| `requirements.proven` | 29 |
 | `requirements.unproven` | 11 |
-| `requirements.content_live` | 40 |
-| `requirements.content_proven` | 29 |
-| `requirements.legend_proven` | 3 |
+| `definitions.total` | 3 |
 | `requirements.info` | 13 |
 | `requirements.conclusions` | 7 |
 | `requirements.rb_info` | 8 |

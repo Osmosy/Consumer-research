@@ -77,5 +77,42 @@
     "last": 0.917,
     "monotone": false,
     "verdict": "тренда нет: потери не привязаны к позиции"
+  },
+  "position_effect": {
+    "runs": 3,
+    "per_run": [
+      {
+        "stamp": "trendy-2026.ollama-20261101-062719",
+        "facts": 111,
+        "picked": 22,
+        "r": -0.114,
+        "mwu_z": -1.2,
+        "p": 0.231,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "trendy-2026.ollama-20261101-062815",
+        "facts": 111,
+        "picked": 21,
+        "r": -0.004,
+        "mwu_z": -0.05,
+        "p": 0.964,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "trendy-2026.ollama-20261101-062909",
+        "facts": 111,
+        "picked": 23,
+        "r": -0.032,
+        "mwu_z": -0.33,
+        "p": 0.738,
+        "order_source": "seed"
+      }
+    ],
+    "combined_r": -0.05,
+    "p": 0.364,
+    "mde_r": 0.15,
+    "effective_n": 327,
+    "verdict": "позиционный эффект не обнаружен: r = -0.05, p = 0.364, минимально обнаружимый r при этих данных = 0.15 (мощность 80 %)"
   }
 }

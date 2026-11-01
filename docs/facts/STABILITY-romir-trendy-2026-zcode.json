@@ -76,5 +76,33 @@
     "last": 0.583,
     "monotone": false,
     "verdict": "тренда нет: потери не привязаны к позиции"
+  },
+  "position_effect": {
+    "runs": 2,
+    "per_run": [
+      {
+        "stamp": "trendy-2026.zcode-20261101-061805",
+        "facts": 111,
+        "picked": 33,
+        "r": -0.036,
+        "mwu_z": -0.37,
+        "p": 0.708,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "trendy-2026.zcode-20261101-062618",
+        "facts": 111,
+        "picked": 43,
+        "r": 0.02,
+        "mwu_z": 0.21,
+        "p": 0.832,
+        "order_source": "seed"
+      }
+    ],
+    "combined_r": -0.008,
+    "p": 0.906,
+    "mde_r": 0.19,
+    "effective_n": 219,
+    "verdict": "позиционный эффект не обнаружен: r = -0.01, p = 0.906, минимально обнаружимый r при этих данных = 0.19 (мощность 80 %)"
   }
 }

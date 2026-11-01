@@ -1,0 +1,118 @@
+{
+  "deck": "sbermarket-serebryanyy-vozrast-2026",
+  "channel": "zcode",
+  "runs": 3,
+  "stamps": [
+    "serebryanyy-vozrast-2026.zcode-20261101-121403",
+    "serebryanyy-vozrast-2026.zcode-20261101-121622",
+    "serebryanyy-vozrast-2026.zcode-20261101-121849"
+  ],
+  "shuffled": true,
+  "jaccard_mean": 0.411,
+  "jaccard_min": 0.357,
+  "selected_all": 9,
+  "selected_part": 27,
+  "selected_none": 41,
+  "selected_share_all": 0.117,
+  "position": {
+    "deciles": [
+      {
+        "decile": 1,
+        "facts": 7,
+        "missed_share": 0.714
+      },
+      {
+        "decile": 2,
+        "facts": 7,
+        "missed_share": 0.286
+      },
+      {
+        "decile": 3,
+        "facts": 7,
+        "missed_share": 0.714
+      },
+      {
+        "decile": 4,
+        "facts": 7,
+        "missed_share": 1.0
+      },
+      {
+        "decile": 5,
+        "facts": 7,
+        "missed_share": 0.857
+      },
+      {
+        "decile": 6,
+        "facts": 7,
+        "missed_share": 0.714
+      },
+      {
+        "decile": 7,
+        "facts": 7,
+        "missed_share": 0.857
+      },
+      {
+        "decile": 8,
+        "facts": 7,
+        "missed_share": 0.0
+      },
+      {
+        "decile": 9,
+        "facts": 7,
+        "missed_share": 0.714
+      },
+      {
+        "decile": 10,
+        "facts": 14,
+        "missed_share": 0.0
+      }
+    ],
+    "spread": 1.0,
+    "p_value": 0.004,
+    "trials": 2000
+  },
+  "trend": {
+    "spearman": -0.387,
+    "first": 0.714,
+    "last": 0.0,
+    "monotone": false,
+    "verdict": "тренда нет: потери не привязаны к позиции"
+  },
+  "position_effect": {
+    "runs": 3,
+    "per_run": [
+      {
+        "stamp": "serebryanyy-vozrast-2026.zcode-20261101-121403",
+        "facts": 77,
+        "picked": 20,
+        "r": 0.071,
+        "mwu_z": 0.62,
+        "p": 0.538,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "serebryanyy-vozrast-2026.zcode-20261101-121622",
+        "facts": 77,
+        "picked": 27,
+        "r": 0.004,
+        "mwu_z": 0.03,
+        "p": 0.974,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "serebryanyy-vozrast-2026.zcode-20261101-121849",
+        "facts": 77,
+        "picked": 18,
+        "r": -0.065,
+        "mwu_z": -0.57,
+        "p": 0.572,
+        "order_source": "seed"
+      }
+    ],
+    "combined_r": 0.003,
+    "p": 0.96,
+    "mde_r": 0.19,
+    "effective_n": 225,
+    "verdict": "позиционный эффект не обнаружен: r = 0.00, p = 0.960, минимально обнаружимый r при этих данных = 0.19 (мощность 80 %)"
+  }
+}

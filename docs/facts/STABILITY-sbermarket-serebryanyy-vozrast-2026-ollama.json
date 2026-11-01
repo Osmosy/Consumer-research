@@ -1,0 +1,118 @@
+{
+  "deck": "sbermarket-serebryanyy-vozrast-2026",
+  "channel": "ollama",
+  "runs": 3,
+  "stamps": [
+    "serebryanyy-vozrast-2026.ollama-20261101-121940",
+    "serebryanyy-vozrast-2026.ollama-20261101-122013",
+    "serebryanyy-vozrast-2026.ollama-20261101-122054"
+  ],
+  "shuffled": true,
+  "jaccard_mean": 0.468,
+  "jaccard_min": 0.364,
+  "selected_all": 7,
+  "selected_part": 17,
+  "selected_none": 53,
+  "selected_share_all": 0.091,
+  "position": {
+    "deciles": [
+      {
+        "decile": 1,
+        "facts": 7,
+        "missed_share": 0.857
+      },
+      {
+        "decile": 2,
+        "facts": 7,
+        "missed_share": 0.571
+      },
+      {
+        "decile": 3,
+        "facts": 7,
+        "missed_share": 0.429
+      },
+      {
+        "decile": 4,
+        "facts": 7,
+        "missed_share": 1.0
+      },
+      {
+        "decile": 5,
+        "facts": 7,
+        "missed_share": 0.857
+      },
+      {
+        "decile": 6,
+        "facts": 7,
+        "missed_share": 1.0
+      },
+      {
+        "decile": 7,
+        "facts": 7,
+        "missed_share": 0.571
+      },
+      {
+        "decile": 8,
+        "facts": 7,
+        "missed_share": 0.571
+      },
+      {
+        "decile": 9,
+        "facts": 7,
+        "missed_share": 0.571
+      },
+      {
+        "decile": 10,
+        "facts": 14,
+        "missed_share": 0.571
+      }
+    ],
+    "spread": 0.571,
+    "p_value": 0.515,
+    "trials": 2000
+  },
+  "trend": {
+    "spearman": -0.267,
+    "first": 0.857,
+    "last": 0.571,
+    "monotone": false,
+    "verdict": "тренда нет: потери не привязаны к позиции"
+  },
+  "position_effect": {
+    "runs": 3,
+    "per_run": [
+      {
+        "stamp": "serebryanyy-vozrast-2026.ollama-20261101-121940",
+        "facts": 77,
+        "picked": 19,
+        "r": 0.031,
+        "mwu_z": 0.27,
+        "p": 0.786,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "serebryanyy-vozrast-2026.ollama-20261101-122013",
+        "facts": 77,
+        "picked": 11,
+        "r": -0.207,
+        "mwu_z": -1.81,
+        "p": 0.071,
+        "order_source": "seed"
+      },
+      {
+        "stamp": "serebryanyy-vozrast-2026.ollama-20261101-122054",
+        "facts": 77,
+        "picked": 17,
+        "r": -0.011,
+        "mwu_z": -0.1,
+        "p": 0.922,
+        "order_source": "seed"
+      }
+    ],
+    "combined_r": -0.063,
+    "p": 0.342,
+    "mde_r": 0.19,
+    "effective_n": 225,
+    "verdict": "позиционный эффект не обнаружен: r = -0.06, p = 0.342, минимально обнаружимый r при этих данных = 0.19 (мощность 80 %)"
+  }
+}

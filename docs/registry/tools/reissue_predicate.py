@@ -24,7 +24,7 @@ ROOT = Path(os.environ.get("CORPUS_ROOT") or Path.cwd()).resolve()
 REGISTRY = ROOT / "docs/registry"
 GRACE = Path(os.environ.get("GRACE_REGISTRY", Path.home() / "projects/vector-grace/registry")) / "grace.py"
 OLD = "docs/registry/checkers/check_fact_in_conclusions.py"
-NEW = "docs/registry/checkers/check_fact_in_conclusions_v2.py"
+NEW = "docs/registry/checkers/check_fact_in_conclusions_v4.py"
 VERSION = "4"
 BY = "agent:hermes/registry-0.1"
 

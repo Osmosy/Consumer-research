@@ -1,19 +1,18 @@
 {
   "deck": "romir-trendy-2026",
   "channel": "ollama",
-  "runs": 4,
+  "runs": 3,
   "stamps": [
-    "trendy-2026.ollama-20261031-205142",
     "trendy-2026.ollama-20261101-062719",
     "trendy-2026.ollama-20261101-062815",
     "trendy-2026.ollama-20261101-062909"
   ],
   "shuffled": true,
-  "jaccard_mean": 0.615,
+  "jaccard_mean": 0.611,
   "jaccard_min": 0.536,
   "selected_all": 14,
-  "selected_part": 20,
-  "selected_none": 77,
+  "selected_part": 16,
+  "selected_none": 81,
   "selected_share_all": 0.126,
   "position": {
     "deciles": [
@@ -45,7 +44,7 @@
       {
         "decile": 6,
         "facts": 11,
-        "missed_share": 0.909
+        "missed_share": 1.0
       },
       {
         "decile": 7,
@@ -60,22 +59,22 @@
       {
         "decile": 9,
         "facts": 11,
-        "missed_share": 0.727
+        "missed_share": 0.818
       },
       {
         "decile": 10,
         "facts": 12,
-        "missed_share": 0.75
+        "missed_share": 0.917
       }
     ],
     "spread": 0.727,
-    "p_value": 0.015,
+    "p_value": 0.007,
     "trials": 2000
   },
   "trend": {
-    "spearman": 0.002,
+    "spearman": 0.158,
     "first": 0.364,
-    "last": 0.75,
+    "last": 0.917,
     "monotone": false,
     "verdict": "тренда нет: потери не привязаны к позиции"
   }

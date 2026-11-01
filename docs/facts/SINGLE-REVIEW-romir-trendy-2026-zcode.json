@@ -1,32 +1,84 @@
 {
   "deck": "romir-trendy-2026",
   "channel": "zcode",
-  "at": "2026-11-01T07:23:52",
-  "seconds": 16.5,
+  "at": "2026-11-01T09:11:17",
+  "seconds": 36.6,
   "usage": {
     "input_tokens": null,
     "output_tokens": null,
-    "pool_units": 50668
+    "pool_units": 50846
   },
   "problems": [],
   "groups": {
     "all_material": 0,
     "split": 0,
-    "all_background": 1,
+    "all_background": 5,
     "not_all_answered": 0
   },
   "ids": {
-    "F-e86e4bcfb2f8": {
-      "fact_id": "F-e86e4bcfb2f8",
+    "F-2e02c00a5f3f": {
+      "fact_id": "F-2e02c00a5f3f",
       "deck": "romir-trendy-2026",
-      "page": 5,
-      "label": "55+ лет — процент у скобки группы",
-      "value": "36%",
+      "page": 16,
+      "label": "УФО — Продукты питания, канал «Развивающиеся хард-дискаунтеры»",
+      "value": "+28",
       "thematic": false,
       "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
       "picked_by": "ollama",
       "verdict": "background",
-      "why": "Доля группы 55+ — структурная деталь диаграммы, сама по себе не объясняет драйверы покупки",
+      "why": "Рост хард-дискаунтеров — общеFMCG-канальный тренд, не про мясную гастрономию",
+      "repeat_picks": 2
+    },
+    "F-9050c0fe9758": {
+      "fact_id": "F-9050c0fe9758",
+      "deck": "romir-trendy-2026",
+      "page": 20,
+      "label": "«Я покупаю СТМ только если нет альтернативы необходимого товара»",
+      "value": "17%",
+      "thematic": true,
+      "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Отношение к СТМ в целом, косвенно про бренды, без мясной специфики",
+      "repeat_picks": 2
+    },
+    "F-3e18bf1709eb": {
+      "fact_id": "F-3e18bf1709eb",
+      "deck": "romir-trendy-2026",
+      "page": 29,
+      "label": "Среднее количество каналов в портфеле покупателя, FMCG (YTD Июнь 2026)",
+      "value": "10",
+      "thematic": true,
+      "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Мульиканальность покупателя FMCG — структурный контекст, не драйвер покупки категории",
+      "repeat_picks": 2
+    },
+    "F-e542ed18e592": {
+      "fact_id": "F-e542ed18e592",
+      "deck": "romir-trendy-2026",
+      "page": 32,
+      "label": "Офлайн — ФРЕШ, доля в денежном выражении",
+      "value": "41,7%",
+      "thematic": false,
+      "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Доля офлайн-фреш в деньгах — структура каналов, не детерминанта выбора колбас",
+      "repeat_picks": 2
+    },
+    "F-0f83aa2fd95d": {
+      "fact_id": "F-0f83aa2fd95d",
+      "deck": "romir-trendy-2026",
+      "page": 39,
+      "label": "Динамика трат домохозяйств на FMCG, %, МАТ август 2026",
+      "value": "+5,2",
+      "thematic": false,
+      "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Динамика трат на весь FMCG — макроконтекст, не мясная категория",
       "repeat_picks": 0
     }
   }

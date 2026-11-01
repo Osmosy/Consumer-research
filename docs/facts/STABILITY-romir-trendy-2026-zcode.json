@@ -1,25 +1,24 @@
 {
   "deck": "romir-trendy-2026",
   "channel": "zcode",
-  "runs": 3,
+  "runs": 2,
   "stamps": [
-    "trendy-2026.zcode-20261031-205027",
     "trendy-2026.zcode-20261101-061805",
     "trendy-2026.zcode-20261101-062618"
   ],
   "shuffled": true,
-  "jaccard_mean": 0.617,
-  "jaccard_min": 0.568,
-  "selected_all": 22,
-  "selected_part": 24,
-  "selected_none": 65,
-  "selected_share_all": 0.198,
+  "jaccard_mean": 0.689,
+  "jaccard_min": 0.689,
+  "selected_all": 31,
+  "selected_part": 14,
+  "selected_none": 66,
+  "selected_share_all": 0.279,
   "position": {
     "deciles": [
       {
         "decile": 1,
         "facts": 11,
-        "missed_share": 0.273
+        "missed_share": 0.364
       },
       {
         "decile": 2,
@@ -72,8 +71,8 @@
     "trials": 2000
   },
   "trend": {
-    "spearman": -0.202,
-    "first": 0.273,
+    "spearman": -0.254,
+    "first": 0.364,
     "last": 0.583,
     "monotone": false,
     "verdict": "тренда нет: потери не привязаны к позиции"

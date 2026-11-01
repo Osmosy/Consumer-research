@@ -35,8 +35,8 @@
   "runs.base": 14,
   "runs.stability": 11,
   "runs.rejected": 1,
-  "registry.replay_total": 276,
-  "registry.replay_match": 276,
+  "registry.replay_total": 316,
+  "registry.replay_match": 316,
   "rb_material.total": 5,
   "owner_exceptions.total": 4,
   "owner_exceptions.with_marker": 4,
@@ -196,7 +196,7 @@
     "replay": {
       "exit": 0,
       "blocking": 0,
-      "tail": "ok  REQ-0035 / INV-0164 / REQ-0035: в записи pass, сейчас pass"
+      "tail": "ok  REQ-0043 / INV-0210 / REQ-0043: в записи pass, сейчас pass"
     }
   }
 }

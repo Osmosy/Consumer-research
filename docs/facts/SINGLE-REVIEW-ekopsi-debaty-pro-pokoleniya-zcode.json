@@ -1,0 +1,98 @@
+{
+  "deck": "ekopsi-debaty-pro-pokoleniya",
+  "channel": "zcode",
+  "at": "2026-11-01T07:13:22",
+  "seconds": 16.5,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 50301
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 0,
+    "split": 0,
+    "all_background": 6,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-74f228a9331c": {
+      "fact_id": "F-74f228a9331c",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 9,
+      "label": "Возраст респондентов",
+      "value": "20 – 60 лет",
+      "thematic": false,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Возрастной охват выборки — методология исследования, не драйвер покупки",
+      "repeat_picks": 0
+    },
+    "F-91cb74cb5956": {
+      "fact_id": "F-91cb74cb5956",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 9,
+      "label": "Количество респондентов",
+      "value": ">1 млн",
+      "thematic": false,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Размер выборки — методологическая деталь, на ответ не влияет",
+      "repeat_picks": 0
+    },
+    "F-9d5e27bec0b5": {
+      "fact_id": "F-9d5e27bec0b5",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 9,
+      "label": "2011 – 2024 годы",
+      "value": "2011 – 2024 годы",
+      "thematic": false,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Период исследования — параметр методологии, не о драйверах покупки",
+      "repeat_picks": 0
+    },
+    "F-ccecc92dab64": {
+      "fact_id": "F-ccecc92dab64",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 10,
+      "label": "Данные ежегодного исследования вовлеченности 2011 – 2024 годов",
+      "value": "2011 – 2024",
+      "thematic": false,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Описание источника данных (годы ежегодного исследования) — методология",
+      "repeat_picks": 0
+    },
+    "F-c4037045618c": {
+      "fact_id": "F-c4037045618c",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 13,
+      "label": "Сводный анализ ценностных профилей более 1 млн сотрудников российских компаний",
+      "value": "1 млн",
+      "thematic": true,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "irrelevant",
+      "why": "Ценностные профили сотрудников компаний, а не покупательское поведение",
+      "repeat_picks": 0
+    },
+    "F-c8377604dd68": {
+      "fact_id": "F-c8377604dd68",
+      "deck": "ekopsi-debaty-pro-pokoleniya",
+      "page": 13,
+      "label": "Корреляция отличий профиля от среднего – 0,7",
+      "value": "0,7",
+      "thematic": false,
+      "deck_sha256": "e122c4446f1821249d693a55521f5a1b0ea3064c66e0cbd29814894d20dc0c34",
+      "picked_by": "ollama",
+      "verdict": "irrelevant",
+      "why": "Корреляция отличий профилей сотрудников от среднего — не про FMCG-покупки",
+      "repeat_picks": 0
+    }
+  }
+}

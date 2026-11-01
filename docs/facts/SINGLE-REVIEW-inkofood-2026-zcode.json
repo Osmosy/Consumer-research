@@ -1,0 +1,124 @@
+{
+  "deck": "inkofood-2026",
+  "channel": "zcode",
+  "at": "2026-11-01T07:13:53",
+  "seconds": 30.2,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 50900
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 8,
+    "split": 0,
+    "all_background": 0,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-64c6ad98dbbd": {
+      "fact_id": "F-64c6ad98dbbd",
+      "deck": "inkofood-2026",
+      "page": 4,
+      "label": "Ежедневно",
+      "value": "20,9 %",
+      "thematic": false,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Частота ежедневной покупки характеризует привычность спроса и потенциал роста",
+      "repeat_picks": 0
+    },
+    "F-64d9aef11c91": {
+      "fact_id": "F-64d9aef11c91",
+      "deck": "inkofood-2026",
+      "page": 7,
+      "label": "Сырокопчёная колбаса",
+      "value": "47,5 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Предпочтение сырокопчёной колбасы — ключевой продуктовый драйвер выбора",
+      "repeat_picks": 0
+    },
+    "F-9e9039361c08": {
+      "fact_id": "F-9e9039361c08",
+      "deck": "inkofood-2026",
+      "page": 7,
+      "label": "Варёно-копчёная колбаса",
+      "value": "48,3 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Доля варёно-копчёной колбасы показывает структуру предпочтений категории",
+      "repeat_picks": 0
+    },
+    "F-75ccd16a4208": {
+      "fact_id": "F-75ccd16a4208",
+      "deck": "inkofood-2026",
+      "page": 20,
+      "label": "Обычно эта покупка не вызывает у меня особых эмоций",
+      "value": "15,2 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Низкая эмоциональная вовлечённость определяет тип категории и роль бренда",
+      "repeat_picks": 0
+    },
+    "F-9e5f6fb94400": {
+      "fact_id": "F-9e5f6fb94400",
+      "deck": "inkofood-2026",
+      "page": 20,
+      "label": "Я испытываю интерес и удовольствие от выбора продукта",
+      "value": "16,8 %",
+      "thematic": false,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Интерес к выбору указывает на вовлечённость — базу для премиализации и роста",
+      "repeat_picks": 0
+    },
+    "F-bd052aebda9d": {
+      "fact_id": "F-bd052aebda9d",
+      "deck": "inkofood-2026",
+      "page": 31,
+      "label": "Больше мяса / более натуральный состав",
+      "value": "19 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Натуральность и мясо в составе — прямой драйвер покупки",
+      "repeat_picks": 0
+    },
+    "F-51a7ec45f596": {
+      "fact_id": "F-51a7ec45f596",
+      "deck": "inkofood-2026",
+      "page": 41,
+      "label": "Необычные начинки и новые вкусовые сочетания",
+      "value": "13 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Новые вкусы — точка инноваций и возможности роста для бренда",
+      "repeat_picks": 0
+    },
+    "F-07b44b2b3547": {
+      "fact_id": "F-07b44b2b3547",
+      "deck": "inkofood-2026",
+      "page": 45,
+      "label": "Продукту с высоким содержанием мяса",
+      "value": "39 %",
+      "thematic": true,
+      "deck_sha256": "8f0c6296a72064af96fff8dab3719db1de037e95458f9d0583bd9bf5cf6567fc",
+      "picked_by": "ollama",
+      "verdict": "material",
+      "why": "Высокое содержание мяса — главный атрибут выбора, ядро позиционирования",
+      "repeat_picks": 0
+    }
+  }
+}

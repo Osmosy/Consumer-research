@@ -1,0 +1,33 @@
+{
+  "deck": "romir-trendy-2026",
+  "channel": "zcode",
+  "at": "2026-11-01T07:23:52",
+  "seconds": 16.5,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 50668
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 0,
+    "split": 0,
+    "all_background": 1,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-e86e4bcfb2f8": {
+      "fact_id": "F-e86e4bcfb2f8",
+      "deck": "romir-trendy-2026",
+      "page": 5,
+      "label": "55+ лет — процент у скобки группы",
+      "value": "36%",
+      "thematic": false,
+      "deck_sha256": "b4010f3ea70453b30b7724c85abc4a7791c94cc81cec875f111d5e1876e4a37b",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Доля группы 55+ — структурная деталь диаграммы, сама по себе не объясняет драйверы покупки",
+      "repeat_picks": 0
+    }
+  }
+}

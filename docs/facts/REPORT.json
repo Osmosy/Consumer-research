@@ -10,12 +10,18 @@
   "blind.no_verdict": 0,
   "blind.share_thematic": 32,
   "blind.share_corpus": 5.8,
-  "comparison.consensus": 140,
-  "comparison.ignored": 408,
-  "comparison.clusters": 68,
-  "comparison.clusters_shared": 22,
-  "single.total": 105,
-  "single.material": 0,
+  "comparison.consensus": 141,
+  "comparison.ignored": 395,
+  "comparison.clusters": 73,
+  "comparison.clusters_shared": 19,
+  "single.total": 117,
+  "single.material": 42,
+  "single.background": 75,
+  "single.split": 0,
+  "theme.sample": 40,
+  "theme.answered": 40,
+  "theme.mistaken": 4,
+  "theme.share": 0.1,
   "requirements.live": 38,
   "requirements.proven": 25,
   "requirements.unproven": 13,
@@ -31,6 +37,8 @@
   "stability.romir-trendy-2026.zcode.spearman": -0.202,
   "decks": {
     "ekopsi-debaty-pro-pokoleniya": {
+      "clusters": 5,
+      "shared": 3,
       "runs": 2,
       "consensus": 5,
       "single": 6,
@@ -38,6 +46,8 @@
       "skipped": 0
     },
     "inkofood-2026": {
+      "clusters": 13,
+      "shared": 5,
       "runs": 2,
       "consensus": 65,
       "single": 25,
@@ -45,6 +55,8 @@
       "skipped": 0
     },
     "nielsen-fmcg-do-avgusta-2026": {
+      "clusters": 7,
+      "shared": 0,
       "runs": 2,
       "consensus": 6,
       "single": 12,
@@ -52,6 +64,8 @@
       "skipped": 0
     },
     "nielsen-itogi-2025-vektory-2026": {
+      "clusters": 15,
+      "shared": 4,
       "runs": 2,
       "consensus": 17,
       "single": 24,
@@ -59,13 +73,17 @@
       "skipped": 0
     },
     "romir-trendy-2026": {
+      "clusters": 12,
+      "shared": 2,
       "runs": 2,
-      "consensus": 21,
-      "single": 10,
-      "ignored": 80,
+      "consensus": 22,
+      "single": 22,
+      "ignored": 67,
       "skipped": 0
     },
     "sbermarket-globalnye-trendy-2026": {
+      "clusters": 9,
+      "shared": 4,
       "runs": 2,
       "consensus": 12,
       "single": 9,
@@ -73,6 +91,8 @@
       "skipped": 0
     },
     "sbermarket-serebryanyy-vozrast-2026": {
+      "clusters": 12,
+      "shared": 1,
       "runs": 2,
       "consensus": 14,
       "single": 19,
@@ -80,6 +100,20 @@
       "skipped": 0
     }
   },
+  "deck.ekopsi-debaty-pro-pokoleniya.consensus": 5,
+  "deck.inkofood-2026.consensus": 65,
+  "deck.nielsen-fmcg-do-avgusta-2026.consensus": 6,
+  "deck.nielsen-itogi-2025-vektory-2026.consensus": 17,
+  "deck.romir-trendy-2026.consensus": 22,
+  "deck.sbermarket-globalnye-trendy-2026.consensus": 12,
+  "deck.sbermarket-serebryanyy-vozrast-2026.consensus": 14,
+  "deck.ekopsi-debaty-pro-pokoleniya.single": 6,
+  "deck.inkofood-2026.single": 25,
+  "deck.nielsen-fmcg-do-avgusta-2026.single": 12,
+  "deck.nielsen-itogi-2025-vektory-2026.single": 24,
+  "deck.romir-trendy-2026.single": 22,
+  "deck.sbermarket-globalnye-trendy-2026.single": 9,
+  "deck.sbermarket-serebryanyy-vozrast-2026.single": 19,
   "deck.ekopsi-debaty-pro-pokoleniya.facts": 34,
   "deck.ekopsi-debaty-pro-pokoleniya.thematic": 4,
   "deck.ekopsi-debaty-pro-pokoleniya.taken": 11,

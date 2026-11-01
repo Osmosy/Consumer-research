@@ -1,0 +1,46 @@
+{
+  "deck": "sbermarket-globalnye-trendy-2026",
+  "channel": "ollama",
+  "at": "2026-11-01T07:17:41",
+  "seconds": 21.4,
+  "usage": {
+    "input_tokens": 349,
+    "output_tokens": 4674,
+    "pool_units": 5023
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 1,
+    "split": 0,
+    "all_background": 1,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-d41e8720c7aa": {
+      "fact_id": "F-d41e8720c7aa",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 9,
+      "label": "генеративный AI для поиска во втором квартале 2025 года, применяли его и для покупок",
+      "value": "53%",
+      "thematic": true,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "zcode",
+      "verdict": "irrelevant",
+      "why": "общий тренд AI-поиска, не относится к покупке мясной гастрономии",
+      "repeat_picks": 0
+    },
+    "F-43957b339774": {
+      "fact_id": "F-43957b339774",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 30,
+      "label": "замечают только громкие, смелые голоса, а тихие и тонкие сообщения теряются",
+      "value": "67%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "zcode",
+      "verdict": "material",
+      "why": "указывает на важность заметной коммуникации для роста бренда",
+      "repeat_picks": 0
+    }
+  }
+}

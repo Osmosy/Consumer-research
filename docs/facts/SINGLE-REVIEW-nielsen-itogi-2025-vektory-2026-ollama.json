@@ -1,0 +1,72 @@
+{
+  "deck": "nielsen-itogi-2025-vektory-2026",
+  "channel": "ollama",
+  "at": "2026-11-01T07:16:08",
+  "seconds": 6.3,
+  "usage": {
+    "input_tokens": 402,
+    "output_tokens": 1253,
+    "pool_units": 1655
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 2,
+    "split": 0,
+    "all_background": 2,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-f580f8cccc8c": {
+      "fact_id": "F-f580f8cccc8c",
+      "deck": "nielsen-itogi-2025-vektory-2026",
+      "page": 5,
+      "label": "Номинальный рост, 2025",
+      "value": "11,7%",
+      "thematic": false,
+      "deck_sha256": "46f88e20802ae6f81d212bff18e83c4c346ad9d0ab81578779669d7e55b300fa",
+      "picked_by": "zcode",
+      "verdict": "material",
+      "why": "Показывает рост рынка, важен для оценки возможностей роста бренда",
+      "repeat_picks": 0
+    },
+    "F-a7b8f36f62ac": {
+      "fact_id": "F-a7b8f36f62ac",
+      "deck": "nielsen-itogi-2025-vektory-2026",
+      "page": 16,
+      "label": "2025 — доля долгосрочного промо, %",
+      "value": "16",
+      "thematic": false,
+      "deck_sha256": "46f88e20802ae6f81d212bff18e83c4c346ad9d0ab81578779669d7e55b300fa",
+      "picked_by": "zcode",
+      "verdict": "material",
+      "why": "Доля долгосрочного промо влияет на ценовую чувствительность и драйверы покупки",
+      "repeat_picks": 0
+    },
+    "F-0d79b65f5fe0": {
+      "fact_id": "F-0d79b65f5fe0",
+      "deck": "nielsen-itogi-2025-vektory-2026",
+      "page": 29,
+      "label": "Готовая еда помогает разнообразить рацион — заказывали готовую еду",
+      "value": "79",
+      "thematic": true,
+      "deck_sha256": "46f88e20802ae6f81d212bff18e83c4c346ad9d0ab81578779669d7e55b300fa",
+      "picked_by": "zcode",
+      "verdict": "irrelevant",
+      "why": "Про заказ готовой еды, не про покупку мясной гастрономии",
+      "repeat_picks": 0
+    },
+    "F-9f6ab43f836c": {
+      "fact_id": "F-9f6ab43f836c",
+      "deck": "nielsen-itogi-2025-vektory-2026",
+      "page": 29,
+      "label": "Готовая еда помогает сэкономить время — заказывали готовую еду",
+      "value": "94",
+      "thematic": false,
+      "deck_sha256": "46f88e20802ae6f81d212bff18e83c4c346ad9d0ab81578779669d7e55b300fa",
+      "picked_by": "zcode",
+      "verdict": "irrelevant",
+      "why": "Про мотив заказа готовой еды, не про мясную гастрономию",
+      "repeat_picks": 0
+    }
+  }
+}

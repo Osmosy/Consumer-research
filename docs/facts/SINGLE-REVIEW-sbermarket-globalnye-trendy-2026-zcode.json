@@ -1,0 +1,111 @@
+{
+  "deck": "sbermarket-globalnye-trendy-2026",
+  "channel": "zcode",
+  "at": "2026-11-01T07:17:19",
+  "seconds": 34.9,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 51343
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 0,
+    "split": 0,
+    "all_background": 7,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-7f86f4b566d4": {
+      "fact_id": "F-7f86f4b566d4",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 7,
+      "label": "Потребителей доверяет результатам поиска генеративного AI больше, чем традиционной рекламе",
+      "value": "41%",
+      "thematic": true,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Доверие к AI-поиску — общий сдвиг каналов, не драйвер покупки мясной гастрономии",
+      "repeat_picks": 0
+    },
+    "F-b05086d7560b": {
+      "fact_id": "F-b05086d7560b",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 9,
+      "label": "Доля агентной коммерции в общем прогнозируемом рынке B2C-ретейла к 2030 году (McKinsey)",
+      "value": "11–18%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Прогноз агентной коммерции к 2030 — далёкий канал, не определяет покупку категории",
+      "repeat_picks": 0
+    },
+    "F-7a9dd2bfa0a7": {
+      "fact_id": "F-7a9dd2bfa0a7",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 13,
+      "label": "Маркетологов планирует увеличить инвестиции в креаторский контент в 2026-м",
+      "value": "62%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Планы маркетологов по креаторскому контенту — про продвижение, не про мотивы покупки",
+      "repeat_picks": 0
+    },
+    "F-cb19d623959f": {
+      "fact_id": "F-cb19d623959f",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 13,
+      "label": "Креаторского контента сегодня сильно связано с брендом",
+      "value": "27%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Связь креаторского контента с брендом — нишевая деталь медиаландшафта, не драйвер категории",
+      "repeat_picks": 0
+    },
+    "F-1b2e636170d2": {
+      "fact_id": "F-1b2e636170d2",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 15,
+      "label": "Среди них 39% CMO ставят в приоритет видимость в AI",
+      "value": "39%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "irrelevant",
+      "why": "Приоритеты CMO по AI-видимости — внутренние планы, к покупателям и росту категории отношения не имеет",
+      "repeat_picks": 0
+    },
+    "F-60dde8333e96": {
+      "fact_id": "F-60dde8333e96",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 20,
+      "label": "Лидеров CX считают, что прозрачность станет обязательным требованием",
+      "value": "80%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Прозрачность важна для food-доверия, но факт — мнение CX-лидеров, не покупатели мяса",
+      "repeat_picks": 0
+    },
+    "F-a17686d91a07": {
+      "fact_id": "F-a17686d91a07",
+      "deck": "sbermarket-globalnye-trendy-2026",
+      "page": 24,
+      "label": "участвуют только в «своих» трендах, а не во всех подряд (Pinterest)",
+      "value": "42%",
+      "thematic": false,
+      "deck_sha256": "d6871263cb6ef5cd5084e4d1b0cfa21a58c5ae05b867dc40de9d86169d00c770",
+      "picked_by": "ollama",
+      "verdict": "background",
+      "why": "Поведение в трендах Pinterest — тактика таргетинга, не определяет покупку колбас и деликатесов",
+      "repeat_picks": 0
+    }
+  }
+}

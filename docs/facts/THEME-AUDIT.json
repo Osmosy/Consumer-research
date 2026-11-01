@@ -1,0 +1,60 @@
+{
+  "at": "2026-11-01T07:28:10",
+  "channel": "zcode",
+  "sample": 40,
+  "seed": 7,
+  "answered": 40,
+  "thematic": 4,
+  "not_thematic": 36,
+  "share_mistaken": 0.1,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 57441
+  },
+  "seconds": 107.6,
+  "suggested_stems": [
+    "завтрак",
+    "празд",
+    "семь",
+    "ужин"
+  ],
+  "facts": [
+    {
+      "fact_id": "F-d6bcde13dc47",
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Ужин / вечер",
+      "value": "21 %",
+      "why": "Повод употребления вечером определяет спрос на нарезку",
+      "stem": "ужин"
+    },
+    {
+      "fact_id": "F-c82208cd4dcf",
+      "deck": "inkofood-2026",
+      "page": 11,
+      "label": "Завтрак",
+      "value": "28 %",
+      "why": "Завтрак — ключевой повод для колбасы и нарезки",
+      "stem": "завтрак"
+    },
+    {
+      "fact_id": "F-d9b82ba4a871",
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Праздник, гости",
+      "value": "16 %",
+      "why": "Гостевой повод — драйвер покупок деликатесов",
+      "stem": "празд"
+    },
+    {
+      "fact_id": "F-f092ba8f051c",
+      "deck": "inkofood-2026",
+      "page": 10,
+      "label": "Семья и близкие",
+      "value": "43 %",
+      "why": "Семейный контекст употребления — повод покупки нарезки",
+      "stem": "семь"
+    }
+  ]
+}

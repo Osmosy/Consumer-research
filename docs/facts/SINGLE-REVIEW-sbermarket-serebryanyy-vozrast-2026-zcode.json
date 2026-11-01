@@ -1,0 +1,33 @@
+{
+  "deck": "sbermarket-serebryanyy-vozrast-2026",
+  "channel": "zcode",
+  "at": "2026-11-01T07:17:52",
+  "seconds": 11.3,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "pool_units": 50257
+  },
+  "problems": [],
+  "groups": {
+    "all_material": 0,
+    "split": 0,
+    "all_background": 1,
+    "not_all_answered": 0
+  },
+  "ids": {
+    "F-5d0bf3e714ed": {
+      "fact_id": "F-5d0bf3e714ed",
+      "deck": "sbermarket-serebryanyy-vozrast-2026",
+      "page": 16,
+      "label": "Регулярно гуляли на свежем воздухе",
+      "value": "71%",
+      "thematic": false,
+      "deck_sha256": "a505f6b2593275464d65d1bdfaa4aa7b84b7f3623f5556772a408b31e150cb8b",
+      "picked_by": "ollama",
+      "verdict": "irrelevant",
+      "why": "Прогулки на свежем воздухе не связаны с покупкой мясной гастрономии",
+      "repeat_picks": 0
+    }
+  }
+}

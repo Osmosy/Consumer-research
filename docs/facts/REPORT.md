@@ -6,10 +6,10 @@
 
 кластеров выводов 68, сформулированы несколькими прогонами 22
 
-обязательств 43, доказано 30, без доказательства 13
+обязательств 43, доказано 31, без доказательства 12
 
 гейт `coverage`: код 0, блокирующих 0
-гейт `drift`: код 1, блокирующих 13
+гейт `drift`: код 1, блокирующих 12
 гейт `replay`: код 0, блокирующих 0
 
 | ключ | значение |
@@ -38,13 +38,14 @@
 | `theme.mistaken` | 4 |
 | `theme.share` | 0.1 |
 | `requirements.live` | 43 |
-| `requirements.proven` | 30 |
-| `requirements.unproven` | 13 |
+| `requirements.proven` | 31 |
+| `requirements.unproven` | 12 |
 | `requirements.content_live` | 40 |
-| `requirements.content_proven` | 27 |
+| `requirements.content_proven` | 28 |
 | `requirements.legend_proven` | 3 |
-| `requirements.info` | 16 |
+| `requirements.info` | 17 |
 | `requirements.conclusions` | 3 |
+| `requirements.rb` | 12 |
 | `stability.romir-trendy-2026.ollama.runs` | 3 |
 | `stability.romir-trendy-2026.ollama.jaccard` | 0.611 |
 | `stability.romir-trendy-2026.ollama.all` | 14 |

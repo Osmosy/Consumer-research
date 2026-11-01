@@ -1,4 +1,5 @@
 {
+  "scope": "Счётчик пула в кабинете — аккаунтный: он складывает все запросы ZCode за период акции, включая диалоги и разбор вердиктов, которые в runs/ не попадают. Расход конвейера — сумма usage.pool_units по runs/ (единица = totalTokens ответа). Сравнивать остаток пула с расходом корпуса нельзя: это разные счёта.",
   "decks": {
     "ekopsi-debaty-pro-pokoleniya": {
       "ollama": {
@@ -110,19 +111,19 @@
     },
     "sbermarket-serebryanyy-vozrast-2026": {
       "ollama": {
-        "runs": 1,
-        "input_tokens": 2657,
-        "output_tokens": 13150,
-        "pool_units": 15807,
-        "seconds": 50.9,
+        "runs": 4,
+        "input_tokens": 10628,
+        "output_tokens": 56339,
+        "pool_units": 66967,
+        "seconds": 175.6,
         "runs_no_usage": 0
       },
       "zcode": {
-        "runs": 1,
+        "runs": 4,
         "input_tokens": 0,
         "output_tokens": 0,
-        "pool_units": 61705,
-        "seconds": 162.1,
+        "pool_units": 242251,
+        "seconds": 570.9,
         "runs_no_usage": 0
       }
     },
@@ -148,18 +149,18 @@
   "totals": {
     "ollama": {
       "runs": 8,
-      "input_tokens": 36369,
-      "output_tokens": 192866,
-      "pool_units": 229235,
-      "seconds": 658.8,
+      "input_tokens": 44340,
+      "output_tokens": 236055,
+      "pool_units": 280395,
+      "seconds": 783.5,
       "runs_no_usage": 0
     },
     "zcode": {
       "runs": 8,
       "input_tokens": 0,
       "output_tokens": 0,
-      "pool_units": 724119,
-      "seconds": 2014.1,
+      "pool_units": 904665,
+      "seconds": 2422.9,
       "runs_no_usage": 0
     }
   }

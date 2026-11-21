@@ -1,0 +1,8 @@
+# Нильсен — Как найти путь к покупателю
+
+> Расшифровка презентации (30 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [nielsen-put-k-pokupatelyu.md](nielsen-put-k-pokupatelyu.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 191 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

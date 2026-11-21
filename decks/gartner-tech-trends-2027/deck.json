@@ -1,0 +1,2566 @@
+{
+ "meta": {
+  "source": "Gartner_Top 10 Strategic Tech Trends_2027 (28 pgs).pdf",
+  "title": "Gartner — Top 10 Strategic Tech Trends 2027",
+  "pages": 28,
+  "generated_from": "PDF text layer"
+ },
+ "slides": [
+  {
+   "page": 1,
+   "title": "Top 10 Strategic Technology Trends for 2027",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 6,
+   "images": 467.6,
+   "words": 7,
+   "note": "Страница без текстового слоя (изображение): текст в растре, см. рендер слайда."
+  },
+  {
+   "page": 2,
+   "title": "Mastering the new boundaries of machine behavior",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "It’s no secret that technology leaders must safely lead their organizations into the autonomous era. While traditional IT relied on software scarcity, 2027 will deliver new levels of software abundance. Running static code will be replaced with the orchestration of autonomous machine workers, sensory AI and sovereign limits. Navigating this shift requires an immediate, C-Level focus across three operational fronts:"
+    },
+    {
+     "kind": "p",
+     "text": "Leverage the nontextual AI frontier"
+    },
+    {
+     "kind": "p",
+     "text": "Models that calculate, hear and simulate. Deliver specialized mathematical-, voice- and physics-based models that solve complex problems with deterministic precision and sensory depth."
+    },
+    {
+     "kind": "p",
+     "text": "The Gartner Top 10 Strategic Technology Trends for 2027 can help leaders build the boundaries needed to deliver trusted outcomes. As you explore these trends, consider how they align with your organization’s strategic ambitions and how they can be integrated into your planning to drive sustainable growth and competitive advantage."
+    },
+    {
+     "kind": "p",
+     "text": "Gene Alvarez Distinguished Vice President, Business and Technology Insights, Gartner"
+    },
+    {
+     "kind": "p",
+     "text": "Govern the autonomous agent platform"
+    },
+    {
+     "kind": "p",
+     "text": "System-level control planes for trustworthy autonomy. Deploy platform-owned AI context systems, AI coding harnesses, AI secure identity systems and automated exposure remediation to securely constrain machine behavior and exposure."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Architect durable agility"
+    },
+    {
+     "kind": "p",
+     "text": "Transitioning to sovereign, disposable and organic environments. Secure long-term independence using sovereign stacks, disposable applications designed for clean decommissioning and low-power biological computing."
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+   ],
+   "orphan": [],
+   "values": 17,
+   "images": 0.6,
+   "words": 233
+  },
+  {
+   "page": 3,
+   "title": "Gartner Top 10 Strategic Technology Trends for 2027",
+   "blocks": [
+    {
+     "kind": "p",
+     "text": "Technology decisions require a balanced approach to immediate operational efficiency and long-term business survivability."
+    },
+    {
+     "kind": "p",
+     "text": "This multiyear outlook organizes the Gartner Top Strategic Technology Trends into sequential planning horizons to help you determine when to prepare, pilot and scale each capability."
+    },
+    {
+     "kind": "p",
+     "text": "Use these phases to align your technology roadmap with broader corporate goals, ensuring your business stays ahead of volatility while systematically upgrading its core capabilities."
+    },
+    {
+     "kind": "p",
+     "text": "Now 1 – 3 years \u0007"
+    },
+    {
+     "kind": "h",
+     "text": "Leverage the nontextual AI frontier"
+    },
+    {
+     "kind": "p",
+     "text": "1 \u0007Large quantitative models"
+    },
+    {
+     "kind": "p",
+     "text": "2 \u0007Speech reasoning models"
+    },
+    {
+     "kind": "p",
+     "text": "3 \u0007World models"
+    },
+    {
+     "kind": "p",
+     "text": "Near 3 – 5 years \u0007"
+    },
+    {
+     "kind": "h",
+     "text": "Govern the autonomous agent platform"
+    },
+    {
+     "kind": "p",
+     "text": "4 \u0007AI context platforms"
+    },
+    {
+     "kind": "p",
+     "text": "5 \u0007AI coding agent harness"
+    },
+    {
+     "kind": "p",
+     "text": "6 \u0007AI agent identity"
+    },
+    {
+     "kind": "p",
+     "text": "7 \u0007Autonomous exposure remediation"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Future 5+ years"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "h",
+     "text": "Architect durable agility"
+    },
+    {
+     "kind": "p",
+     "text": "8 \u0007SovereignTech"
+    },
+    {
+     "kind": "p",
+     "text": "9 \u0007Disposable applications"
+    },
+    {
+     "kind": "p",
+     "text": "10 \u0007Wetware as a service"
+    }
+   ],
+   "table": [
+    {
+     "label": "Now 1 – 3 years",
+     "value": "1"
+    },
+    {
+     "label": "3 World models",
+     "value": "3"
+    },
+    {
+     "label": "2 Speech reasoning models",
+     "value": "2"
+    },
+    {
+     "label": "4 AI context platforms",
+     "value": "4"
+    },
+    {
+     "label": "Near 3 – 5 years",
+     "value": "5"
+    },
+    {
+     "label": "6 AI agent identity",
+     "value": "6"
+    },
+    {
+     "label": "7 Autonomous exposure remediation",
+     "value": "7"
+    },
+    {
+     "label": "8 SovereignTech",
+     "value": "8"
+    },
+    {
+     "label": "9 Disposable applications",
+     "value": "9"
+    },
+    {
+     "label": "10 Wetware as a service",
+     "value": "10"
+    }
+   ],
+   "footnotes": [],
+   "orphan": [
+    "Top 10 Strategic Technology Trends for 2027",
+    "Gartner for CIOs Follow Us on LinkedIn Become a Client",
+    "Technology decisions require a balanced",
+    "approach to immediate operational efficiency",
+    "Use these phases to align your technology",
+    "roadmap with broader corporate goals, ensuring",
+    "your business stays ahead of volatility while",
+    "systematically upgrading its core capabilities.",
+    "\u0007",
+    "Now",
+    "1 – 3 years",
+    "\u0007"
+   ],
+   "values": 40,
+   "images": 108.5,
+   "words": 168,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 4,
+   "title": "Leverage the nontextual",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "AI frontier"
+    },
+    {
+     "kind": "h",
+     "text": "Models that calculate, hear and simulate to solve complex problems"
+    },
+    {
+     "kind": "p",
+     "text": "AI is expanding beyond text into speech, numbers and physical environments. But voice-native systems reasoning is shallower than text-based models, creating safety risks for businesses that rely on a single unsupervised voice model. These trends focus on complexity-based routing: fast models for routine tasks, deep reasoning for complex decisions."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+   ],
+   "orphan": [],
+   "values": 7,
+   "images": 140.5,
+   "words": 82
+  },
+  {
+   "page": 5,
+   "title": "Trend 1 Large quantitative models",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 1 Large quantitative models"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "Modular, hybrid neural network architectures built to process and analyze quantitative data. They use deterministic calculations, established mathematical formulas, statistical methods and numerical algorithms to accurately model complex systems."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Rapid expansion of GenAI investments can’t cover every business use case, especially numerical ones. Large language models (LLMs) fail at mathematical reasoning because they guess probabilistically. Large quantitative models (LQMs) are designed explicitly for numerical reasoning. They are far less resource-intensive, requiring significantly less memory, storage and compute. This specialized architecture provides a direct shortcut to rapid forecasting while slashing your reliance on expensive token-based inference."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, LQMs will replace LLMs in 25% of strategic forecasting and operational modeling tasks across major enterprise functions."
+    },
+    {
+     "kind": "p",
+     "text": "Core components of large quantitative models"
+    },
+    {
+     "kind": "p",
+     "text": "LQMs are trained on datasets like time series data, simulation data or forecasting data."
+    },
+    {
+     "kind": "p",
+     "text": "Hybrid neural network"
+    },
+    {
+     "kind": "p",
+     "text": "Quantitative"
+    },
+    {
+     "kind": "p",
+     "text": "datasets"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "architectures"
+    },
+    {
+     "kind": "p",
+     "text": "Large quantitative"
+    },
+    {
+     "kind": "p",
+     "text": "models"
+    },
+    {
+     "kind": "p",
+     "text": "Domain-"
+    },
+    {
+     "kind": "p",
+     "text": "specific knowledge"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "LQMs combine foundational pattern learning with capturing complex, nonlinear relationships in numerical data."
+    },
+    {
+     "kind": "p",
+     "text": "LQMs’ value lies in leveraging scientific knowledge like the laws of physics, engineering, biology and chemistry."
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2030, LQMs will replace LLMs in 25% of strategic forecasting and operational modeling tasks across major enterprise functions.",
+     "value": "25"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 16,
+   "images": 73.6,
+   "words": 208,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 6,
+   "title": "Delivering results with LQMs",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 1 | Large Quantitative Models"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Deploy hybrid AI architectures 2 \u0007Target high-value mathematical use cases"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Combine the conversational strength of LLMs with the deterministic analytical power of quantitative models."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a strategy for quantitative AI that improves forecasting, planning and operational decision making.​"
+    },
+    {
+     "kind": "p",
+     "text": "Invest: Prioritize high-value use cases where mathematical precision and predictive accuracy create competitive advantage.​"
+    },
+    {
+     "kind": "p",
+     "text": "Drive: Accelerate AI value by integrating LQMs into broader composite AI initiatives.​"
+    },
+    {
+     "kind": "p",
+     "text": "A shortcut to rapid forecasting Unprecedented business agility Safe deployment of autonomous forecasting"
+    },
+    {
+     "kind": "p",
+     "text": "Consider financial risk modeling, supply chain logistics, energy forecasting and agricultural soil analysis."
+    },
+    {
+     "kind": "p",
+     "text": "Data and AI teams: Build the data foundations, governance practices and model capabilities required for accurate forecasting and simulation.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Establish scalable platforms that integrate LQMs with existing AI, analytics and business applications.​"
+    },
+    {
+     "kind": "p",
+     "text": "ModelOps and governance: Monitor model performance, data quality and explainability to maintain trust and reliability.​"
+    },
+    {
+     "kind": "p",
+     "text": "3 \u0007Establish robust data validation protocols"
+    },
+    {
+     "kind": "p",
+     "text": "Ensure all numerical inputs remain flawless and prevent skewed forecasting models."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Operations leaders: Identify opportunities to improve forecasting, planning and operational efficiency.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance and strategy: Apply quantitative insights to scenario planning, risk management and investment decisions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Business domain experts: Validate model assumptions, inputs and outcomes to ensure business relevance and adoption."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "4 \u0007Adapt your ModelOps strategy"
+    },
+    {
+     "kind": "p",
+     "text": "Bypassed model retraining and lower compute costs"
+    },
+    {
+     "kind": "p",
+     "text": "Continuously monitor deployments, prevent model overfitting and maintain high-yield operational efficiency."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 12,
+   "images": 58.9,
+   "words": 273
+  },
+  {
+   "page": 7,
+   "title": "Trend 2 Speech reasoning models",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 2 Speech reasoning models"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "Voice AI systems that reason directly on audio, tracking context and intent across a conversation to determine what to do next. They bypass traditional text-transcription by reasoning and executing chained tasks, extending autonomous resolution to multiturn problem solving, context shifts and error recovery."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Voice remains the highest-volume enterprise interaction channel, but even a decade of customer support automation has failed to deliver sufficient accuracy, speed and resolution rates. Speech reasoning models close that gap at scale, making complex, judgment-intensive conversations viable to automate. This represents a fundamental architectural change that goes well beyond an incremental voice upgrade, extending even into physical AI where voice serves as the primary interface for robots and humanoids."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, over 70% of enterprise voice interactions will be handled autonomously by speech models, up from less than 10% in 2026."
+    },
+    {
+     "kind": "p",
+     "text": "The stages of speech evolution Scaling human operations to agents"
+    },
+    {
+     "kind": "p",
+     "text": "Human-operated voice"
+    },
+    {
+     "kind": "p",
+     "text": "Menu-driven IVR"
+    },
+    {
+     "kind": "p",
+     "text": "Agents handle"
+    },
+    {
+     "kind": "p",
+     "text": "every call"
+    },
+    {
+     "kind": "p",
+     "text": "Automatic speech"
+    },
+    {
+     "kind": "p",
+     "text": "recognition"
+    },
+    {
+     "kind": "p",
+     "text": "Transcription"
+    },
+    {
+     "kind": "p",
+     "text": "Cascaded models"
+    },
+    {
+     "kind": "p",
+     "text": "Speech to Text > LLM"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Speech to speech"
+    },
+    {
+     "kind": "p",
+     "text": "Operate on audio, preserving"
+    },
+    {
+     "kind": "p",
+     "text": "tone, emotion, intent"
+    },
+    {
+     "kind": "p",
+     "text": "> Text to Speech"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Speech reasoning models"
+    },
+    {
+     "kind": "p",
+     "text": "Sustain complex multiturn conversations"
+    },
+    {
+     "kind": "p",
+     "text": "(judgment intensive)"
+    },
+    {
+     "kind": "p",
+     "text": "Autonomous agent"
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2030, over 70% of enterprise voice interactions will be handled autonomously by speech models, up from less than 10% in 2026.",
+     "value": "70"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 22,
+   "images": 73.6,
+   "words": 223,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 8,
+   "title": "Delivering results with speech reasoning models",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 2 | Speech Reasoning Models"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Draft strict requirements 2 \u0007Classify requirements by complexity 3 \u0007Inventory high-volume interactions"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Draft strict consent, privacy and audit logging requirements. Assign clear owners for each jurisdiction."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a strategy for autonomous voice interactions across customer and employee experiences.​"
+    },
+    {
+     "kind": "p",
+     "text": "Prioritize: Invest in conversational AI capabilities that improve service efficiency while maintaining trust and accuracy.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define policies for consent, privacy, compliance and responsible use of voice data.​"
+    },
+    {
+     "kind": "p",
+     "text": "Assess and confirm compliance readiness A sharper build-or-buy strategy Clear labeling standards"
+    },
+    {
+     "kind": "p",
+     "text": "Classify voice interactions by complexity to route between low-latency tiers and deeper reasoning models."
+    },
+    {
+     "kind": "p",
+     "text": "Customer experience and AI teams: Design and deploy speech reasoning solutions that support complex, multiturn interactions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Data and platform teams: Manage voice data, model performance and domain-specific training assets.​"
+    },
+    {
+     "kind": "p",
+     "text": "Security and compliance: Implement privacy controls, audit logging and governance for voice-based AI interactions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Ahead of any domain adaptation work, catalog the highest-volume recorded voice interactions."
+    },
+    {
+     "kind": "p",
+     "text": "Marketing and communications: Help define voice personas, conversational standards and customer trust requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Customer service leaders: Identify high-value use cases and validate interaction quality and resolution outcomes.​"
+    },
+    {
+     "kind": "p",
+     "text": "Legal and compliance: Ensure adherence to consent, privacy and regulatory requirements across jurisdictions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 11,
+   "images": 58.9,
+   "words": 243
+  },
+  {
+   "page": 9,
+   "title": "Trend 3 World models",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 3 World models"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "Computational systems trained on multimodal datasets to learn abstract representations of physical and virtual environments. They enable autonomous agents to simulate potential future states, predict outcomes and understand the consequences of their actions before execution."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Language models lack a native grasp of physical reality, causality and spatial logic. World models are progressively resolving this bottleneck by establishing a physics-first paradigm that allows machines to comprehend space, time and causality. Surging investments in robotics, autonomous vehicles and spatial computing are driving this cutting-edge development."
+    },
+    {
+     "kind": "p",
+     "text": "Although high computational costs currently restrict generalized deployment, model training costs will fall tenfold within three years, making enterprise simulations economically viable."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, 40% of robotics applications will incorporate world models to drive optimal decisions in adaptive environments, compared with less than 1% in 2025."
+    },
+    {
+     "kind": "p",
+     "text": "World models: Different models for different worlds"
+    },
+    {
+     "kind": "p",
+     "text": "Data science"
+    },
+    {
+     "kind": "p",
+     "text": "The world is a probabilistic distribution. Sample techniques: MBRL, VAE, MAE, autoregressive, diffusion"
+    },
+    {
+     "kind": "p",
+     "text": "Physics"
+    },
+    {
+     "kind": "p",
+     "text": "The world is governed by physical laws. Sample techniques: physics simulator, expert system"
+    },
+    {
+     "kind": "p",
+     "text": "Neuroscience"
+    },
+    {
+     "kind": "p",
+     "text": "The world mirrors the human mind. Sample techniques: active inference, cognitive architecture"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Graphics"
+    },
+    {
+     "kind": "p",
+     "text": "The world is a three-dimensional space. Sample techniques: spatial AI, 3DGS"
+    },
+    {
+     "kind": "p",
+     "text": "Cybernetics"
+    },
+    {
+     "kind": "p",
+     "text": "The world is a dynamic system and control loop. Sample techniques: MPC, JEPA"
+    },
+    {
+     "kind": "p",
+     "text": "Social science"
+    },
+    {
+     "kind": "p",
+     "text": "The world is collective intelligence. Sample techniques: complex system, multiagent system"
+    },
+    {
+     "kind": "p",
+     "text": "Значения на слайде: 1, 40"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 23,
+   "images": 73.6,
+   "words": 251,
+   "note": "Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 40."
+  },
+  {
+   "page": 10,
+   "title": "Delivering results with world models",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 3 | World Models"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Establish a five-year roadmap 2 \u0007Prove measurable business value 3 \u0007Build a deployment launchpad"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Systematically invest in and operationalize world models. Target high-impact and fast ROI scenarios in process optimization, productivity and safety."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Develop a long-term strategy for leveraging world models to improve decision making, planning and intelligent automation.​"
+    },
+    {
+     "kind": "p",
+     "text": "Invest: Build the data, technology and talent foundations needed to operationalize world models at scale.​"
+    },
+    {
+     "kind": "p",
+     "text": "Drive: Demonstrate business value through improved forecasting, risk reduction and operational optimization.​"
+    },
+    {
+     "kind": "p",
+     "text": "Industrialized intelligence and predictive foresight Enhanced decision support and process optimization Unprecedented decision automation"
+    },
+    {
+     "kind": "p",
+     "text": "Data and AI teams: Build multimodal data pipelines that enable simulation, prediction and autonomous decision support.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Create scalable foundations that support future world model deployment and integration.​"
+    },
+    {
+     "kind": "p",
+     "text": "Platform and engineering teams: Establish testing, validation and monitoring practices to ensure reliability and trust.​"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Exploit multimodal capabilities and integrate synthetic data into end-to-end pipelines."
+    },
+    {
+     "kind": "p",
+     "text": "Business leaders: Identify high-value use cases for scenario planning, forecasting and operational optimization.​"
+    },
+    {
+     "kind": "p",
+     "text": "Operations teams: Validate models using real-world processes and outcomes.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance and strategy: Support investments that improve resilience, productivity and long-term competitiveness.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 12,
+   "images": 58.9,
+   "words": 232
+  },
+  {
+   "page": 11,
+   "title": "Govern the autonomous",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "agent platform"
+    },
+    {
+     "kind": "h",
+     "text": "System-level control planes for trustworthy autonomy"
+    },
+    {
+     "kind": "p",
+     "text": "Developers are deploying digital workers that generate code, patch vulnerabilities and execute transactions in real time. But as machines produce software faster than teams can audit it, manual reviews become the primary bottleneck. These trends cover platform-owned governance: harnesses and semantic context engines that constrain what autonomous agents can see, use and produce."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+   ],
+   "orphan": [],
+   "values": 8,
+   "images": 140.4,
+   "words": 82
+  },
+  {
+   "page": 12,
+   "title": "Trend 4 AI context platforms",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 4 AI context platforms"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "This capability curates, integrates and delivers the dynamic background knowledge AI agents need to interpret inputs, make decisions and act in alignment with business objectives. It unifies scattered corporate knowledge into a machine-readable truth layer to ground autonomous digital workers."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "The rise of autonomous digital workers exposes legacy data limitations. While 42% of enterprises plan to deploy AI agents by the end of 2026, only 22% currently capture significant value from GenAI. This gap stems from fragmented operational knowledge, causing frequent hallucinations and prohibitive computing costs. To prevent stalled agentic deployments, organizations must deploy context platforms to systematically organize and prioritize business knowledge."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2027, organizations that prioritize semantics in AI-ready data will increase agentic AI accuracy by up to 80% and reduce costs by up to 60%."
+    },
+    {
+     "kind": "p",
+     "text": "The 3 components of the context layer"
+    },
+    {
+     "kind": "li",
+     "text": "• Entities • \u0007Environment conditions • Right-time data • \u0007Organizational knowledge (RAG)"
+    },
+    {
+     "kind": "p",
+     "text": "Execution"
+    },
+    {
+     "kind": "p",
+     "text": "Operational Provenance"
+    },
+    {
+     "kind": "p",
+     "text": "state"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Semantics"
+    },
+    {
+     "kind": "p",
+     "text": "Governance"
+    },
+    {
+     "kind": "p",
+     "text": "Context"
+    },
+    {
+     "kind": "p",
+     "text": "layer"
+    },
+    {
+     "kind": "p",
+     "text": "Behavior"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "li",
+     "text": "• Ontology/KG • Metrics • Rules • Ownership • Policies"
+    },
+    {
+     "kind": "li",
+     "text": "• Tracking of data • Processes • Decisions • Actions • Outcomes"
+    },
+    {
+     "kind": "p",
+     "text": "Значения на слайде: 60, 80"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 30,
+   "images": 73.6,
+   "words": 212,
+   "note": "Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 80."
+  },
+  {
+   "page": 13,
+   "title": "Delivering results with AI context platforms",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 4 | AI Context Platforms"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Form a phased maturity roadmap 2 \u0007Establish dual-ontology governance architecture"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Centralize and structure policies before progressing to rule-based semantic automation."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a strategy for enterprise context management to support trusted, scalable AI agents.​"
+    },
+    {
+     "kind": "p",
+     "text": "Invest: Build a shared context platform that enables AI initiatives to scale across the enterprise.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define ownership, accountability and standards for business knowledge, context and AI outcomes.​"
+    },
+    {
+     "kind": "p",
+     "text": "Progression from foundational capabilities to future-state semantics and knowledge"
+    },
+    {
+     "kind": "p",
+     "text": "Improved AI accuracy and reduced costs Interpretable, organized and secure knowledge"
+    },
+    {
+     "kind": "p",
+     "text": "Separate passive business rules from active, machine-generated decision traces."
+    },
+    {
+     "kind": "p",
+     "text": "Data and AI teams: Build and manage the context platform, including semantic models, knowledge graphs and governance controls.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Establish standards for reusable and portable context across AI initiatives​."
+    },
+    {
+     "kind": "p",
+     "text": "Security and governance: Implement controls for data quality, access, lineage, auditability and compliance.​"
+    },
+    {
+     "kind": "p",
+     "text": "3 \u0007Enforce continuous, bi-directional ownership"
+    },
+    {
+     "kind": "p",
+     "text": "IT maintains infrastructure while business units validate guiding policies."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Business domain leaders: Define, validate and continuously update the policies, rules and knowledge that guide AI agents.​"
+    },
+    {
+     "kind": "p",
+     "text": "Operations leaders: Identify high-value agent use cases and ensure context reflects current business processes and priorities.​"
+    },
+    {
+     "kind": "p",
+     "text": "Risk and compliance: Ensure contextual data aligns with regulatory and governance requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "4 \u0007Acquire knowledge engineering talent"
+    },
+    {
+     "kind": "p",
+     "text": "Self-serve, curated knowledge between AI agents and humans"
+    },
+    {
+     "kind": "p",
+     "text": "Implement crucial semantic standards like RDF, OWL and SPARQL."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 13,
+   "images": 58.9,
+   "words": 270
+  },
+  {
+   "page": 14,
+   "title": "Trend 5 AI coding agent harness",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 5 AI coding agent harness"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "A closed-loop system that governs autonomous developer behavior across the software development life cycle. It integrates coding platforms with enterprise context, model routing, verification gates and feedback loops to ensure software meets safety and compliance standards."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Coding agents are shifting from passive assistant tools into autonomous systems that execute software production work. However, scaling autonomous code generation without scaling validation shifts the bottleneck from writing code to proving that changes are safe, correct and maintainable. This ungoverned code generation rapidly compiles massive technical debt. Deploying harnesses sustains productivity by governing the entire software production system."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By late 2026, autonomous coding agents will generate 20% of all public commits, making closed-loop harnesses mandatory to prevent critical software delivery quality failures."
+    },
+    {
+     "kind": "p",
+     "text": "The AI coding agent harness operates throughout the software development life cycle"
+    },
+    {
+     "kind": "p",
+     "text": "Human verification Fix Reject"
+    },
+    {
+     "kind": "p",
+     "text": "AI coding agent"
+    },
+    {
+     "kind": "p",
+     "text": "Input Transcriptions, photos, recordings"
+    },
+    {
+     "kind": "p",
+     "text": "Context External context layers External context layer External context layer External context layer"
+    },
+    {
+     "kind": "p",
+     "text": "Output Product requirements document (PRD)"
+    },
+    {
+     "kind": "p",
+     "text": "Tools Model Context Protocols (MCPs)/ command line interfaces (CLIs), skills, subagents"
+    },
+    {
+     "kind": "p",
+     "text": "Research Plan Implement Verify"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Execution Governance"
+    },
+    {
+     "kind": "p",
+     "text": "Approved PRD Single work unit Runnable software, PRD"
+    },
+    {
+     "kind": "p",
+     "text": "Epics, stories, tasks Runnable software Empirical findings and evidence"
+    },
+    {
+     "kind": "p",
+     "text": "MCPs/CLIs, skills, subagents"
+    },
+    {
+     "kind": "p",
+     "text": "Behavior"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "MCPs/CLIs, skills, subagents"
+    },
+    {
+     "kind": "p",
+     "text": "MCPs/CLIs, skills, subagents"
+    }
+   ],
+   "table": [
+    {
+     "label": "By late 2026, autonomous coding agents will generate 20% of all public commits, making closed-loop harnesses mandatory to prevent critical software delivery quality failures.",
+     "value": "20"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 17,
+   "images": 73.6,
+   "words": 238,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 15,
+   "title": "Delivering results with AI coding agent harnesses",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 5 | AI Coding Agent Harness"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Assign platform team ownership 2 \u0007Convert architectural standards and domain rules 3 \u0007Enforce automatic delivery backpressure"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Consider coding agent harness configuration, model routing, approved tools, reusable workflows and verification policies."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish AI-native software delivery as a strategic platform capability.​"
+    },
+    {
+     "kind": "p",
+     "text": "Fund: Invest in a dedicated platform team to own harness configurations, standards and governance.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define risk, compliance and accountability requirements for autonomous software delivery.​"
+    },
+    {
+     "kind": "p",
+     "text": "Standardized enterprise software delivery Contextual guidance for every agent Unprecedented decision automation"
+    },
+    {
+     "kind": "p",
+     "text": "Maintain machine-readable inputs that provide clear, codified knowledge documentation."
+    },
+    {
+     "kind": "p",
+     "text": "Platform engineering: Own harness configurations, model routing, reusable workflows and developer experience.​"
+    },
+    {
+     "kind": "p",
+     "text": "Architecture: Convert standards, design patterns and institutional knowledge into machine-readable context.​"
+    },
+    {
+     "kind": "p",
+     "text": "Security and risk: Embed verification gates and protect the harness control plane from tampering and misuse.​"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Run automated lint, test, security scanner and release-documentation gates before any code reaches human review."
+    },
+    {
+     "kind": "p",
+     "text": "Product leaders: Define requirements, domain rules and acceptance criteria for agent-generated solutions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance: Support long-term platform investment and measure value realization.​"
+    },
+    {
+     "kind": "p",
+     "text": "Legal and compliance: Ensure autonomous delivery aligns with regulatory, audit and policy requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 12,
+   "images": 58.9,
+   "words": 232
+  },
+  {
+   "page": 16,
+   "title": "Trend 6 AI agent identity",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 6 AI agent identity"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "A unique digital representation that actively governs autonomous digital workers across your organization. This framework correlates computational composite elements like model weights, prompts and credentials with runtime behaviors to establish continuous trust and human accountability."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "AI agents expose massive vulnerabilities in legacy systems that can’t deliver just-in-time access. Failing to secure these active digital workers immediately risks halting zero-trust deployments and derailing broader automation investments."
+    },
+    {
+     "kind": "p",
+     "text": "This urgent security crisis is driving rapid market consolidation as cybersecurity megavendors acquire specialized startups to deliver unified platforms that can govern human and machine actors."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2028, 25% of enterprise security breaches will trace back to AI agent abuse due to unmanaged machine privileges and legacy credential practices. If organizations don’t resolve these identity challenges, over half of their enterprise AI initiatives will halt entirely."
+    },
+    {
+     "kind": "p",
+     "text": "The evolution from human-centric to composite identity for AI agents"
+    },
+    {
+     "kind": "p",
+     "text": "An AI agent’s identity is constructed from mutable computational elements and requires an identity model that actively correlates that agent’s identity with its runtime reality."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Runtime reality"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Runtime reality"
+    },
+    {
+     "kind": "p",
+     "text": "Roles, purpose, intent (derived and linked) and behavior"
+    },
+    {
+     "kind": "p",
+     "text": "Mutable elements"
+    },
+    {
+     "kind": "p",
+     "text": "Computational weights, system prompts, tool capabilities, assigned credentials"
+    },
+    {
+     "kind": "p",
+     "text": "The core"
+    },
+    {
+     "kind": "p",
+     "text": "Unique workload ID"
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2028, 25% of enterprise security breaches will trace back to AI agent abuse due to unmanaged machine privileges and legacy credential practices. If organizations don’t resolve these identity challenges, over half of their enterprise AI initiatives will halt entirely.",
+     "value": "25"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 17,
+   "images": 76.8,
+   "words": 226,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 17,
+   "title": "Delivering results with AI agent identities",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 6 | AI Agent Identity"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Inventory all agent identities 2 \u0007Prohibit human credential sharing 3 \u0007Transition to composite identities 4 \u0007Demand converged identity platforms"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Discover, map and manage both sanctioned and shadow agents across your environments."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish an enterprise strategy for governing AI agents as digital coworkers.​"
+    },
+    {
+     "kind": "p",
+     "text": "Prioritize: Invest in identity platforms that securely manage human, machine and AI agent identities together.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define accountability, risk tolerance and ownership for all AI agent workloads.​"
+    },
+    {
+     "kind": "p",
+     "text": "Identification of identity gaps Clear ownership and auditability Defined control requirements and taxonomies"
+    },
+    {
+     "kind": "p",
+     "text": "Issue unique, dedicated credentials to agents."
+    },
+    {
+     "kind": "p",
+     "text": "Identity and security: Implement composite identity models, least-privilege access and continuous verification for AI agents.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Establish standards for agent registration, credential management and policy-based authorization.​"
+    },
+    {
+     "kind": "p",
+     "text": "Infrastructure and operations: Monitor agent activity, manage runtime controls and support secure deployment at scale.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enforce dynamic, policy-controlled access and zero trust policies."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Risk and compliance: Ensure AI agent activities align with governance, audit and regulatory requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Legal: Define accountability frameworks for agent actions and decision authority.​"
+    },
+    {
+     "kind": "p",
+     "text": "Business leaders: Validate agent roles, permissions and acceptable use within business processes.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "A single control plane"
+    },
+    {
+     "kind": "p",
+     "text": "Engage vendors to ensure management of both human and machine workloads."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 13,
+   "images": 58.9,
+   "words": 245
+  },
+  {
+   "page": 18,
+   "title": "48 hours",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 7 Autonomous exposure remediation"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "An integrated set of capabilities that uses AI and automation to find, prioritize and fix security vulnerabilities across the enterprise digital estate. This system automatically deploys patches into production environments and initiates testing loops to safely roll back failed deployments."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "The traditional defensive process is broken, leaving organizations with an average 50-day exposure window where vulnerabilities remain unpatched. By replacing slow, manual validation with continuous machine-speed defense, technology leaders transform vulnerability management from a passive queue into an active operational shield."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2031, organizations deploying autonomous exposure remediation will reduce their average vulnerability containment window from weeks to within 48 hours."
+    },
+    {
+     "kind": "p",
+     "text": "Autonomous exposure remediation phases"
+    },
+    {
+     "kind": "p",
+     "text": "Inventory"
+    },
+    {
+     "kind": "p",
+     "text": "(scan)"
+    },
+    {
+     "kind": "p",
+     "text": "AI"
+    },
+    {
+     "kind": "p",
+     "text": "Relative focus by"
+    },
+    {
+     "kind": "p",
+     "text": "Automation"
+    },
+    {
+     "kind": "p",
+     "text": "role"
+    },
+    {
+     "kind": "p",
+     "text": "Human"
+    },
+    {
+     "kind": "p",
+     "text": "Discover vulnerabilities"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Validate"
+    },
+    {
+     "kind": "p",
+     "text": "Plan remediation"
+    },
+    {
+     "kind": "p",
+     "text": "issues"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Test and verify"
+    },
+    {
+     "kind": "p",
+     "text": "Remediate and roll back"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 19,
+   "images": 73.6,
+   "words": 161
+  },
+  {
+   "page": 19,
+   "title": "Delivering results with autonomous exposure remediation",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 7 | Autonomous Exposure Remediation"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Initiate narrow scope projects 2 \u0007Integrate vulnerability detection 3 \u0007Balance automated scanning 4 \u0007Conduct cost analysis early and often"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Start with nonsensitive custom code bases to pilot automated patch generation and rollback capabilities to build experience."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a roadmap for autonomous exposure remediation aligned to cybersecurity and business resilience objectives.​"
+    },
+    {
+     "kind": "p",
+     "text": "Prioritize: Invest in automation capabilities that reduce exposure windows and improve remediation speed.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define risk thresholds, oversight requirements and accountability for automated remediation decisions.​"
+    },
+    {
+     "kind": "p",
+     "text": "Safe testing and long-term scaling Increased discovery volume Improved performance and accuracy Balanced security budgets"
+    },
+    {
+     "kind": "p",
+     "text": "Suggest real-time fixes directly into active software development loops."
+    },
+    {
+     "kind": "p",
+     "text": "Cybersecurity: Identify priority use cases and implement AI-augmented vulnerability discovery, validation and remediation workflows.​"
+    },
+    {
+     "kind": "p",
+     "text": "Software engineering: Integrate automated testing, fix validation and remediation into development processes.​"
+    },
+    {
+     "kind": "p",
+     "text": "Infrastructure and operations: Support deployment, monitoring and rollback capabilities needed to safely automate remediation.​"
+    },
+    {
+     "kind": "p",
+     "text": "Balance scanning with proportional prioritization practices to prevent overwhelming application teams with discovery queues."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Risk and compliance: Align remediation practices with governance, regulatory and audit requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Product leaders: Balance remediation priorities with delivery objectives and operational risk tolerance.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance: Support investments that improve resilience and reduce the business impact of exploitable exposures.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Analyze compute costs and model token consumption to budget for unpredictable cybersecurity technologies."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 13,
+   "images": 58.9,
+   "words": 260
+  },
+  {
+   "page": 20,
+   "title": "Architect durable agility",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Transition to sovereign, disposable and organic environments"
+    },
+    {
+     "kind": "p",
+     "text": "SaaS fatigue, provider lock-in and energy limits are turning absolute cloud dependency into an existential risk. Building a resilient business on foreign-controlled models is untenable when providers can restrict, modify or withdraw them overnight. These trends focus on sovereign architecture: legal and technical independence, disposable stacks and early pilots of biological computing."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+   ],
+   "orphan": [],
+   "values": 8,
+   "images": 140.5,
+   "words": 80
+  },
+  {
+   "page": 21,
+   "title": "Trend 8 SovereignTech",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 8 SovereignTech"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "Hardware, software, databases and AI models technically and legally architected to offer realistic exit strategies from critical providers. These technologies remain perpetually available to prevent lock-in and secure complete operational continuity."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Geopolitical friction and extraterritorial laws like the U.S. CLOUD Act pose real, immediate risks of sudden service cutoffs. Regulations like DORA contractually mandate proven cloud exit strategies and CADA prescribes strict sovereignty-enabling architectures. As AI automates professional tasks, massive subscription and API fees paid to foreign providers drain domestic wealth."
+    },
+    {
+     "kind": "p",
+     "text": "To secure long-term continuity and prevent proprietary data from being permanently absorbed into foreign model weights, leaders must establish technical and legal independence."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, over 75% of non-U.S.-based organizations will adopt digital sovereignty strategies, shifting critical workloads to reduce geopolitical and vendor lock-in risks."
+    },
+    {
+     "kind": "p",
+     "text": "What makes technology sovereign"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "SovereignTech (SovTech) assures your local operations will not collapse if a provider withdraws its IP, ensures AI-created value stays at home and secures your ability to act independently in a crisis."
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "SovTech refers to technologies like cloud platforms, application code, servers, chips, databases, agents and AI models, technically and legally architected to enable realistic exit strategies from critical providers and remain perpetually available to customers to support real autonomy and resilience."
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2030, over 75% of non-U.S.-based organizations will adopt digital sovereignty strategies, shifting critical workloads to reduce geopolitical and vendor lock-in risks.",
+     "value": "75"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 17,
+   "images": 85.7,
+   "words": 255,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 22,
+   "title": "Delivering results with SovTech",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 8 | SovereignTech"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Track distributed sovereign delivery models"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Evaluate private, on-premises and ecosystem-driven alternatives to standard public clouds."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Define a digital sovereignty strategy aligned to business continuity and operational resilience.​"
+    },
+    {
+     "kind": "p",
+     "text": "Prioritize: Evaluate critical technology dependencies and establish realistic exit and replacement strategies.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Balance innovation, risk and autonomy when selecting cloud, AI and technology providers.​"
+    },
+    {
+     "kind": "p",
+     "text": "Defined sovereignty requirements Multiregional operational resilience Identification and understanding of emerging standards"
+    },
+    {
+     "kind": "p",
+     "text": "2 \u0007Master lean innovation strategies 3 \u0007Monitor global sovereignty alliances 4 \u0007Directly engage technology providers"
+    },
+    {
+     "kind": "p",
+     "text": "Use n-1 generation technology creatively and share capabilities reciprocally with trusted allies."
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Design systems that support portability, interoperability and provider flexibility.​"
+    },
+    {
+     "kind": "p",
+     "text": "Infrastructure and cloud: Assess sovereign, distributed and multipartner delivery models for critical workloads.​"
+    },
+    {
+     "kind": "p",
+     "text": "Security and risk: Test continuity plans and ensure compliance with evolving sovereignty and resilience requirements.​"
+    },
+    {
+     "kind": "p",
+     "text": "Consider the Trusted Tech Alliance and the EU Tech Sovereignty Package."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Procurement: Evaluate providers based on resilience, exit options and dependency risks, not just cost and functionality.​"
+    },
+    {
+     "kind": "p",
+     "text": "Legal and compliance: Monitor regulatory requirements related to data, operational and technology sovereignty.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance: Support investments that strengthen long-term resilience and reduce single-provider risk.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Minimal risk exposure"
+    },
+    {
+     "kind": "p",
+     "text": "Assess provider appetite for sovereign delivery options and no-killswitch assurances."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 14,
+   "images": 58.9,
+   "words": 246
+  },
+  {
+   "page": 23,
+   "title": "Trend 9 Disposable applications",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 9 Disposable applications"
+    },
+    {
+     "kind": "h",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "Purpose-built software applications designed to be intentionally retired once their specific business purpose has been fulfilled or is no longer relevant. These temporary solutions operate as enterprise-grade applications with predefined lifespans, rather than permanent fixtures."
+    },
+    {
+     "kind": "h",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "AI-powered vibe coding tools are democratizing software creation, empowering both citizen and professional developers to rapidly generate customized applications for short-term operational needs. This shift allows deployment of targeted, temporary solutions with predefined lifespans instead of accumulating permanent, costly software assets."
+    },
+    {
+     "kind": "h",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, widespread SaaS fatigue and AI-driven software abundance will force leading organizations to ensure 80% of new applications are disposable and easy to replace."
+    },
+    {
+     "kind": "p",
+     "text": "Disposable applications fundamentally alter how organizations buy, design and budget for software. Rather than maintaining legacy platforms indefinitely, the application portfolio becomes a dynamic system that continuously renews itself as redundant assets are retired."
+    },
+    {
+     "kind": "h",
+     "text": "The disposable application life cycle"
+    },
+    {
+     "kind": "p",
+     "text": "Identify need"
+    },
+    {
+     "kind": "p",
+     "text": "Identify business"
+    },
+    {
+     "kind": "p",
+     "text": "opportunity,"
+    },
+    {
+     "kind": "p",
+     "text": "business capability and success criteria."
+    },
+    {
+     "kind": "p",
+     "text": "Source: Gartner"
+    },
+    {
+     "kind": "p",
+     "text": "Application lifespan follows business value delivery"
+    },
+    {
+     "kind": "p",
+     "text": "Operate and Define and design Build and deploy"
+    },
+    {
+     "kind": "p",
+     "text": "Design application and define expected"
+    },
+    {
+     "kind": "p",
+     "text": "lifespan, ownership and"
+    },
+    {
+     "kind": "p",
+     "text": "retirement"
+    },
+    {
+     "kind": "p",
+     "text": "triggers."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Rapidly build"
+    },
+    {
+     "kind": "p",
+     "text": "and deploy, using approved"
+    },
+    {
+     "kind": "p",
+     "text": "platforms, standards and"
+    },
+    {
+     "kind": "p",
+     "text": "guardrails."
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "deliver"
+    },
+    {
+     "kind": "p",
+     "text": "Operate securely"
+    },
+    {
+     "kind": "p",
+     "text": "and reliably while monitoring"
+    },
+    {
+     "kind": "p",
+     "text": "performance, cost and business"
+    },
+    {
+     "kind": "p",
+     "text": "value."
+    },
+    {
+     "kind": "p",
+     "text": "Evaluate and"
+    },
+    {
+     "kind": "p",
+     "text": "decide"
+    },
+    {
+     "kind": "p",
+     "text": "Review business value and decide"
+    },
+    {
+     "kind": "p",
+     "text": "whether to continue or retire"
+    },
+    {
+     "kind": "p",
+     "text": "application."
+    },
+    {
+     "kind": "p",
+     "text": "Retire"
+    },
+    {
+     "kind": "p",
+     "text": "Safely and cleanly"
+    },
+    {
+     "kind": "p",
+     "text": "retire. Archive"
+    },
+    {
+     "kind": "p",
+     "text": "data, remove"
+    },
+    {
+     "kind": "p",
+     "text": "integrations, revoke access and"
+    },
+    {
+     "kind": "p",
+     "text": "update portfolio."
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2030, widespread SaaS fatigue and AI-driven software abundance will force leading organizations to ensure 80% of new applications are disposable and easy to replace.",
+     "value": "80"
+    }
+   ],
+   "footnotes": [],
+   "orphan": [],
+   "values": 17,
+   "images": 73.6,
+   "words": 256,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 24,
+   "title": "Delivering results with disposable applications",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 9 | Disposable Applications"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Audit your application portfolio 2 \u0007Establish a dedicated platform team 3 \u0007Position upcoming SaaS contract negotiations"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Classify which core capabilities require permanent software and which can be served by temporary, on-demand solutions."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a disposable application strategy that aligns application lifespans with business value.​"
+    },
+    {
+     "kind": "p",
+     "text": "Invest: Fund the platforms, automation and governance needed to support rapid application creation and retirement.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define accountability, ownership and life cycle standards across the application portfolio.​"
+    },
+    {
+     "kind": "p",
+     "text": "A roadmap for application modernization Rapid software life cycle flows Avoid vendor lock-in"
+    },
+    {
+     "kind": "p",
+     "text": "Oversee, govern and manage the flow of transient assets across the enterprise."
+    },
+    {
+     "kind": "p",
+     "text": "Platform engineering: Provide the tools, guardrails and automation needed to build and retire applications at scale.​"
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Define standards that align governance to application risk, criticality and expected lifespan.​"
+    },
+    {
+     "kind": "p",
+     "text": "Security and operations: Manage application retirement, data life cycle requirements and security controls.​"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Use renewals as leverage to reduce seat counts and secure open APIs."
+    },
+    {
+     "kind": "p",
+     "text": "Business owners: Define application objectives, expected lifespan and retirement criteria.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance: Shift funding models to support application creation, renewal and retirement.​"
+    },
+    {
+     "kind": "p",
+     "text": "Risk and compliance: Ensure governance and controls remain appropriate throughout the application life cycle.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 12,
+   "images": 58.9,
+   "words": 240
+  },
+  {
+   "page": 25,
+   "title": "Trend 10 Wetware as a service",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 10 Wetware as a service"
+    },
+    {
+     "kind": "p",
+     "text": "What is it?"
+    },
+    {
+     "kind": "p",
+     "text": "An emerging operational model that provides remote cloud-based access to living or synthetic biological systems for computation. These hosted organic processors utilize the natural plasticity of biochemical networks to run complex algorithms with extreme energy efficiency."
+    },
+    {
+     "kind": "p",
+     "text": "Why trending?"
+    },
+    {
+     "kind": "p",
+     "text": "Traditional silicon computer hardware can’t scale enterprise AI indefinitely due to unsustainable environmental and energy demands. Lab-grown biological neurons can perform goal-oriented computation with extreme efficiency, running complex pattern recognition algorithms on a fraction of traditional server power. Startups are bridging the physical science gap by hosting delicate biocomputers in remote, sterile laboratories. Biocomputing as a cloud-based subscription service allows organizations to launch immediate technical pilots without investing in capital-intensive wet labs or specialized neurological transport infrastructure."
+    },
+    {
+     "kind": "p",
+     "text": "What’s next?"
+    },
+    {
+     "kind": "p",
+     "text": "By 2030, 25% of enterprise organizations prioritizing specialized low-power AI will deploy biological computing to bypass traditional silicon limits."
+    },
+    {
+     "kind": "p",
+     "text": "Wetware as a service as part of computing orchestration"
+    },
+    {
+     "kind": "p",
+     "text": "Orchestrators of that environment"
+    },
+    {
+     "kind": "p",
+     "text": "CIOs"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "Wetware is not the only future computing model. It is part of a broader collection of computing paradigms that will work together."
+    },
+    {
+     "kind": "p",
+     "text": "Workloads routed to the appropriate platform"
+    }
+   ],
+   "table": [
+    {
+     "label": "By 2030, 25% of enterprise organizations prioritizing specialized low-power AI will deploy biological computing to bypass traditional silicon limits.",
+     "value": "25"
+    }
+   ],
+   "footnotes": [
+    "Source: Gartner"
+   ],
+   "orphan": [],
+   "values": 18,
+   "images": 73.6,
+   "words": 208,
+   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+  },
+  {
+   "page": 26,
+   "title": "Delivering results with wetware as a service",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Trend 10 | Wetware as a Service"
+    },
+    {
+     "kind": "h",
+     "text": "Action plan to drive modular automation and seamless integration"
+    },
+    {
+     "kind": "p",
+     "text": "Steps 1 \u0007Audit software architectures 2 \u0007Establish low-risk cloud sandboxes 3 \u0007Convene an interdisciplinary task force"
+    },
+    {
+     "kind": "p",
+     "text": "Expected outcome"
+    },
+    {
+     "kind": "p",
+     "text": "Action Identify high-consumption pattern recognition workloads suitable for redirection to low-power biological substrates."
+    },
+    {
+     "kind": "h",
+     "text": "Key players to support implementation success"
+    },
+    {
+     "kind": "p",
+     "text": "CIO IT partners Business partners"
+    },
+    {
+     "kind": "p",
+     "text": "Lead: Establish a strategy for integrating biological computing into future AI and infrastructure roadmaps.​"
+    },
+    {
+     "kind": "p",
+     "text": "Invest: Develop orchestration capabilities that dynamically route workloads across diverse computing platforms.​"
+    },
+    {
+     "kind": "p",
+     "text": "Govern: Define risk, ethical and resilience frameworks for biological computing adoption.​"
+    },
+    {
+     "kind": "p",
+     "text": "Identification of high-return use cases Safe piloting of volatile biocomputer lifespans"
+    },
+    {
+     "kind": "p",
+     "text": "Use remote subscription platforms to build early developer familiarity with living processors."
+    },
+    {
+     "kind": "p",
+     "text": "Enterprise architecture: Identify workloads that could benefit from biological processing and hybrid computing models.​"
+    },
+    {
+     "kind": "p",
+     "text": "Platform engineering: Build orchestration layers that manage workload routing across silicon, quantum, neuromorphic and biological processors.​"
+    },
+    {
+     "kind": "p",
+     "text": "Security and risk: Develop controls for neurodata privacy, redundancy and business continuity.​"
+    },
+    {
+     "kind": "p",
+     "text": "Bridge the talent gap Safeguards that protect cognitive datasets and neurorights frameworks"
+    },
+    {
+     "kind": "p",
+     "text": "Combine software developers, neuroscientists and ethicists to fuse computer science and neurology."
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs Follow Us on LinkedIn Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Research and innovation teams: Evaluate opportunities to apply biological computing to complex optimization and discovery challenges.​"
+    },
+    {
+     "kind": "p",
+     "text": "Legal and compliance: Establish policies addressing ethical use, intellectual property and emerging neurorights considerations.​"
+    },
+    {
+     "kind": "p",
+     "text": "Finance: Support investment in next-gen computing.​"
+    },
+    {
+     "kind": "p",
+     "text": "Top 10 Strategic Technology Trends for 2027"
+    },
+    {
+     "kind": "p",
+     "text": "4 \u0007Design replication and redundancy policies"
+    },
+    {
+     "kind": "p",
+     "text": "Protect critical application data against volatile cell lifespans and sudden processor death."
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 14,
+   "images": 58.9,
+   "words": 263
+  },
+  {
+   "page": 27,
+   "title": "Actionable, objective insights",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Explore these additional complimentary resources and tools for IT leaders:"
+    },
+    {
+     "kind": "h",
+     "text": "Tool AI Use Case Insights"
+    },
+    {
+     "kind": "p",
+     "text": "Explore, evaluate and prioritize 1,300+ proven AI use cases and real-world case studies."
+    },
+    {
+     "kind": "p",
+     "text": "Get Started"
+    },
+    {
+     "kind": "h",
+     "text": "Already a client? Get access to even more resources in your client portal. Log In ↗"
+    },
+    {
+     "kind": "h",
+     "text": "Tool Gartner Benchmarking and Diagnostics"
+    },
+    {
+     "kind": "p",
+     "text": "Prioritize, budget and optimize with tailored benchmarks for critical domains."
+    },
+    {
+     "kind": "p",
+     "text": "Get Started"
+    },
+    {
+     "kind": "h",
+     "text": "eBook The Gartner CIO Report"
+    },
+    {
+     "kind": "p",
+     "text": "Explore the top CIO challenges, according to 12K+ of your CIO peers."
+    },
+    {
+     "kind": "p",
+     "text": "Download Now"
+    },
+    {
+     "kind": "h",
+     "text": "Tool AskGartner: Your AI-Powered Thought Partner"
+    },
+    {
+     "kind": "p",
+     "text": "Get AI-powered access to analyst-vetted insights to build frameworks and speed up execution."
+    },
+    {
+     "kind": "p",
+     "text": "Get Started"
+    }
+   ],
+   "table": [],
+   "footnotes": [],
+   "orphan": [],
+   "values": 6,
+   "images": 108.5,
+   "words": 106
+  },
+  {
+   "page": 28,
+   "title": "Connect with us",
+   "blocks": [
+    {
+     "kind": "h",
+     "text": "Get actionable, objective business and technology"
+    },
+    {
+     "kind": "p",
+     "text": "insights that drive smarter decisions and stronger performance on your mission-critical priorities."
+    },
+    {
+     "kind": "p",
+     "text": "U.S.: 1 855 322 5484"
+    },
+    {
+     "kind": "p",
+     "text": "International: +44 (0) 3300 296 946"
+    },
+    {
+     "kind": "p",
+     "text": "Become a Client"
+    },
+    {
+     "kind": "p",
+     "text": "Leaders who know, choose Gartner. See how. gartner.com/en/what-we-do"
+    },
+    {
+     "kind": "p",
+     "text": "Gartner for CIOs gartner.com/en/chief-information-officer/ products/gartner-for-cios"
+    },
+    {
+     "kind": "p",
+     "text": "Stay connected to the latest insights"
+    },
+    {
+     "kind": "p",
+     "text": "Attend a Gartner conference View Conference"
+    }
+   ],
+   "table": [],
+   "footnotes": [
+    "© 2026 Gartner, Inc. and/or its affiliates. All rights reserved. GTS_542668"
+   ],
+   "orphan": [],
+   "values": 34,
+   "images": 0.0,
+   "words": 71
+  }
+ ]
+}

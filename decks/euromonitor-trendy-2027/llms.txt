@@ -1,0 +1,8 @@
+# Euromonitor — Top Global Consumer Trends 2027
+
+> Расшифровка презентации (67 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [euromonitor-trendy-2027.md](euromonitor-trendy-2027.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 6 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

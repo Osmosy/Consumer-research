@@ -1,0 +1,8 @@
+# Студия Чижова — FMCG тренды 2027
+
+> Расшифровка презентации (33 слайдов) из PDF-текста, с таблицами «показатель → значение».
+
+- [studiya-chizhova-fmcg-2027.md](studiya-chizhova-fmcg-2027.md) — текст по слайдам.
+- [deck.json](deck.json) — JSON: 0 строк данных.
+- [index.html](index.html) — просмотр с картинками и поиском.
+- [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

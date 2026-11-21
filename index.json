@@ -184,6 +184,7 @@
    "n_total": 900,
    "source_pdf": "Маркетинговое исследование Инко Фуд, онлайн панель 900 респондентов.pdf",
    "source_pdf_sha256": "dcaf31cb38a8bc4d3e4a8c2a3364685b3cf49e000354656a247e9a249c1dc4f9",
+   "source_pdf_path": "sources/pdf/Маркетинговое исследование Инко Фуд, онлайн панель 900 респондентов.pdf",
    "dir": "instruments/inkofood-ua-oct2026",
    "files": [
     "README.md",

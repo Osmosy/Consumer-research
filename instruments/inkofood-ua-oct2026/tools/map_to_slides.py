@@ -144,7 +144,8 @@ doc = {
                  "by_strength": dict(stat)},
     "maps": out,
 }
-json.dump(doc, open(f"{D}/instruments/inkofood-ua-oct2026/question-to-slide.json", "w"),
+OUT = os.environ.get("INKO_OUT", f"{D}/instruments/inkofood-ua-oct2026")
+json.dump(doc, open(f"{OUT}/question-to-slide.json", "w"),
           ensure_ascii=False, indent=1)
 print(json.dumps(doc["coverage"], ensure_ascii=False, indent=1))
 print("unmapped:", unmapped)

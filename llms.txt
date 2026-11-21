@@ -18,6 +18,12 @@
 - `sbermarket-serebryanyy-vozrast-2026` — СберМаркетинг — Серебряный возраст 2026; 30 слайдов, 299 строк
 - `ekopsi-debaty-pro-pokoleniya` — ЭКОПСИ — Дебаты про поколения; 21 слайдов, 26 строк
 
+## Опросники
+- `inkofood-ua-oct2026` — Инкофуд — анкета онлайн-панели, 900 респондентов; 12 блоков, 53 вопроса, 321 вариант
+  - [instruments/inkofood-ua-oct2026/instrument.json](instruments/inkofood-ua-oct2026/instrument.json) — блоки, вопросы, варианты, коды, source{page,bbox}
+  - [instruments/inkofood-ua-oct2026/instrument.md](instruments/inkofood-ua-oct2026/instrument.md) — дословный текст
+  - [instruments/inkofood-ua-oct2026/question-to-slide.json](instruments/inkofood-ua-oct2026/question-to-slide.json) — карта «вопрос → слайд» колоды `inkofood-2026`
+
 ## Ограничения
 Числа, вставленные картинкой, прочитаны с рендера 2400 px (указано в note слайда); графики без
 подписей — с точностью ±0,5; дефекты исходников зафиксированы в [docs/caveats.md](docs/caveats.md).

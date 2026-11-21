@@ -1,6 +1,6 @@
 # Индекс колод
 
-Всего 7 колод, 260 слайдов, 2758 строк «показатель → значение».
+Всего 7 колод, 260 слайдов, 2758 строк «показатель → значение». Плюс 1 опросник — полевой инструмент колоды `inkofood-2026`.
 
 | Колода | Тема | Слайдов | Строк | md | json | html |
 |---|---|---|---|---|---|---|
@@ -11,6 +11,14 @@
 | `sbermarket-globalnye-trendy-2026` — СберМаркетинг — Глобальные тренды 2026 | глобальные тренды, маркетинг | 36 | 36 | [md](decks/sbermarket-globalnye-trendy-2026/sbermarket-globalnye-trendy-2026.md) | [json](decks/sbermarket-globalnye-trendy-2026/deck.json) | [html](decks/sbermarket-globalnye-trendy-2026/index.html) |
 | `sbermarket-serebryanyy-vozrast-2026` — СберМаркетинг — Серебряный возраст 2026 | сегмент 55+, поведение | 30 | 299 | [md](decks/sbermarket-serebryanyy-vozrast-2026/sbermarket-serebryanyy-vozrast-2026.md) | [json](decks/sbermarket-serebryanyy-vozrast-2026/deck.json) | [html](decks/sbermarket-serebryanyy-vozrast-2026/index.html) |
 | `ekopsi-debaty-pro-pokoleniya` — ЭКОПСИ — Дебаты про поколения | HR, вовлечённость, поколения | 21 | 26 | [md](decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya.md) | [json](decks/ekopsi-debaty-pro-pokoleniya/deck.json) | [html](decks/ekopsi-debaty-pro-pokoleniya/index.html) |
+
+## Опросники
+
+| Опросник | Тема | Вопросов | Вариантов | md | json | html |
+|---|---|---|---|---|---|---|
+| `inkofood-ua-oct2026` — Инкофуд — анкета онлайн-панели, 900 респондентов | мясная гастрономия, U&A | 53 | 321 | [md](instruments/inkofood-ua-oct2026/instrument.md) | [json](instruments/inkofood-ua-oct2026/instrument.json) | [html](instruments/inkofood-ua-oct2026/index.html) |
+
+Дополнительно: [csv для сводок](instruments/inkofood-ua-oct2026/instrument.csv), [карта «вопрос → слайд»](instruments/inkofood-ua-oct2026/question-to-slide.json), [проверка](instruments/inkofood-ua-oct2026/VERIFICATION.md).
 
 ## Исходники и контрольные суммы
 

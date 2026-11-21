@@ -99,6 +99,41 @@
    "bytes": 23391461,
    "sha256": "f2b92a0d299b867d3eb6efa12ec53db2d86fc7c2211e0ef365fce074a599e7d2",
    "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "euromonitor-trendy-2027",
+   "file": "Euromonitor_Top Global Consumer Trends_2027 (67 pgs).pdf",
+   "bytes": 11626353,
+   "sha256": "368fae57cb99e2a45781ed39c80568243582aeb41d2a38f7c2a6713f9e28a42b",
+   "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "gartner-tech-trends-2027",
+   "file": "Gartner_Top 10 Strategic Tech Trends_2027 (28 pgs).pdf",
+   "bytes": 3064766,
+   "sha256": "cdba1b28373f892a4f07edd092c47d3ce8a12dcc5e962768db2922634a25799b",
+   "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "ntech-konferenciya-2026",
+   "file": "NTech. Годовая конференция 2026..pdf",
+   "bytes": 6835117,
+   "sha256": "55e7f08bcb6aaf4cd6b9f444a688bc39552f7cf4f543d7306a8a36157381d7e4",
+   "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "nielsen-put-k-pokupatelyu",
+   "file": "Нильсен_Как_найти_путь_к_покупателю.pdf",
+   "bytes": 11765318,
+   "sha256": "8273e886e3a59743b41fbcf7ffbd6cda2ead58a4356d8597145bd4f15ac939b9",
+   "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "wonderfull-cx-trendy-2030",
+   "file": "Wonderfull_CX Тренды_2030 (27 стр).pdf",
+   "bytes": 17336286,
+   "sha256": "9fa86a7d2f1abc1f54ec1af30490787c58dfeafe41ac0e78f3ca7b439d27e3c4",
+   "origin": "исходный PDF презентации"
   }
  ]
 }

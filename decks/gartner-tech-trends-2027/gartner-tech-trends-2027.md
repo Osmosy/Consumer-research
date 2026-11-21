@@ -77,7 +77,7 @@ Transitioning to sovereign, disposable and organic environments. Secure long-ter
 
 ## Слайд 3 — Gartner Top 10 Strategic Technology Trends for 2027
 
-> Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 Technology decisions require a balanced approach to immediate operational efficiency and long-term business survivability.
 
@@ -123,16 +123,14 @@ Top 10 Strategic Technology Trends for 2027
 
 | Показатель | Значение |
 |---|---|
-| Now 1 – 3 years | 1 |
-| 3 World models | 3 |
-| 2 Speech reasoning models | 2 |
-| 4 AI context platforms | 4 |
-| Near 3 – 5 years | 5 |
-| 6 AI agent identity | 6 |
-| 7 Autonomous exposure remediation | 7 |
-| 8 SovereignTech | 8 |
-| 9 Disposable applications | 9 |
-| 10 Wetware as a service | 10 |
+| This multiyear outlook organizes the Gartner | 3 |
+| to prepare, pilot and scale each capability. | 2 |
+| Top Strategic Technology Trends into sequential | 4 |
+| planning horizons to help you determine when | 5 |
+| to prepare, pilot and scale each capability. | 6 |
+| to prepare, pilot and scale each capability. | 7 |
+| This multiyear outlook organizes the Gartner | 9 |
+| planning horizons to help you determine when | 10 |
 
 ---
 
@@ -384,7 +382,7 @@ Top 10 Strategic Technology Trends for 2027
 
 ## Слайд 9 — Trend 3 World models
 
-> Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 40.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 ### Trend 3 World models
 
@@ -432,9 +430,12 @@ Social science
 
 The world is collective intelligence. Sample techniques: complex system, multiagent system
 
-Значения на слайде: 1, 40
-
 *Source: Gartner*
+
+| Показатель | Значение |
+|---|---|
+| World models | 1 |
+| World models | 40 |
 
 ---
 
@@ -504,7 +505,7 @@ Top 10 Strategic Technology Trends for 2027
 
 ## Слайд 12 — Trend 4 AI context platforms
 
-> Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 80.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 ### Trend 4 AI context platforms
 
@@ -545,9 +546,12 @@ Top 10 Strategic Technology Trends for 2027
 
 - • Ontology/KG • Metrics • Rules • Ownership • Policies
 - • Tracking of data • Processes • Decisions • Actions • Outcomes
-Значения на слайде: 60, 80
-
 *Source: Gartner*
+
+| Показатель | Значение |
+|---|---|
+| AI context platforms | 60 |
+| AI context platforms | 80 |
 
 ---
 

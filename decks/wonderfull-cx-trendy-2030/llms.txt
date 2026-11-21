@@ -3,6 +3,6 @@
 > Расшифровка презентации (27 слайдов) из PDF-текста, с таблицами «показатель → значение».
 
 - [wonderfull-cx-trendy-2030.md](wonderfull-cx-trendy-2030.md) — текст по слайдам.
-- [deck.json](deck.json) — JSON: 1 строк данных.
+- [deck.json](deck.json) — JSON: 29 строк данных.
 - [index.html](index.html) — просмотр с картинками и поиском.
 - [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.

@@ -1,6 +1,6 @@
 # Индекс колод
 
-Всего 12 колод, 518 слайдов, 3040 строк «показатель → значение». Плюс 1 опросник — полевой инструмент колоды `inkofood-2026`.
+Всего 13 колод, 551 слайдов, 3040 строк «показатель → значение». Плюс 1 опросник — полевой инструмент колоды `inkofood-2026`.
 
 | Колода | Тема | Слайдов | Строк | md | json | html |
 |---|---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | `ntech-konferenciya-2026` — NTech — Годовая конференция 2026 | FMCG, рынок и категории | 106 | 67 | [md](decks/ntech-konferenciya-2026/ntech-konferenciya-2026.md) | [json](decks/ntech-konferenciya-2026/deck.json) | [html](decks/ntech-konferenciya-2026/index.html) |
 | `nielsen-put-k-pokupatelyu` — Нильсен — Как найти путь к покупателю | потребитель, бренды, FMCG | 30 | 191 | [md](decks/nielsen-put-k-pokupatelyu/nielsen-put-k-pokupatelyu.md) | [json](decks/nielsen-put-k-pokupatelyu/deck.json) | [html](decks/nielsen-put-k-pokupatelyu/index.html) |
 | `wonderfull-cx-trendy-2030` — Wonderfull — CX-тренды 2030 | клиентский опыт, CX | 27 | 1 | [md](decks/wonderfull-cx-trendy-2030/wonderfull-cx-trendy-2030.md) | [json](decks/wonderfull-cx-trendy-2030/deck.json) | [html](decks/wonderfull-cx-trendy-2030/index.html) |
+| `studiya-chizhova-fmcg-2027` — Студия Чижова — FMCG тренды 2027 | FMCG, тренды 2027 | 33 | 0 | [md](decks/studiya-chizhova-fmcg-2027/studiya-chizhova-fmcg-2027.md) | [json](decks/studiya-chizhova-fmcg-2027/deck.json) | [html](decks/studiya-chizhova-fmcg-2027/index.html) |
 
 ## Опросники
 
@@ -41,4 +42,5 @@
 | `ntech-konferenciya-2026` | NTech. Годовая конференция 2026..pdf | `55e7f08bcb6aaf4c` |
 | `nielsen-put-k-pokupatelyu` | Нильсен_Как_найти_путь_к_покупателю.pdf | `8273e886e3a59743` |
 | `wonderfull-cx-trendy-2030` | Wonderfull_CX Тренды_2030 (27 стр).pdf | `9fa86a7d2f1abc1f` |
+| `studiya-chizhova-fmcg-2027` | Студия Чижова_FMCG тренды_2027 (33 стр).pdf | `f2b92a0d299b867d` |
 | `inkofood-ua-oct2026` (опросник) | Маркетинговое исследование Инко Фуд, онлайн панель 900 респондентов.pdf | `dcaf31cb38a8bc4d` |

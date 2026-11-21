@@ -92,6 +92,13 @@
    "bytes": 17336286,
    "sha256": "9fa86a7d2f1abc1f54ec1af30490787c58dfeafe41ac0e78f3ca7b439d27e3c4",
    "origin": "исходный PDF презентации"
+  },
+  {
+   "deck": "studiya-chizhova-fmcg-2027",
+   "file": "Студия Чижова_FMCG тренды_2027 (33 стр).pdf",
+   "bytes": 23391461,
+   "sha256": "f2b92a0d299b867d3eb6efa12ec53db2d86fc7c2211e0ef365fce074a599e7d2",
+   "origin": "исходный PDF презентации"
   }
  ]
 }

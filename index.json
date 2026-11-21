@@ -171,9 +171,45 @@
    "print_pdf": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya-print.pdf"
   }
  ],
+ "instruments": [
+  {
+   "slug": "inkofood-ua-oct2026",
+   "title": "Инкофуд — анкета онлайн-панели, 900 респондентов",
+   "topic": "мясная гастрономия, U&A",
+   "blocks": 12,
+   "questions": 53,
+   "options": 321,
+   "scale_items": 29,
+   "pages": 14,
+   "n_total": 900,
+   "source_pdf": "Маркетинговое исследование Инко Фуд, онлайн панель 900 респондентов.pdf",
+   "source_pdf_sha256": "dcaf31cb38a8bc4d3e4a8c2a3364685b3cf49e000354656a247e9a249c1dc4f9",
+   "dir": "instruments/inkofood-ua-oct2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "instrument.json",
+    "instrument.raw.json",
+    "instrument.md",
+    "instrument.csv",
+    "index.html",
+    "question-to-slide.json"
+   ],
+   "md": "instruments/inkofood-ua-oct2026/instrument.md",
+   "html": "instruments/inkofood-ua-oct2026/index.html",
+   "json": "instruments/inkofood-ua-oct2026/instrument.json",
+   "csv": "instruments/inkofood-ua-oct2026/instrument.csv",
+   "question_to_slide": "instruments/inkofood-ua-oct2026/question-to-slide.json",
+   "linked_deck": "inkofood-2026",
+   "generated_at": "2026-11-21"
+  }
+ ],
  "totals": {
   "decks": 7,
   "pages": 260,
-  "table_rows": 2758
+  "table_rows": 2758,
+  "instruments": 1,
+  "instrument_questions": 53,
+  "instrument_options": 321
  }
 }

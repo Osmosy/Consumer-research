@@ -5,7 +5,9 @@
  "pages": 69,
  "generated_from": "PDF text layer",
  "schema": "unified-1",
- "note": "приведено к единой схеме репозитория"
+ "note": "приведено к единой схеме репозитория",
+ "instrument": "instruments/inkofood-ua-oct2026/instrument.json",
+ "instrument_note": "полевой инструмент этой колоды: 53 вопроса, 321 вариант; карта «вопрос → слайд» — instruments/inkofood-ua-oct2026/question-to-slide.json"
  },
  "slides": [
  {

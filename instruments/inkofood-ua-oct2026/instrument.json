@@ -1,0 +1,6864 @@
+{
+ "schema_version": "1.0",
+ "instrument": {
+  "slug": "inkofood-ua-oct2026",
+  "title": "Маркетинговое исследование",
+  "method": "потребительское исследование, онлайн-панель",
+  "field_period": null,
+  "field_period_note": "В PDF период поля не указан. Колода decks/inkofood-2026 относит исследование к октябрю 2026; здесь это не утверждается.",
+  "language": "ru",
+  "geography": [
+   {
+    "city": "Минск",
+    "n": 150
+   },
+   {
+    "city": "Брест",
+    "n": 75
+   },
+   {
+    "city": "Гомель",
+    "n": 75
+   },
+   {
+    "city": "Москва",
+    "n": 300
+   },
+   {
+    "city": "Санкт-Петербург",
+    "n": 150
+   },
+   {
+    "city": "Екатеринбург",
+    "n": 150
+   }
+  ],
+  "n_total": 900,
+  "source": {
+   "file": "Маркетинговое исследование Инко Фуд, онлайн панель 900 респондентов.pdf",
+   "bytes": 932564,
+   "sha256": "dcaf31cb38a8bc4d3e4a8c2a3364685b3cf49e000354656a247e9a249c1dc4f9",
+   "pages": 14
+  }
+ },
+ "blocks": [
+  {
+   "id": "b1",
+   "number": 1,
+   "title": "Общие вопросы",
+   "source": {
+    "page": 1,
+    "bbox": [
+     242.42,
+     242.34,
+     365.61,
+     253.51
+    ]
+   }
+  },
+  {
+   "id": "b2",
+   "number": 2,
+   "title": "Мотивы потребления",
+   "source": {
+    "page": 2,
+    "bbox": [
+     225.75,
+     630.42,
+     385.06,
+     641.59
+    ]
+   }
+  },
+  {
+   "id": "b3",
+   "number": 3,
+   "title": "Барьеры потребления",
+   "source": {
+    "page": 3,
+    "bbox": [
+     225.31,
+     292.31,
+     382.72,
+     303.48
+    ]
+   }
+  },
+  {
+   "id": "b4",
+   "number": 4,
+   "title": "Знание и выбор брендов",
+   "source": {
+    "page": 3,
+    "bbox": [
+     220.77,
+     625.89,
+     390.03,
+     637.06
+    ]
+   }
+  },
+  {
+   "id": "b5",
+   "number": 5,
+   "title": "Восприятие брендов и названия",
+   "source": {
+    "page": 4,
+    "bbox": [
+     203.58,
+     644.3,
+     411.2,
+     655.47
+    ]
+   }
+  },
+  {
+   "id": "b6",
+   "number": 6,
+   "title": "Восприятие белорусских брендов и «белорусскости»",
+   "source": {
+    "page": 7,
+    "bbox": [
+     148.91,
+     398.58,
+     465.87,
+     409.75
+    ]
+   }
+  },
+  {
+   "id": "b7",
+   "number": 7,
+   "title": "Продукт и форматы потребления",
+   "source": {
+    "page": 8,
+    "bbox": [
+     197.1,
+     143.66,
+     420.46,
+     154.83
+    ]
+   }
+  },
+  {
+   "id": "b8",
+   "number": 8,
+   "title": "Потребительское поведение и восприятие упаковки",
+   "source": {
+    "page": 9,
+    "bbox": [
+     150.17,
+     380.84,
+     464.61,
+     392.01
+    ]
+   }
+  },
+  {
+   "id": "b9",
+   "number": 9,
+   "title": "Сервелат",
+   "source": {
+    "page": 10,
+    "bbox": [
+     261.32,
+     355.37,
+     353.46,
+     366.55
+    ]
+   }
+  },
+  {
+   "id": "b10",
+   "number": 10,
+   "title": "Высокое содержание белка",
+   "source": {
+    "page": 11,
+    "bbox": [
+     214.71,
+     131.12,
+     400.07,
+     142.3
+    ]
+   }
+  },
+  {
+   "id": "b11",
+   "number": 11,
+   "title": "Форматы и продуктовые инновации",
+   "source": {
+    "page": 11,
+    "bbox": [
+     189.8,
+     466.44,
+     424.98,
+     477.61
+    ]
+   }
+  },
+  {
+   "id": "b12",
+   "number": 12,
+   "title": "Маркировка и продуктовые преимущества",
+   "source": {
+    "page": 13,
+    "bbox": [
+     172.86,
+     336.01,
+     441.92,
+     347.19
+    ]
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "number": 1,
+   "block": "b1",
+   "text": "Как часто Вы покупаете мясную гастрономию?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Несколько раз в неделю"
+     ],
+     "line_index": 12,
+     "text": "Несколько раз в неделю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       315.13,
+       98.82,
+       326.3
+      ]
+     },
+     "code": "q1.a1"
+    },
+    {
+     "parts": [
+      "Один раз в неделю"
+     ],
+     "line_index": 14,
+     "text": "Один раз в неделю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       327.4,
+       98.82,
+       338.57
+      ]
+     },
+     "code": "q1.a2"
+    },
+    {
+     "parts": [
+      "2–3 раза в месяц"
+     ],
+     "line_index": 16,
+     "text": "2–3 раза в месяц",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       339.66,
+       98.82,
+       350.84
+      ]
+     },
+     "code": "q1.a3"
+    },
+    {
+     "parts": [
+      "Один раз в месяц или реже"
+     ],
+     "line_index": 18,
+     "text": "Один раз в месяц или реже",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       351.93,
+       98.82,
+       363.1
+      ]
+     },
+     "code": "q1.a4"
+    },
+    {
+     "parts": [
+      "Не покупаю"
+     ],
+     "line_index": 20,
+     "text": "Не покупаю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       364.2,
+       98.82,
+       375.37
+      ]
+     },
+     "code": "q1.a5"
+    }
+   ],
+   "source": {
+    "page": 1,
+    "bbox": [
+     72.0,
+     266.6,
+     321.8,
+     277.77
+    ]
+   }
+  },
+  {
+   "id": "q2",
+   "number": 2,
+   "block": "b1",
+   "text": "Почему Вы обычно покупаете мясную гастрономию (например, колбасу, ветчину, сосиски и т. д.)?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Это привычная часть моего повседневного рациона"
+     ],
+     "line_index": 25,
+     "text": "Это привычная часть моего повседневного рациона",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       449.26,
+       98.82,
+       460.43
+      ]
+     },
+     "code": "q2.a1"
+    },
+    {
+     "parts": [
+      "Мне нравится вкус этих продуктов"
+     ],
+     "line_index": 27,
+     "text": "Мне нравится вкус этих продуктов",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       461.52,
+       98.82,
+       472.7
+      ]
+     },
+     "code": "q2.a2"
+    },
+    {
+     "parts": [
+      "Это доступные по цене продукты"
+     ],
+     "line_index": 29,
+     "text": "Это доступные по цене продукты",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       473.79,
+       98.82,
+       484.96
+      ]
+     },
+     "code": "q2.a3"
+    },
+    {
+     "parts": [
+      "Это сытные продукты"
+     ],
+     "line_index": 31,
+     "text": "Это сытные продукты",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       486.05,
+       98.82,
+       497.23
+      ]
+     },
+     "code": "q2.a4"
+    },
+    {
+     "parts": [
+      "Это полезные продукты"
+     ],
+     "line_index": 33,
+     "text": "Это полезные продукты",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       498.32,
+       98.82,
+       509.49
+      ]
+     },
+     "code": "q2.a5"
+    },
+    {
+     "parts": [
+      "Они подходят для повседневного питания всей семьи"
+     ],
+     "line_index": 35,
+     "text": "Они подходят для повседневного питания всей семьи",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       510.59,
+       98.82,
+       521.76
+      ]
+     },
+     "code": "q2.a6"
+    },
+    {
+     "parts": [
+      "Подходят для приготовления завтрака или бутербродов"
+     ],
+     "line_index": 37,
+     "text": "Подходят для приготовления завтрака или бутербродов",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       522.85,
+       98.82,
+       534.02
+      ]
+     },
+     "code": "q2.a7"
+    },
+    {
+     "parts": [
+      "Они удобны в качестве быстрого перекуса"
+     ],
+     "line_index": 39,
+     "text": "Они удобны в качестве быстрого перекуса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       535.12,
+       98.82,
+       546.29
+      ]
+     },
+     "code": "q2.a8"
+    },
+    {
+     "parts": [
+      "Их удобно брать с собой на работу, учёбу или в дорогу"
+     ],
+     "line_index": 41,
+     "text": "Их удобно брать с собой на работу, учёбу или в дорогу",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       547.38,
+       98.82,
+       558.55
+      ]
+     },
+     "code": "q2.a9"
+    },
+    {
+     "parts": [
+      "Я покупаю их для детей"
+     ],
+     "line_index": 43,
+     "text": "Я покупаю их для детей",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       559.65,
+       98.82,
+       570.82
+      ]
+     },
+     "code": "q2.a10"
+    },
+    {
+     "parts": [
+      "Они подходят для праздничного стола или встречи гостей"
+     ],
+     "line_index": 45,
+     "text": "Они подходят для праздничного стола или встречи гостей",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       571.91,
+       98.82,
+       583.09
+      ]
+     },
+     "code": "q2.a11"
+    },
+    {
+     "parts": [
+      "Считаю их хорошим источником белка"
+     ],
+     "line_index": 47,
+     "text": "Считаю их хорошим источником белка",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       584.18,
+       98.82,
+       595.35
+      ]
+     },
+     "code": "q2.a12"
+    },
+    {
+     "parts": [
+      "Другое"
+     ],
+     "line_index": 49,
+     "text": "Другое",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       596.45,
+       98.82,
+       607.62
+      ]
+     },
+     "code": "q2.a13"
+    },
+    {
+     "parts": [
+      "Ничего из вышеперечисленного"
+     ],
+     "line_index": 51,
+     "text": "Ничего из вышеперечисленного",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       608.71,
+       98.82,
+       619.88
+      ]
+     },
+     "code": "q2.a14"
+    }
+   ],
+   "source": {
+    "page": 1,
+    "bbox": [
+     72.0,
+     388.46,
+     536.82,
+     399.63
+    ]
+   }
+  },
+  {
+   "id": "q3",
+   "number": 3,
+   "block": "b1",
+   "text": "Для кого Вы обычно покупаете колбасные изделия?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "В основном для себя"
+     ],
+     "line_index": 55,
+     "text": "В основном для себя",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       681.51,
+       98.82,
+       692.68
+      ]
+     },
+     "code": "q3.a1"
+    },
+    {
+     "parts": [
+      "Для себя и других членов семьи"
+     ],
+     "line_index": 57,
+     "text": "Для себя и других членов семьи",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       693.77,
+       98.82,
+       704.95
+      ]
+     },
+     "code": "q3.a2"
+    },
+    {
+     "parts": [
+      "В основном для детей"
+     ],
+     "line_index": 59,
+     "text": "В основном для детей",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 1,
+      "bbox": [
+       90.0,
+       706.04,
+       98.82,
+       717.21
+      ]
+     },
+     "code": "q3.a3"
+    },
+    {
+     "parts": [
+      "В основном для других членов семьи"
+     ],
+     "line_index": 61,
+     "text": "В основном для других членов семьи",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q3.a4"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 63,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       84.59,
+       98.82,
+       95.76
+      ]
+     },
+     "code": "q3.a5"
+    }
+   ],
+   "source": {
+    "page": 1,
+    "bbox": [
+     72.0,
+     632.98,
+     349.51,
+     644.15
+    ]
+   }
+  },
+  {
+   "id": "q4",
+   "number": 4,
+   "block": "b1",
+   "text": "Какие категории мясной гастрономии Вы покупаете регулярно?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Варёная колбаса"
+     ],
+     "line_index": 67,
+     "text": "Варёная колбаса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       161.39,
+       98.82,
+       172.56
+      ]
+     },
+     "code": "q4.a1"
+    },
+    {
+     "parts": [
+      "Варёно-копчёная колбаса"
+     ],
+     "line_index": 69,
+     "text": "Варёно-копчёная колбаса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       173.66,
+       98.82,
+       184.83
+      ]
+     },
+     "code": "q4.a2"
+    },
+    {
+     "parts": [
+      "Полукопченая колбаса"
+     ],
+     "line_index": 71,
+     "text": "Полукопченая колбаса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       185.92,
+       98.82,
+       197.09
+      ]
+     },
+     "code": "q4.a3"
+    },
+    {
+     "parts": [
+      "Сырокопчёная колбаса"
+     ],
+     "line_index": 73,
+     "text": "Сырокопчёная колбаса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       198.19,
+       98.82,
+       209.36
+      ]
+     },
+     "code": "q4.a4"
+    },
+    {
+     "parts": [
+      "Сыровяленая колбаса"
+     ],
+     "line_index": 75,
+     "text": "Сыровяленая колбаса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       210.45,
+       98.82,
+       221.62
+      ]
+     },
+     "code": "q4.a5"
+    },
+    {
+     "parts": [
+      "Сервелат"
+     ],
+     "line_index": 77,
+     "text": "Сервелат",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       222.72,
+       98.82,
+       233.89
+      ]
+     },
+     "code": "q4.a6"
+    },
+    {
+     "parts": [
+      "Ветчина"
+     ],
+     "line_index": 79,
+     "text": "Ветчина",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       234.98,
+       98.82,
+       246.16
+      ]
+     },
+     "code": "q4.a7"
+    },
+    {
+     "parts": [
+      "Паштет"
+     ],
+     "line_index": 81,
+     "text": "Паштет",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       247.25,
+       98.82,
+       258.42
+      ]
+     },
+     "code": "q4.a8"
+    },
+    {
+     "parts": [
+      "Сосиски"
+     ],
+     "line_index": 83,
+     "text": "Сосиски",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       259.51,
+       98.82,
+       270.69
+      ]
+     },
+     "code": "q4.a9"
+    },
+    {
+     "parts": [
+      "Сардельки"
+     ],
+     "line_index": 85,
+     "text": "Сардельки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       271.78,
+       98.82,
+       282.95
+      ]
+     },
+     "code": "q4.a10"
+    },
+    {
+     "parts": [
+      "Мясные нарезки"
+     ],
+     "line_index": 87,
+     "text": "Мясные нарезки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       284.05,
+       98.82,
+       295.22
+      ]
+     },
+     "code": "q4.a11"
+    },
+    {
+     "parts": [
+      "Балык"
+     ],
+     "line_index": 89,
+     "text": "Балык",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       296.31,
+       98.82,
+       307.48
+      ]
+     },
+     "code": "q4.a12"
+    },
+    {
+     "parts": [
+      "Буженина"
+     ],
+     "line_index": 91,
+     "text": "Буженина",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       308.58,
+       98.82,
+       319.75
+      ]
+     },
+     "code": "q4.a13"
+    },
+    {
+     "parts": [
+      "Другое"
+     ],
+     "line_index": 93,
+     "text": "Другое",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       320.84,
+       98.82,
+       332.01
+      ]
+     },
+     "code": "q4.a14"
+    }
+   ],
+   "source": {
+    "page": 2,
+    "bbox": [
+     72.0,
+     110.86,
+     405.5,
+     122.03
+    ]
+   }
+  },
+  {
+   "id": "q5",
+   "number": 5,
+   "block": "b1",
+   "text": "Насколько важен для Вас каждый из перечисленных факторов при выборе колбасных изделий? (Оцените по шкале от 1 до 10, где 1 — совершенно неважно, а 10 — очень важно)",
+   "type": "scale",
+   "instruction": "(Шкала 1–10 для каждого фактора)",
+   "options": [],
+   "source": {
+    "page": 2,
+    "bbox": [
+     72.0,
+     347.11,
+     521.28,
+     358.28
+    ]
+   },
+   "items": [
+    {
+     "code": "q5.i1",
+     "text": "Вкус продукта",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       409.91,
+       98.82,
+       421.08
+      ]
+     }
+    },
+    {
+     "code": "q5.i2",
+     "text": "Цена",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       422.17,
+       98.82,
+       433.34
+      ]
+     }
+    },
+    {
+     "code": "q5.i3",
+     "text": "Качество продукта",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       434.44,
+       98.82,
+       445.61
+      ]
+     }
+    },
+    {
+     "code": "q5.i4",
+     "text": "Понятный и натуральный состав",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       446.7,
+       98.82,
+       457.87
+      ]
+     }
+    },
+    {
+     "code": "q5.i5",
+     "text": "Содержание мяса",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       458.97,
+       98.82,
+       470.14
+      ]
+     }
+    },
+    {
+     "code": "q5.i6",
+     "text": "Отсутствие добавок (например, крахмала, сои, глютена, Е-добавок и т. д.)",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       471.23,
+       98.82,
+       482.41
+      ]
+     }
+    },
+    {
+     "code": "q5.i7",
+     "text": "Срок годности",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       483.5,
+       98.82,
+       494.67
+      ]
+     }
+    },
+    {
+     "code": "q5.i8",
+     "text": "Внешний вид продукта",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       495.76,
+       98.82,
+       506.94
+      ]
+     }
+    },
+    {
+     "code": "q5.i9",
+     "text": "Текстура и консистенция продукта",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       508.03,
+       98.82,
+       519.2
+      ]
+     }
+    },
+    {
+     "code": "q5.i10",
+     "text": "Известность бренда",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       520.3,
+       98.82,
+       531.47
+      ]
+     }
+    },
+    {
+     "code": "q5.i11",
+     "text": "Доверие к производителю",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       532.56,
+       98.82,
+       543.73
+      ]
+     }
+    },
+    {
+     "code": "q5.i12",
+     "text": "Страна происхождения продукта",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       544.83,
+       98.82,
+       556.0
+      ]
+     }
+    },
+    {
+     "code": "q5.i13",
+     "text": "Внешний вид упаковки",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       557.09,
+       98.82,
+       568.26
+      ]
+     }
+    },
+    {
+     "code": "q5.i14",
+     "text": "Удобство упаковки",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       569.36,
+       98.82,
+       580.53
+      ]
+     }
+    },
+    {
+     "code": "q5.i15",
+     "text": "Формат упаковки (например, нарезки, цельного куска, продукта на развес и т. д.)",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       581.62,
+       98.82,
+       592.8
+      ]
+     }
+    },
+    {
+     "code": "q5.i16",
+     "text": "Акции и скидки",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       593.89,
+       98.82,
+       605.06
+      ]
+     }
+    },
+    {
+     "code": "q5.i17",
+     "text": "Высокое содержание белка",
+     "source": {
+      "page": 2,
+      "bbox": [
+       90.0,
+       606.16,
+       98.82,
+       617.33
+      ]
+     }
+    }
+   ],
+   "scale": {
+    "min": 1,
+    "max": 10,
+    "labels": {
+     "min": "совершенно неважно",
+     "max": "очень важно"
+    }
+   }
+  },
+  {
+   "id": "q6",
+   "number": 6,
+   "block": "b2",
+   "text": "В каких ситуациях или для каких целей Вы чаще всего покупаете мясные деликатесы",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Для быстрого перекуса, когда нет времени на полноценный приём пищи"
+     ],
+     "line_index": 136,
+     "text": "Для быстрого перекуса, когда нет времени на полноценный приём пищи",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q6.a1"
+    },
+    {
+     "parts": [
+      "Для семейного ужина"
+     ],
+     "line_index": 138,
+     "text": "Для семейного ужина",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       84.59,
+       98.82,
+       95.76
+      ]
+     },
+     "code": "q6.a2"
+    },
+    {
+     "parts": [
+      "Для завтрака"
+     ],
+     "line_index": 140,
+     "text": "Для завтрака",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       96.86,
+       98.82,
+       108.03
+      ]
+     },
+     "code": "q6.a3"
+    },
+    {
+     "parts": [
+      "Чтобы взять с собой на работу, учёбу или в дорогу"
+     ],
+     "line_index": 142,
+     "text": "Чтобы взять с собой на работу, учёбу или в дорогу",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       109.12,
+       98.82,
+       120.3
+      ]
+     },
+     "code": "q6.a4"
+    },
+    {
+     "parts": [
+      "Когда хочется чего-то вкусного"
+     ],
+     "line_index": 144,
+     "text": "Когда хочется чего-то вкусного",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       121.39,
+       98.82,
+       132.56
+      ]
+     },
+     "code": "q6.a5"
+    },
+    {
+     "parts": [
+      "Чтобы побаловать себя"
+     ],
+     "line_index": 146,
+     "text": "Чтобы побаловать себя",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       133.66,
+       98.82,
+       144.83
+      ]
+     },
+     "code": "q6.a6"
+    },
+    {
+     "parts": [
+      "Как гастрономическое дополнение к напиткам (например, пиву или вину)"
+     ],
+     "line_index": 148,
+     "text": "Как гастрономическое дополнение к напиткам (например, пиву или вину)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       145.92,
+       98.82,
+       157.09
+      ]
+     },
+     "code": "q6.a7"
+    },
+    {
+     "parts": [
+      "Для пикника"
+     ],
+     "line_index": 150,
+     "text": "Для пикника",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       158.19,
+       98.82,
+       169.36
+      ]
+     },
+     "code": "q6.a8"
+    },
+    {
+     "parts": [
+      "Для праздничного стола или особого случая"
+     ],
+     "line_index": 152,
+     "text": "Для праздничного стола или особого случая",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       170.45,
+       98.82,
+       181.62
+      ]
+     },
+     "code": "q6.a9"
+    },
+    {
+     "parts": [
+      "Чтобы разнообразить рацион"
+     ],
+     "line_index": 154,
+     "text": "Чтобы разнообразить рацион",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       182.72,
+       98.82,
+       193.89
+      ]
+     },
+     "code": "q6.a10"
+    },
+    {
+     "parts": [
+      "Чтобы добавить источник белка в рацион"
+     ],
+     "line_index": 156,
+     "text": "Чтобы добавить источник белка в рацион",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       194.98,
+       98.82,
+       206.16
+      ]
+     },
+     "code": "q6.a11"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 158,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       207.25,
+       98.82,
+       218.42
+      ]
+     },
+     "code": "q6.a12"
+    }
+   ],
+   "source": {
+    "page": 2,
+    "bbox": [
+     72.0,
+     656.69,
+     516.04,
+     667.86
+    ]
+   },
+   "notes": "(например, ветчину, балык и т. д.)?"
+  },
+  {
+   "id": "q7",
+   "number": 7,
+   "block": "b2",
+   "text": "Опишите идеальную ситуацию, в которой Вы наслаждаетесь любимым мясным деликатесом. Где Вы находитесь, кто рядом и что ещё есть на столе?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 3,
+    "bbox": [
+     72.0,
+     231.51,
+     489.2,
+     242.69
+    ]
+   }
+  },
+  {
+   "id": "q8",
+   "number": 8,
+   "block": "b3",
+   "text": "Насколько каждая из перечисленных причин может остановить Вас от покупки мясных продуктов? Оцените каждую причину по шкале от 1 до 10, где 1 — практически никогда не останавливает, а 10 — очень часто останавливает.",
+   "type": "scale",
+   "instruction": "(Шкала 1–10 для каждого фактора)",
+   "options": [],
+   "source": {
+    "page": 3,
+    "bbox": [
+     72.0,
+     318.58,
+     523.33,
+     329.75
+    ]
+   },
+   "items": [
+    {
+     "code": "q8.i1",
+     "text": "Высокая цена",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       393.64,
+       98.82,
+       404.81
+      ]
+     }
+    },
+    {
+     "code": "q8.i2",
+     "text": "Сомнения в качестве продукта",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       405.91,
+       98.82,
+       417.08
+      ]
+     }
+    },
+    {
+     "code": "q8.i3",
+     "text": "Нежелательный состав или слишком большое количество добавок (например, крахмала, сои, глютена, Е-добавок и т. д.)",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       418.17,
+       98.82,
+       429.34
+      ]
+     }
+    },
+    {
+     "code": "q8.i4",
+     "text": "Высокое содержание соли",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       442.7,
+       98.82,
+       453.87
+      ]
+     }
+    },
+    {
+     "code": "q8.i5",
+     "text": "Повышенная жирность",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       454.97,
+       98.82,
+       466.14
+      ]
+     }
+    },
+    {
+     "code": "q8.i6",
+     "text": "Непривлекательный внешний вид продукта",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       467.23,
+       98.82,
+       478.41
+      ]
+     }
+    },
+    {
+     "code": "q8.i7",
+     "text": "Отсутствие привычного формата продукта (например, нарезки, продукта на развес и т. д.)",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       479.5,
+       98.82,
+       490.67
+      ]
+     }
+    },
+    {
+     "code": "q8.i8",
+     "text": "Отсутствие привычного бренда",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       491.76,
+       98.82,
+       502.94
+      ]
+     }
+    },
+    {
+     "code": "q8.i9",
+     "text": "Отсутствие привычного вида продукта",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       504.03,
+       98.82,
+       515.2
+      ]
+     }
+    },
+    {
+     "code": "q8.i10",
+     "text": "Недостаточно свежий продукт",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       516.3,
+       98.82,
+       527.47
+      ]
+     }
+    },
+    {
+     "code": "q8.i11",
+     "text": "Неудобный формат упаковки",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       528.56,
+       98.82,
+       539.73
+      ]
+     }
+    },
+    {
+     "code": "q8.i12",
+     "text": "Другое (укажите)",
+     "source": {
+      "page": 3,
+      "bbox": [
+       90.0,
+       540.83,
+       98.82,
+       552.0
+      ]
+     }
+    }
+   ],
+   "scale": {
+    "min": 1,
+    "max": 10,
+    "labels": {
+     "min": "практически никогда не останавливает",
+     "max": "очень часто останавливает"
+    }
+   }
+  },
+  {
+   "id": "q9",
+   "number": 9,
+   "block": "b3",
+   "text": "Что может вызвать у Вас чувство разочарования при вскрытии упаковки мясного продукта (например, колбасы, ветчины и т. д.)?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 3,
+    "bbox": [
+     72.0,
+     565.09,
+     496.67,
+     576.26
+    ]
+   }
+  },
+  {
+   "id": "q10",
+   "number": 10,
+   "block": "b4",
+   "text": "Какая марка колбасных изделий (например, колбасы, ветчины, сосисок и т. д.) первой приходит Вам на ум? Укажите название ОДНОЙ марки.",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 3,
+    "bbox": [
+     72.0,
+     650.16,
+     523.21,
+     661.33
+    ]
+   }
+  },
+  {
+   "id": "q11",
+   "number": 11,
+   "block": "b4",
+   "text": "Какие из перечисленных ниже марок колбасных изделий Вам известны?",
+   "type": "multi",
+   "instruction": "(Множественный выбор) ( список от клиента)",
+   "options": [
+    {
+     "code": "q11.rf1",
+     "text": "Белорусская традиция",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf2",
+     "text": "Natura",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf3",
+     "text": "Casedemont",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf4",
+     "text": "Черкизово Премиум",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf5",
+     "text": "Останкино",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf6",
+     "text": "Салямичи",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf7",
+     "text": "Delikaiser",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf8",
+     "text": "Рублевски МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf9",
+     "text": "Бахрушин",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf10",
+     "text": "МД Бородина",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf11",
+     "text": "Рублеский МПЗ",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf12",
+     "text": "Ближние Горки",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf13",
+     "text": "Клинский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf14",
+     "text": "Велком",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf15",
+     "text": "Папа Может",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf16",
+     "text": "Вязанка",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf17",
+     "text": "Черкизово",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf18",
+     "text": "Мясницкий Ряд",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf19",
+     "text": "Стародворье",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf20",
+     "text": "Великолукций МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf21",
+     "text": "Мираторг",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf22",
+     "text": "Индилайт",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf23",
+     "text": "Империя Вкуса",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rf24",
+     "text": "Другой бренд (укажите)",
+     "kind": "brand",
+     "exclusive": true,
+     "scope": "RF",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb1",
+     "text": "Белорусская традиция",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb2",
+     "text": "Natura",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb3",
+     "text": "Брестский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb4",
+     "text": "Namazka",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb5",
+     "text": "Гродненский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb6",
+     "text": "Волковысский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb7",
+     "text": "Слонимский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb8",
+     "text": "Пикант",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb9",
+     "text": "Маладзечна",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb10",
+     "text": "Слуцкий МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb11",
+     "text": "Галерея Вкуса",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb12",
+     "text": "Francôté",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb13",
+     "text": "Мясная держава",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb14",
+     "text": "Берёзовский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB",
+     "source_kind": "referenced"
+    },
+    {
+     "code": "q11.rb15",
+     "text": "Другой бренд (укажите)",
+     "kind": "brand",
+     "exclusive": true,
+     "scope": "RB",
+     "source_kind": "referenced"
+    }
+   ],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     72.33,
+     455.82,
+     83.5
+    ]
+   },
+   "notes": "Варианты в PDF не приведены: пометка «(список от клиента)». Список восстановлен из вопроса 12 (два набора: РФ и РБ) и помечен scope.",
+   "options_from": "q12"
+  },
+  {
+   "id": "q12",
+   "number": 12,
+   "block": "b4",
+   "text": "Какой из этих брендов Вы покупаете чаще всего?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "code": "q12.rf1",
+     "text": "Белорусская традиция",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf2",
+     "text": "Natura",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf3",
+     "text": "Casedemont",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf4",
+     "text": "Черкизово Премиум",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf5",
+     "text": "Останкино",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf6",
+     "text": "Салямичи",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf7",
+     "text": "Delikaiser",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf8",
+     "text": "Рублевски МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf9",
+     "text": "Бахрушин",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf10",
+     "text": "МД Бородина",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf11",
+     "text": "Рублеский МПЗ",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf12",
+     "text": "Ближние Горки",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf13",
+     "text": "Клинский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf14",
+     "text": "Велком",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf15",
+     "text": "Папа Может",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf16",
+     "text": "Вязанка",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf17",
+     "text": "Черкизово",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf18",
+     "text": "Мясницкий Ряд",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf19",
+     "text": "Стародворье",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf20",
+     "text": "Великолукций МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf21",
+     "text": "Мираторг",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf22",
+     "text": "Индилайт",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf23",
+     "text": "Империя Вкуса",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rf24",
+     "text": "Другой бренд (укажите)",
+     "kind": "brand",
+     "exclusive": true,
+     "scope": "RF"
+    },
+    {
+     "code": "q12.rb1",
+     "text": "Белорусская традиция",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb2",
+     "text": "Natura",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb3",
+     "text": "Брестский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb4",
+     "text": "Namazka",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb5",
+     "text": "Гродненский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb6",
+     "text": "Волковысский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb7",
+     "text": "Слонимский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb8",
+     "text": "Пикант",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb9",
+     "text": "Маладзечна",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb10",
+     "text": "Слуцкий МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb11",
+     "text": "Галерея Вкуса",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb12",
+     "text": "Francôté",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb13",
+     "text": "Мясная держава",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb14",
+     "text": "Берёзовский МК",
+     "kind": "brand",
+     "exclusive": false,
+     "scope": "RB"
+    },
+    {
+     "code": "q12.rb15",
+     "text": "Другой бренд (укажите)",
+     "kind": "brand",
+     "exclusive": true,
+     "scope": "RB"
+    }
+   ],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     120.86,
+     339.93,
+     132.03
+    ]
+   },
+   "raw_extra_text": "Для РФ — показывать только респондентам РФ: Белорусская традиция; Natura; Casedemont; Черкизово Премиум; Останкино; Салямичи; Delikaiser; Рублевски МК; Бахрушин; МД Бородина; Рублеский МПЗ; Ближние Горки; Клинский МК; Велком; Папа Может; Вязанка; Черкизово; Мясницкий Ряд; Стародворье; Великолукций МК; Мираторг; Индилайт; Империя Вкуса; Другой бренд (укажите). Для РБ — показывать только респондентам РБ: Белорусская традиция; Natura; Брестский МК; Namazka; Гродненский МК; Волковысский МК; Слонимский МК; Пикант; Маладзечна; Слуцкий МК; Галерея Вкуса; Francôté; Мясная держава; Берёзовский МК; Другой бренд (укажите).",
+   "notes": "Варианты приведены двумя наборами с условием показа по стране респондента: «Для РФ — показывать только респондентам РФ» (24 бренда), «Для РБ — показывать только респондентам РБ» (15 брендов); поле scope помечает набор.",
+   "show_if": {
+    "RF": "Для РФ — показывать только респондентам РФ",
+    "RB": "Для РБ — показывать только респондентам РБ"
+   }
+  },
+  {
+   "id": "q13",
+   "number": 13,
+   "block": "b4",
+   "text": "Что именно Вам нравится в продvуктах бренда, который Вы покупаете чаще всего?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     315.78,
+     511.74,
+     326.95
+    ]
+   },
+   "raw_extra_text": "Для РФ — использовать бренд, выбранный в вопросе 12 из списка РФ: Белорусская традиция; Natura; Casedemont; Черкизово Премиум; Останкино; Салямичи; Delikaiser; Рублевски МК; Бахрушин; МД Бородина; Рублеский МПЗ; Ближние Горки; Клинский МК; Велком; Папа Может; Вязанка; Черкизово; Мясницкий Ряд; Стародворье; Великолукций МК; Мираторг; Индилайт; Империя Вкуса; Другой бренд (укажите). Для РБ — использовать бренд, выбранный в вопросе 12 из списка РБ: Белорусская традиция; Natura; Брестский МК; Namazka; Гродненский МК; Волковысский МК; Слонимский МК; Пикант; Маладзечна; Слуцкий МК; Галерея Вкуса; Francôté; Мясная держава; Берёзовский МК; Другой бренд (укажите).",
+   "notes": "Инструкция содержит те же списки брендов, что и вопрос 12 (отдельно для РФ и РБ); это указание, какой бренд подставлять, а не варианты ответа."
+  },
+  {
+   "id": "q14",
+   "number": 14,
+   "block": "b4",
+   "text": "Что Вас останавливает от покупки продуктов бренда «Белорусская традиция»?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     510.7,
+     490.75,
+     521.87
+    ]
+   },
+   "notes": null,
+   "routing": "(Для респондентов, которые не выбрали «Белорусскую традицию» в вопросе 12)"
+  },
+  {
+   "id": "q15",
+   "number": 15,
+   "block": "b4",
+   "text": "Что Вас останавливает от покупки продуктов бренда Natura?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     577.5,
+     397.47,
+     588.67
+    ]
+   },
+   "notes": null,
+   "routing": "(Для респондентов, которые не выбрали Natura в вопросе 12)"
+  },
+  {
+   "id": "q16",
+   "number": 16,
+   "block": "b5",
+   "text": "Посмотрите на представленные упаковки бренда «Белорусская традиция». Какие характеристики, на Ваш взгляд, лучше всего описывают этот бренд?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Доступный по цене"
+     ],
+     "line_index": 235,
+     "text": "Доступный по цене",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       400.23,
+       98.82,
+       411.4
+      ]
+     },
+     "code": "q16.a1"
+    },
+    {
+     "parts": [
+      "Премиальный"
+     ],
+     "line_index": 237,
+     "text": "Премиальный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       412.49,
+       98.82,
+       423.67
+      ]
+     },
+     "code": "q16.a2"
+    },
+    {
+     "parts": [
+      "Качественный"
+     ],
+     "line_index": 239,
+     "text": "Качественный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       424.76,
+       98.82,
+       435.93
+      ]
+     },
+     "code": "q16.a3"
+    },
+    {
+     "parts": [
+      "Надёжный"
+     ],
+     "line_index": 241,
+     "text": "Надёжный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       437.03,
+       98.82,
+       448.2
+      ]
+     },
+     "code": "q16.a4"
+    },
+    {
+     "parts": [
+      "Вызывающий доверие"
+     ],
+     "line_index": 243,
+     "text": "Вызывающий доверие",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       449.29,
+       98.82,
+       460.46
+      ]
+     },
+     "code": "q16.a5"
+    },
+    {
+     "parts": [
+      "Современный"
+     ],
+     "line_index": 245,
+     "text": "Современный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       461.56,
+       98.82,
+       472.73
+      ]
+     },
+     "code": "q16.a6"
+    },
+    {
+     "parts": [
+      "Традиционный"
+     ],
+     "line_index": 247,
+     "text": "Традиционный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       473.82,
+       98.82,
+       484.99
+      ]
+     },
+     "code": "q16.a7"
+    },
+    {
+     "parts": [
+      "Натуральный"
+     ],
+     "line_index": 249,
+     "text": "Натуральный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       486.09,
+       98.82,
+       497.26
+      ]
+     },
+     "code": "q16.a8"
+    },
+    {
+     "parts": [
+      "Полезный"
+     ],
+     "line_index": 251,
+     "text": "Полезный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       498.35,
+       98.82,
+       509.53
+      ]
+     },
+     "code": "q16.a9"
+    },
+    {
+     "parts": [
+      "Аппетитный"
+     ],
+     "line_index": 253,
+     "text": "Аппетитный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       510.62,
+       98.82,
+       521.79
+      ]
+     },
+     "code": "q16.a10"
+    },
+    {
+     "parts": [
+      "Семейный"
+     ],
+     "line_index": 255,
+     "text": "Семейный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       522.88,
+       98.82,
+       534.06
+      ]
+     },
+     "code": "q16.a11"
+    },
+    {
+     "parts": [
+      "Привычный и знакомый"
+     ],
+     "line_index": 257,
+     "text": "Привычный и знакомый",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       535.15,
+       98.82,
+       546.32
+      ]
+     },
+     "code": "q16.a12"
+    },
+    {
+     "parts": [
+      "Белорусский"
+     ],
+     "line_index": 259,
+     "text": "Белорусский",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       547.42,
+       98.82,
+       558.59
+      ]
+     },
+     "code": "q16.a13"
+    },
+    {
+     "parts": [
+      "Европейский"
+     ],
+     "line_index": 261,
+     "text": "Европейский",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       559.68,
+       98.82,
+       570.85
+      ]
+     },
+     "code": "q16.a14"
+    },
+    {
+     "parts": [
+      "Ностальгический"
+     ],
+     "line_index": 263,
+     "text": "Ностальгический",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       571.95,
+       98.82,
+       583.12
+      ]
+     },
+     "code": "q16.a15"
+    },
+    {
+     "parts": [
+      "В советском стиле"
+     ],
+     "line_index": 265,
+     "text": "В советском стиле",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       584.21,
+       98.82,
+       595.38
+      ]
+     },
+     "code": "q16.a16"
+    },
+    {
+     "parts": [
+      "Оригинальный"
+     ],
+     "line_index": 267,
+     "text": "Оригинальный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       596.48,
+       98.82,
+       607.65
+      ]
+     },
+     "code": "q16.a17"
+    },
+    {
+     "parts": [
+      "Яркий и заметный"
+     ],
+     "line_index": 269,
+     "text": "Яркий и заметный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       608.74,
+       98.82,
+       619.92
+      ]
+     },
+     "code": "q16.a18"
+    },
+    {
+     "parts": [
+      "Сдержанный"
+     ],
+     "line_index": 271,
+     "text": "Сдержанный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       621.01,
+       98.82,
+       632.18
+      ]
+     },
+     "code": "q16.a19"
+    },
+    {
+     "parts": [
+      "Обычный"
+     ],
+     "line_index": 273,
+     "text": "Обычный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       633.28,
+       98.82,
+       644.45
+      ]
+     },
+     "code": "q16.a20"
+    },
+    {
+     "parts": [
+      "Устаревший"
+     ],
+     "line_index": 275,
+     "text": "Устаревший",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       645.54,
+       98.82,
+       656.71
+      ]
+     },
+     "code": "q16.a21"
+    },
+    {
+     "parts": [
+      "Ничем не выделяющийся"
+     ],
+     "line_index": 277,
+     "text": "Ничем не выделяющийся",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       657.81,
+       98.82,
+       668.98
+      ]
+     },
+     "code": "q16.a22"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 279,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 5,
+      "bbox": [
+       90.0,
+       670.07,
+       98.82,
+       681.24
+      ]
+     },
+     "code": "q16.a23"
+    }
+   ],
+   "source": {
+    "page": 4,
+    "bbox": [
+     72.0,
+     668.56,
+     500.46,
+     679.73
+    ]
+   },
+   "notes": "( визуалы от клиента)"
+  },
+  {
+   "id": "q17",
+   "number": 17,
+   "block": "b5",
+   "text": "Посмотрите на представленные упаковки бренда Natura. Какие характеристики, на Ваш взгляд, лучше всего описывают этот бренд?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Доступный по цене"
+     ],
+     "line_index": 284,
+     "text": "Доступный по цене",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       241.23,
+       98.82,
+       252.4
+      ]
+     },
+     "code": "q17.a1"
+    },
+    {
+     "parts": [
+      "Премиальный"
+     ],
+     "line_index": 286,
+     "text": "Премиальный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       253.49,
+       98.82,
+       264.67
+      ]
+     },
+     "code": "q17.a2"
+    },
+    {
+     "parts": [
+      "Качественный"
+     ],
+     "line_index": 288,
+     "text": "Качественный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       265.76,
+       98.82,
+       276.93
+      ]
+     },
+     "code": "q17.a3"
+    },
+    {
+     "parts": [
+      "Надёжный"
+     ],
+     "line_index": 290,
+     "text": "Надёжный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       278.03,
+       98.82,
+       289.2
+      ]
+     },
+     "code": "q17.a4"
+    },
+    {
+     "parts": [
+      "Вызывающий доверие"
+     ],
+     "line_index": 292,
+     "text": "Вызывающий доверие",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       290.29,
+       98.82,
+       301.46
+      ]
+     },
+     "code": "q17.a5"
+    },
+    {
+     "parts": [
+      "Современный"
+     ],
+     "line_index": 294,
+     "text": "Современный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       302.56,
+       98.82,
+       313.73
+      ]
+     },
+     "code": "q17.a6"
+    },
+    {
+     "parts": [
+      "Традиционный"
+     ],
+     "line_index": 296,
+     "text": "Традиционный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       314.82,
+       98.82,
+       325.99
+      ]
+     },
+     "code": "q17.a7"
+    },
+    {
+     "parts": [
+      "Натуральный"
+     ],
+     "line_index": 298,
+     "text": "Натуральный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       327.09,
+       98.82,
+       338.26
+      ]
+     },
+     "code": "q17.a8"
+    },
+    {
+     "parts": [
+      "Полезный"
+     ],
+     "line_index": 300,
+     "text": "Полезный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       339.35,
+       98.82,
+       350.53
+      ]
+     },
+     "code": "q17.a9"
+    },
+    {
+     "parts": [
+      "Аппетитный"
+     ],
+     "line_index": 302,
+     "text": "Аппетитный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       351.62,
+       98.82,
+       362.79
+      ]
+     },
+     "code": "q17.a10"
+    },
+    {
+     "parts": [
+      "Семейный"
+     ],
+     "line_index": 304,
+     "text": "Семейный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       363.88,
+       98.82,
+       375.06
+      ]
+     },
+     "code": "q17.a11"
+    },
+    {
+     "parts": [
+      "Привычный и знакомый"
+     ],
+     "line_index": 306,
+     "text": "Привычный и знакомый",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       376.15,
+       98.82,
+       387.32
+      ]
+     },
+     "code": "q17.a12"
+    },
+    {
+     "parts": [
+      "Белорусский"
+     ],
+     "line_index": 308,
+     "text": "Белорусский",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       388.42,
+       98.82,
+       399.59
+      ]
+     },
+     "code": "q17.a13"
+    },
+    {
+     "parts": [
+      "Европейский"
+     ],
+     "line_index": 310,
+     "text": "Европейский",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       400.68,
+       98.82,
+       411.85
+      ]
+     },
+     "code": "q17.a14"
+    },
+    {
+     "parts": [
+      "Ностальгический"
+     ],
+     "line_index": 312,
+     "text": "Ностальгический",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       412.95,
+       98.82,
+       424.12
+      ]
+     },
+     "code": "q17.a15"
+    },
+    {
+     "parts": [
+      "В советском стиле"
+     ],
+     "line_index": 314,
+     "text": "В советском стиле",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       425.21,
+       98.82,
+       436.38
+      ]
+     },
+     "code": "q17.a16"
+    },
+    {
+     "parts": [
+      "Оригинальный"
+     ],
+     "line_index": 316,
+     "text": "Оригинальный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       437.48,
+       98.82,
+       448.65
+      ]
+     },
+     "code": "q17.a17"
+    },
+    {
+     "parts": [
+      "Яркий и заметный"
+     ],
+     "line_index": 318,
+     "text": "Яркий и заметный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       449.74,
+       98.82,
+       460.92
+      ]
+     },
+     "code": "q17.a18"
+    },
+    {
+     "parts": [
+      "Сдержанный"
+     ],
+     "line_index": 320,
+     "text": "Сдержанный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       462.01,
+       98.82,
+       473.18
+      ]
+     },
+     "code": "q17.a19"
+    },
+    {
+     "parts": [
+      "Обычный"
+     ],
+     "line_index": 322,
+     "text": "Обычный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       474.28,
+       98.82,
+       485.45
+      ]
+     },
+     "code": "q17.a20"
+    },
+    {
+     "parts": [
+      "Устаревший"
+     ],
+     "line_index": 324,
+     "text": "Устаревший",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       486.54,
+       98.82,
+       497.71
+      ]
+     },
+     "code": "q17.a21"
+    },
+    {
+     "parts": [
+      "Ничем не выделяющийся"
+     ],
+     "line_index": 326,
+     "text": "Ничем не выделяющийся",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       498.81,
+       98.82,
+       509.98
+      ]
+     },
+     "code": "q17.a22"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 328,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 6,
+      "bbox": [
+       90.0,
+       511.07,
+       98.82,
+       522.24
+      ]
+     },
+     "code": "q17.a23"
+    }
+   ],
+   "source": {
+    "page": 5,
+    "bbox": [
+     72.0,
+     694.34,
+     529.24,
+     705.51
+    ]
+   }
+  },
+  {
+   "id": "q18",
+   "number": 18,
+   "block": "b5",
+   "text": "Оцените, пожалуйста, название «Белорусская традиция» по шкале от 1 до 10, где 1 — совсем не нравится, а 10 — очень нравится.",
+   "type": "scale",
+   "instruction": "(Шкала 1–10)",
+   "options": [],
+   "source": {
+    "page": 6,
+    "bbox": [
+     72.0,
+     535.34,
+     518.83,
+     546.51
+    ]
+   }
+  },
+  {
+   "id": "q19",
+   "number": 19,
+   "block": "b5",
+   "text": "Какие ассоциации, мысли или образы вызывает у Вас название «Белорусская традиция»?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 6,
+    "bbox": [
+     72.0,
+     588.23,
+     486.39,
+     599.41
+    ]
+   }
+  },
+  {
+   "id": "q20",
+   "number": 20,
+   "block": "b5",
+   "text": "Что Вам нравится или не нравится в названии «Белорусская традиция»?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 6,
+    "bbox": [
+     72.0,
+     641.13,
+     458.05,
+     652.3
+    ]
+   }
+  },
+  {
+   "id": "q21",
+   "number": 21,
+   "block": "b5",
+   "text": "Оцените, пожалуйста, название «Natura» по шкале от 1 до 10, где 1 — совсем не нравится, а 10 — очень нравится.",
+   "type": "scale",
+   "instruction": "(Шкала 1–10)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     72.33,
+     541.47,
+     83.5
+    ]
+   }
+  },
+  {
+   "id": "q22",
+   "number": 22,
+   "block": "b5",
+   "text": "Какие ассоциации, мысли или образы вызывает у Вас название «Natura»?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     129.12,
+     465.85,
+     140.3
+    ]
+   }
+  },
+  {
+   "id": "q23",
+   "number": 23,
+   "block": "b5",
+   "text": "Что Вам нравится или не нравится в названии «Natura»?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     173.66,
+     375.89,
+     184.83
+    ]
+   }
+  },
+  {
+   "id": "q24",
+   "number": 24,
+   "block": "b5",
+   "text": "Оцените, пожалуйста, название “Беловежский гостинец” по шкале от 1 до 10, где 1 — совсем не нравится, а 10 — очень нравится.",
+   "type": "scale",
+   "instruction": "(Шкала 1–10)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     218.19,
+     517.33,
+     229.36
+    ]
+   }
+  },
+  {
+   "id": "q25",
+   "number": 25,
+   "block": "b5",
+   "text": "Какие ассоциации, мысли или образы вызывает у Вас название “Беловежский гостинец”?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     274.98,
+     488.28,
+     286.16
+    ]
+   }
+  },
+  {
+   "id": "q26",
+   "number": 26,
+   "block": "b5",
+   "text": "Что Вам нравится или не нравится в названии “Беловежский гостинец”?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     331.78,
+     456.55,
+     342.95
+    ]
+   }
+  },
+  {
+   "id": "q27",
+   "number": 27,
+   "block": "b6",
+   "text": "Какое из следующих утверждений лучше всего описывает Ваше восприятие белорусской мясной гастрономии?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Продукт «как из СССР»: надежный и привычный, но без особых изысков"
+     ],
+     "line_index": 357,
+     "text": "Продукт «как из СССР»: надежный и привычный, но без особых изысков",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       477.64,
+       98.82,
+       488.81
+      ]
+     },
+     "code": "q27.a1"
+    },
+    {
+     "parts": [
+      "Высокое качество"
+     ],
+     "line_index": 359,
+     "text": "Высокое качество",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       489.91,
+       98.82,
+       501.08
+      ]
+     },
+     "code": "q27.a2"
+    },
+    {
+     "parts": [
+      "Качественная альтернатива импортным продуктам"
+     ],
+     "line_index": 361,
+     "text": "Качественная альтернатива импортным продуктам",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       502.17,
+       98.82,
+       513.34
+      ]
+     },
+     "code": "q27.a3"
+    },
+    {
+     "parts": [
+      "Слишком стандартные продукты, многие бренды похожи друг на друга"
+     ],
+     "line_index": 363,
+     "text": "Слишком стандартные продукты, многие бренды похожи друг на друга",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       514.44,
+       98.82,
+       525.61
+      ]
+     },
+     "code": "q27.a4"
+    },
+    {
+     "parts": [
+      "Продукты, которые стоят дороже, чем ожидаешь от местного производителя"
+     ],
+     "line_index": 365,
+     "text": "Продукты, которые стоят дороже, чем ожидаешь от местного производителя",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       526.7,
+       98.82,
+       537.87
+      ]
+     },
+     "code": "q27.a5"
+    },
+    {
+     "parts": [
+      "Продукты плохого качества"
+     ],
+     "line_index": 367,
+     "text": "Продукты плохого качества",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       538.97,
+       98.82,
+       550.14
+      ]
+     },
+     "code": "q27.a6"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 369,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       551.23,
+       98.82,
+       562.41
+      ]
+     },
+     "code": "q27.a7"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 371,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       563.5,
+       98.82,
+       574.67
+      ]
+     },
+     "code": "q27.a8"
+    },
+    {
+     "parts": [
+      "Современный бренд, которому я доверяю"
+     ],
+     "line_index": 373,
+     "text": "Современный бренд, которому я доверяю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       575.76,
+       98.82,
+       586.94
+      ]
+     },
+     "code": "q27.a9"
+    }
+   ],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     420.84,
+     540.79,
+     432.01
+    ]
+   }
+  },
+  {
+   "id": "q28",
+   "number": 28,
+   "block": "b6",
+   "text": "Представьте, что белорусский бренд выпустил мясной деликатес по итальянской рецептуре (например, прошутто или салями). Как Вы скорее воспримете такой продукт?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Как интересную новинку от белорусского бренда"
+     ],
+     "line_index": 378,
+     "text": "Как интересную новинку от белорусского бренда",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       654.83,
+       98.82,
+       666.0
+      ]
+     },
+     "code": "q28.a1"
+    },
+    {
+     "parts": [
+      "Как достойную локальную альтернативу зарубежному продукту"
+     ],
+     "line_index": 380,
+     "text": "Как достойную локальную альтернативу зарубежному продукту",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       667.09,
+       98.82,
+       678.26
+      ]
+     },
+     "code": "q28.a2"
+    },
+    {
+     "parts": [
+      "Как более премиальный и особенный продукт"
+     ],
+     "line_index": 382,
+     "text": "Как более премиальный и особенный продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       679.36,
+       98.82,
+       690.53
+      ]
+     },
+     "code": "q28.a3"
+    },
+    {
+     "parts": [
+      "Нейтрально: для меня важнее вкус, состав и цена, чем происхождение рецептуры"
+     ],
+     "line_index": 384,
+     "text": "Нейтрально: для меня важнее вкус, состав и цена, чем происхождение рецептуры",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 7,
+      "bbox": [
+       90.0,
+       691.62,
+       98.82,
+       702.8
+      ]
+     },
+     "code": "q28.a4"
+    },
+    {
+     "parts": [
+      "Скорее с сомнением: не уверен(а), что белорусский производитель сможет достоверно",
+      "воспроизвести итальянскую рецептуру"
+     ],
+     "line_index": 386,
+     "text": "Скорее с сомнением: не уверен(а), что белорусский производитель сможет достоверно воспроизвести итальянскую рецептуру",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q28.a5"
+    },
+    {
+     "parts": [
+      "Как неоригинальную копию зарубежного продукта"
+     ],
+     "line_index": 389,
+     "text": "Как неоригинальную копию зарубежного продукта",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       96.86,
+       98.82,
+       108.03
+      ]
+     },
+     "code": "q28.a6"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 391,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       109.12,
+       98.82,
+       120.3
+      ]
+     },
+     "code": "q28.a7"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 393,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       121.39,
+       98.82,
+       132.56
+      ]
+     },
+     "code": "q28.a8"
+    }
+   ],
+   "source": {
+    "page": 7,
+    "bbox": [
+     72.0,
+     598.03,
+     502.73,
+     609.2
+    ]
+   }
+  },
+  {
+   "id": "q29",
+   "number": 29,
+   "block": "b7",
+   "text": "Представьте, что на прилавках появилась колбаса с дополнительными полезными свойствами (например, с повышенным содержанием белка или добавлением омега-3). Какие утверждения на упаковке вызвали бы у Вас доверие и повлияли на решение купить такой продукт?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 8,
+    "bbox": [
+     72.0,
+     165.92,
+     510.05,
+     177.09
+    ]
+   }
+  },
+  {
+   "id": "q30",
+   "number": 30,
+   "block": "b7",
+   "text": "Готовы ли Вы принять небольшое изменение привычного вкуса колбасы, если будете уверены, что продукт обладает дополнительными полезными свойствами?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Полностью готов(а)"
+     ],
+     "line_index": 404,
+     "text": "Полностью готов(а)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       304.05,
+       98.82,
+       315.22
+      ]
+     },
+     "code": "q30.a1"
+    },
+    {
+     "parts": [
+      "Скорее готов(а)"
+     ],
+     "line_index": 406,
+     "text": "Скорее готов(а)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       316.31,
+       98.82,
+       327.48
+      ]
+     },
+     "code": "q30.a2"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 408,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       328.58,
+       98.82,
+       339.75
+      ]
+     },
+     "code": "q30.a3"
+    },
+    {
+     "parts": [
+      "Скорее не готов(а)"
+     ],
+     "line_index": 410,
+     "text": "Скорее не готов(а)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       340.84,
+       98.82,
+       352.01
+      ]
+     },
+     "code": "q30.a4"
+    },
+    {
+     "parts": [
+      "Совершенно не готов(а)"
+     ],
+     "line_index": 412,
+     "text": "Совершенно не готов(а)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       353.11,
+       98.82,
+       364.28
+      ]
+     },
+     "code": "q30.a5"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 414,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       365.37,
+       98.82,
+       376.55
+      ]
+     },
+     "code": "q30.a6"
+    }
+   ],
+   "source": {
+    "page": 8,
+    "bbox": [
+     72.0,
+     247.25,
+     525.77,
+     258.42
+    ]
+   }
+  },
+  {
+   "id": "q31",
+   "number": 31,
+   "block": "b7",
+   "text": "В каких ситуациях Вы обычно употребляете мясную нарезку (например, колбасу, ветчину и т. д.)?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Для приготовления завтрака"
+     ],
+     "line_index": 419,
+     "text": "Для приготовления завтрака",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       444.44,
+       98.82,
+       455.61
+      ]
+     },
+     "code": "q31.a1"
+    },
+    {
+     "parts": [
+      "Для школьного обеда ребёнку"
+     ],
+     "line_index": 421,
+     "text": "Для школьного обеда ребёнку",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       456.7,
+       98.82,
+       467.87
+      ]
+     },
+     "code": "q31.a2"
+    },
+    {
+     "parts": [
+      "Для быстрого перекуса в течение дня"
+     ],
+     "line_index": 423,
+     "text": "Для быстрого перекуса в течение дня",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       468.97,
+       98.82,
+       480.14
+      ]
+     },
+     "code": "q31.a3"
+    },
+    {
+     "parts": [
+      "В качестве закуски к напиткам (например, пиву, вину и т. д.)"
+     ],
+     "line_index": 425,
+     "text": "В качестве закуски к напиткам (например, пиву, вину и т. д.)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       481.23,
+       98.82,
+       492.41
+      ]
+     },
+     "code": "q31.a4"
+    },
+    {
+     "parts": [
+      "В качестве ингредиента для приготовления блюд (например, салатов, пиццы, омлета и т. д.)"
+     ],
+     "line_index": 427,
+     "text": "В качестве ингредиента для приготовления блюд (например, салатов, пиццы, омлета и т. д.)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       493.5,
+       98.82,
+       504.67
+      ]
+     },
+     "code": "q31.a5"
+    },
+    {
+     "parts": [
+      "Для встречи гостей или приготовления праздничного стола"
+     ],
+     "line_index": 429,
+     "text": "Для встречи гостей или приготовления праздничного стола",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       505.76,
+       98.82,
+       516.94
+      ]
+     },
+     "code": "q31.a6"
+    },
+    {
+     "parts": [
+      "Для перекуса в дороге"
+     ],
+     "line_index": 431,
+     "text": "Для перекуса в дороге",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       518.03,
+       98.82,
+       529.2
+      ]
+     },
+     "code": "q31.a7"
+    },
+    {
+     "parts": [
+      "Во время отдыха на природе, пикника"
+     ],
+     "line_index": 433,
+     "text": "Во время отдыха на природе, пикника",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       530.3,
+       98.82,
+       541.47
+      ]
+     },
+     "code": "q31.a8"
+    },
+    {
+     "parts": [
+      "В другой ситуации (укажите)"
+     ],
+     "line_index": 435,
+     "text": "В другой ситуации (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       542.56,
+       98.82,
+       553.73
+      ]
+     },
+     "code": "q31.a9"
+    }
+   ],
+   "source": {
+    "page": 8,
+    "bbox": [
+     72.0,
+     387.64,
+     542.1,
+     398.81
+    ]
+   }
+  },
+  {
+   "id": "q32",
+   "number": 32,
+   "block": "b7",
+   "text": "Какое утверждение соответствует Вам больше всего при выборе мясной нарезки в магазине?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Я отношусь к покупке спокойно, поскольку обычно планирую ее заранее"
+     ],
+     "line_index": 440,
+     "text": "Я отношусь к покупке спокойно, поскольку обычно планирую ее заранее",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       621.62,
+       98.82,
+       632.8
+      ]
+     },
+     "code": "q32.a1"
+    },
+    {
+     "parts": [
+      "Я испытываю интерес и удовольствие от выбора продукта"
+     ],
+     "line_index": 442,
+     "text": "Я испытываю интерес и удовольствие от выбора продукта",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       633.89,
+       98.82,
+       645.06
+      ]
+     },
+     "code": "q32.a2"
+    },
+    {
+     "parts": [
+      "Я часто сомневаюсь, какой продукт выбрать"
+     ],
+     "line_index": 444,
+     "text": "Я часто сомневаюсь, какой продукт выбрать",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       646.16,
+       98.82,
+       657.33
+      ]
+     },
+     "code": "q32.a3"
+    },
+    {
+     "parts": [
+      "Я переживаю что продукт не соответствует по качеству"
+     ],
+     "line_index": 446,
+     "text": "Я переживаю что продукт не соответствует по качеству",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       658.42,
+       98.82,
+       669.59
+      ]
+     },
+     "code": "q32.a4"
+    },
+    {
+     "parts": [
+      "Я могу купить продукт спонтанно, если он выглядит аппетитно"
+     ],
+     "line_index": 448,
+     "text": "Я могу купить продукт спонтанно, если он выглядит аппетитно",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       670.69,
+       98.82,
+       681.86
+      ]
+     },
+     "code": "q32.a5"
+    },
+    {
+     "parts": [
+      "Я испытываю чувство вины, если выбираю более жирный или калорийный продукт"
+     ],
+     "line_index": 450,
+     "text": "Я испытываю чувство вины, если выбираю более жирный или калорийный продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       682.95,
+       98.82,
+       694.12
+      ]
+     },
+     "code": "q32.a6"
+    },
+    {
+     "parts": [
+      "Обычно эта покупка не вызывает у меня особых эмоций"
+     ],
+     "line_index": 452,
+     "text": "Обычно эта покупка не вызывает у меня особых эмоций",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       695.22,
+       98.82,
+       706.39
+      ]
+     },
+     "code": "q32.a7"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 454,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 8,
+      "bbox": [
+       90.0,
+       707.48,
+       98.82,
+       718.66
+      ]
+     },
+     "code": "q32.a8"
+    }
+   ],
+   "source": {
+    "page": 8,
+    "bbox": [
+     72.0,
+     564.83,
+     508.38,
+     576.0
+    ]
+   }
+  },
+  {
+   "id": "q33",
+   "number": 33,
+   "block": "b7",
+   "text": "Посмотрите на два представленных варианта нарезки колбасы. Какой из них выглядит для Вас более дорогим? (ждем от клиента варианты нарезки)",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Вариант 1"
+     ],
+     "line_index": 459,
+     "text": "Вариант 1",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       129.12,
+       98.82,
+       140.3
+      ]
+     },
+     "code": "q33.a1"
+    },
+    {
+     "parts": [
+      "Вариант 2"
+     ],
+     "line_index": 461,
+     "text": "Вариант 2",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       141.39,
+       98.82,
+       152.56
+      ]
+     },
+     "code": "q33.a2"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 463,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       153.66,
+       98.82,
+       164.83
+      ]
+     },
+     "code": "q33.a3"
+    }
+   ],
+   "source": {
+    "page": 9,
+    "bbox": [
+     72.0,
+     72.33,
+     528.81,
+     83.5
+    ]
+   }
+  },
+  {
+   "id": "q34",
+   "number": 34,
+   "block": "b7",
+   "text": "Какой из этих вариантов нарезки выглядит для Вас более аппетитным? (ждем от клиента варианты нарезки)",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Вариант 1"
+     ],
+     "line_index": 468,
+     "text": "Вариант 1",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       232.72,
+       98.82,
+       243.89
+      ]
+     },
+     "code": "q34.a1"
+    },
+    {
+     "parts": [
+      "Вариант 2"
+     ],
+     "line_index": 470,
+     "text": "Вариант 2",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       244.98,
+       98.82,
+       256.16
+      ]
+     },
+     "code": "q34.a2"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 472,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       257.25,
+       98.82,
+       268.42
+      ]
+     },
+     "code": "q34.a3"
+    }
+   ],
+   "source": {
+    "page": 9,
+    "bbox": [
+     72.0,
+     175.92,
+     540.08,
+     187.09
+    ]
+   }
+  },
+  {
+   "id": "q35",
+   "number": 35,
+   "block": "b7",
+   "text": "Какие недостатки упаковки мясных продуктов вызывают у Вас наибольшие неудобства",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 9,
+    "bbox": [
+     72.0,
+     301.78,
+     533.86,
+     312.95
+    ]
+   },
+   "notes": "(например, упаковку сложно открыть или её нельзя плотно закрыть повторно)?"
+  },
+  {
+   "id": "q36",
+   "number": 36,
+   "block": "b8",
+   "text": "Какие цвета или варианты оформления упаковки у Вас больше всего ассоциируются с качественным мясным продуктом?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Белый"
+     ],
+     "line_index": 481,
+     "text": "Белый",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       459.91,
+       98.82,
+       471.08
+      ]
+     },
+     "code": "q36.a1"
+    },
+    {
+     "parts": [
+      "Красный"
+     ],
+     "line_index": 483,
+     "text": "Красный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       472.17,
+       98.82,
+       483.34
+      ]
+     },
+     "code": "q36.a2"
+    },
+    {
+     "parts": [
+      "Чёрный"
+     ],
+     "line_index": 485,
+     "text": "Чёрный",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       484.44,
+       98.82,
+       495.61
+      ]
+     },
+     "code": "q36.a3"
+    },
+    {
+     "parts": [
+      "Золотой"
+     ],
+     "line_index": 487,
+     "text": "Золотой",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       496.7,
+       98.82,
+       507.87
+      ]
+     },
+     "code": "q36.a4"
+    },
+    {
+     "parts": [
+      "Синий"
+     ],
+     "line_index": 489,
+     "text": "Синий",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       508.97,
+       98.82,
+       520.14
+      ]
+     },
+     "code": "q36.a5"
+    },
+    {
+     "parts": [
+      "Голубой"
+     ],
+     "line_index": 491,
+     "text": "Голубой",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       521.23,
+       98.82,
+       532.41
+      ]
+     },
+     "code": "q36.a6"
+    },
+    {
+     "parts": [
+      "Зеленый"
+     ],
+     "line_index": 493,
+     "text": "Зеленый",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       533.5,
+       98.82,
+       544.67
+      ]
+     },
+     "code": "q36.a7"
+    },
+    {
+     "parts": [
+      "Крафт-бумага"
+     ],
+     "line_index": 495,
+     "text": "Крафт-бумага",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       545.76,
+       98.82,
+       556.94
+      ]
+     },
+     "code": "q36.a8"
+    },
+    {
+     "parts": [
+      "Прозрачная упаковка"
+     ],
+     "line_index": 497,
+     "text": "Прозрачная упаковка",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       558.03,
+       98.82,
+       569.2
+      ]
+     },
+     "code": "q36.a9"
+    },
+    {
+     "parts": [
+      "Другой (укажите)"
+     ],
+     "line_index": 499,
+     "text": "Другой (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       570.3,
+       98.82,
+       581.47
+      ]
+     },
+     "code": "q36.a10"
+    },
+    {
+     "parts": [
+      "Ни один из перечисленных"
+     ],
+     "line_index": 501,
+     "text": "Ни один из перечисленных",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       582.56,
+       98.82,
+       593.73
+      ]
+     },
+     "code": "q36.a11"
+    }
+   ],
+   "source": {
+    "page": 9,
+    "bbox": [
+     72.0,
+     403.11,
+     527.66,
+     414.28
+    ]
+   }
+  },
+  {
+   "id": "q37",
+   "number": 37,
+   "block": "b8",
+   "text": "Какие элементы упаковки вызывают у Вас доверие?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Указание высокого содержания мяса"
+     ],
+     "line_index": 505,
+     "text": "Указание высокого содержания мяса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       649.36,
+       98.82,
+       660.53
+      ]
+     },
+     "code": "q37.a1"
+    },
+    {
+     "parts": [
+      "Надпись об отсутствии нежелательных ингредиентов (например, консервантов,",
+      "искусственных красителей и т. д.)"
+     ],
+     "line_index": 507,
+     "text": "Надпись об отсутствии нежелательных ингредиентов (например, консервантов, искусственных красителей и т. д.)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       661.62,
+       98.82,
+       672.8
+      ]
+     },
+     "code": "q37.a2"
+    },
+    {
+     "parts": [
+      "Прозрачная упаковка, через которую виден продукт"
+     ],
+     "line_index": 510,
+     "text": "Прозрачная упаковка, через которую виден продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       686.16,
+       98.82,
+       697.33
+      ]
+     },
+     "code": "q37.a3"
+    },
+    {
+     "parts": [
+      "Понятная информация о производителе и месте производства"
+     ],
+     "line_index": 512,
+     "text": "Понятная информация о производителе и месте производства",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 9,
+      "bbox": [
+       90.0,
+       698.42,
+       98.82,
+       709.59
+      ]
+     },
+     "code": "q37.a4"
+    },
+    {
+     "parts": [
+      "Знак качества или сертификат"
+     ],
+     "line_index": 514,
+     "text": "Знак качества или сертификат",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q37.a5"
+    },
+    {
+     "parts": [
+      "Дата производства и срок годности на лицевой стороне упаковки"
+     ],
+     "line_index": 516,
+     "text": "Дата производства и срок годности на лицевой стороне упаковки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       84.59,
+       98.82,
+       95.76
+      ]
+     },
+     "code": "q37.a6"
+    },
+    {
+     "parts": [
+      "Дизайн упаковки"
+     ],
+     "line_index": 518,
+     "text": "Дизайн упаковки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       96.86,
+       98.82,
+       108.03
+      ]
+     },
+     "code": "q37.a7"
+    },
+    {
+     "parts": [
+      "Изображение продукта"
+     ],
+     "line_index": 520,
+     "text": "Изображение продукта",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       109.12,
+       98.82,
+       120.3
+      ]
+     },
+     "code": "q37.a8"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 522,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       121.39,
+       98.82,
+       132.56
+      ]
+     },
+     "code": "q37.a9"
+    },
+    {
+     "parts": [
+      "Ничего из перечисленного"
+     ],
+     "line_index": 524,
+     "text": "Ничего из перечисленного",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       133.66,
+       98.82,
+       144.83
+      ]
+     },
+     "code": "q37.a10"
+    }
+   ],
+   "source": {
+    "page": 9,
+    "bbox": [
+     72.0,
+     604.83,
+     356.15,
+     616.0
+    ]
+   }
+  },
+  {
+   "id": "q38",
+   "number": 38,
+   "block": "b8",
+   "text": "Какие элементы упаковки вызывают у Вас настороженность?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Слишком яркие или неестественные цвета упаковки"
+     ],
+     "line_index": 528,
+     "text": "Слишком яркие или неестественные цвета упаковки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       200.45,
+       98.82,
+       211.62
+      ]
+     },
+     "code": "q38.a1"
+    },
+    {
+     "parts": [
+      "Большое количество рекламных обещаний"
+     ],
+     "line_index": 530,
+     "text": "Большое количество рекламных обещаний",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       212.72,
+       98.82,
+       223.89
+      ]
+     },
+     "code": "q38.a2"
+    },
+    {
+     "parts": [
+      "Надписи «натуральный», «фермерский» или «эко» без дополнительного объяснения"
+     ],
+     "line_index": 532,
+     "text": "Надписи «натуральный», «фермерский» или «эко» без дополнительного объяснения",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       224.98,
+       98.82,
+       236.16
+      ]
+     },
+     "code": "q38.a3"
+    },
+    {
+     "parts": [
+      "Слишком мелкий или плохо читаемый текст"
+     ],
+     "line_index": 534,
+     "text": "Слишком мелкий или плохо читаемый текст",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       237.25,
+       98.82,
+       248.42
+      ]
+     },
+     "code": "q38.a4"
+    },
+    {
+     "parts": [
+      "Непрозрачная упаковка, через которую не виден продукт"
+     ],
+     "line_index": 536,
+     "text": "Непрозрачная упаковка, через которую не виден продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       249.51,
+       98.82,
+       260.69
+      ]
+     },
+     "code": "q38.a5"
+    },
+    {
+     "parts": [
+      "Неестественное изображение продукта"
+     ],
+     "line_index": 538,
+     "text": "Неестественное изображение продукта",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       261.78,
+       98.82,
+       272.95
+      ]
+     },
+     "code": "q38.a6"
+    },
+    {
+     "parts": [
+      "Отсутствие понятной информации о производителе"
+     ],
+     "line_index": 540,
+     "text": "Отсутствие понятной информации о производителе",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       274.05,
+       98.82,
+       285.22
+      ]
+     },
+     "code": "q38.a7"
+    },
+    {
+     "parts": [
+      "Незнакомые обозначения или термины"
+     ],
+     "line_index": 542,
+     "text": "Незнакомые обозначения или термины",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       286.31,
+       98.82,
+       297.48
+      ]
+     },
+     "code": "q38.a8"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 544,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       298.58,
+       98.82,
+       309.75
+      ]
+     },
+     "code": "q38.a9"
+    },
+    {
+     "parts": [
+      "Ничего из перечисленного"
+     ],
+     "line_index": 546,
+     "text": "Ничего из перечисленного",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       310.84,
+       98.82,
+       322.01
+      ]
+     },
+     "code": "q38.a10"
+    }
+   ],
+   "source": {
+    "page": 10,
+    "bbox": [
+     72.0,
+     155.92,
+     401.59,
+     167.09
+    ]
+   }
+  },
+  {
+   "id": "q39",
+   "number": 39,
+   "block": "b9",
+   "text": "Чем, по-Вашему, отличается сорт Сервелат от других сортов колбасы?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 10,
+    "bbox": [
+     72.0,
+     379.64,
+     447.05,
+     390.81
+    ]
+   }
+  },
+  {
+   "id": "q40",
+   "number": 40,
+   "block": "b9",
+   "text": "Как часто Вы покупаете Сервелат?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Несколько раз в неделю"
+     ],
+     "line_index": 553,
+     "text": "Несколько раз в неделю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       476.7,
+       98.82,
+       487.87
+      ]
+     },
+     "code": "q40.a1"
+    },
+    {
+     "parts": [
+      "Один раз в неделю"
+     ],
+     "line_index": 555,
+     "text": "Один раз в неделю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       488.97,
+       98.82,
+       500.14
+      ]
+     },
+     "code": "q40.a2"
+    },
+    {
+     "parts": [
+      "2–3 раза в месяц"
+     ],
+     "line_index": 557,
+     "text": "2–3 раза в месяц",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       501.23,
+       98.82,
+       512.41
+      ]
+     },
+     "code": "q40.a3"
+    },
+    {
+     "parts": [
+      "Один раз в месяц или реже"
+     ],
+     "line_index": 559,
+     "text": "Один раз в месяц или реже",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       513.5,
+       98.82,
+       524.67
+      ]
+     },
+     "code": "q40.a4"
+    },
+    {
+     "parts": [
+      "Не покупаю"
+     ],
+     "line_index": 561,
+     "text": "Не покупаю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       525.76,
+       98.82,
+       536.94
+      ]
+     },
+     "code": "q40.a5"
+    }
+   ],
+   "source": {
+    "page": 10,
+    "bbox": [
+     72.0,
+     428.17,
+     266.45,
+     439.34
+    ]
+   }
+  },
+  {
+   "id": "q41",
+   "number": 41,
+   "block": "b9",
+   "text": "В каких ситуациях Вы обычно употребляете сервелат?",
+   "type": "multi",
+   "instruction": "(Множественный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Для завтрака или приготовления бутербродов дома"
+     ],
+     "line_index": 565,
+     "text": "Для завтрака или приготовления бутербродов дома",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       598.56,
+       98.82,
+       609.73
+      ]
+     },
+     "code": "q41.a1"
+    },
+    {
+     "parts": [
+      "Для ланч-бокса на работу, учёбу или ребёнку в школу"
+     ],
+     "line_index": 567,
+     "text": "Для ланч-бокса на работу, учёбу или ребёнку в школу",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       610.83,
+       98.82,
+       622.0
+      ]
+     },
+     "code": "q41.a2"
+    },
+    {
+     "parts": [
+      "Для быстрого перекуса"
+     ],
+     "line_index": 569,
+     "text": "Для быстрого перекуса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       623.09,
+       98.82,
+       634.26
+      ]
+     },
+     "code": "q41.a3"
+    },
+    {
+     "parts": [
+      "Для быстрого приёма пищи без приготовления"
+     ],
+     "line_index": 571,
+     "text": "Для быстрого приёма пищи без приготовления",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       635.36,
+       98.82,
+       646.53
+      ]
+     },
+     "code": "q41.a4"
+    },
+    {
+     "parts": [
+      "В качестве закуски к напиткам (например, пиву, вину и т. д.)"
+     ],
+     "line_index": 573,
+     "text": "В качестве закуски к напиткам (например, пиву, вину и т. д.)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       647.62,
+       98.82,
+       658.8
+      ]
+     },
+     "code": "q41.a5"
+    },
+    {
+     "parts": [
+      "Для встречи гостей или праздничного стола"
+     ],
+     "line_index": 575,
+     "text": "Для встречи гостей или праздничного стола",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       659.89,
+       98.82,
+       671.06
+      ]
+     },
+     "code": "q41.a6"
+    },
+    {
+     "parts": [
+      "Во время отдыха на природе, пикника или поездки"
+     ],
+     "line_index": 577,
+     "text": "Во время отдыха на природе, пикника или поездки",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       672.16,
+       98.82,
+       683.33
+      ]
+     },
+     "code": "q41.a7"
+    },
+    {
+     "parts": [
+      "В качестве ингредиента для приготовления блюд (например, пиццы, салатов, горячих",
+      "бутербродов и т. д.)"
+     ],
+     "line_index": 579,
+     "text": "В качестве ингредиента для приготовления блюд (например, пиццы, салатов, горячих бутербродов и т. д.)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 10,
+      "bbox": [
+       90.0,
+       684.42,
+       98.82,
+       695.59
+      ]
+     },
+     "code": "q41.a8"
+    },
+    {
+     "parts": [
+      "В другой ситуации (укажите)"
+     ],
+     "line_index": 582,
+     "text": "В другой ситуации (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q41.a9"
+    },
+    {
+     "parts": [
+      "Не употреблял(а) сервелат за последний месяц"
+     ],
+     "line_index": 584,
+     "text": "Не употреблял(а) сервелат за последний месяц",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       84.59,
+       98.82,
+       95.76
+      ]
+     },
+     "code": "q41.a10"
+    }
+   ],
+   "source": {
+    "page": 10,
+    "bbox": [
+     72.0,
+     550.03,
+     368.22,
+     561.2
+    ]
+   }
+  },
+  {
+   "id": "q42",
+   "number": 42,
+   "block": "b10",
+   "text": "Когда Вы видите на упаковке мясного продукта утверждение «Высокое содержание белка», какая мысль возникает у Вас в первую очередь?",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 11,
+    "bbox": [
+     72.0,
+     153.39,
+     512.74,
+     164.56
+    ]
+   }
+  },
+  {
+   "id": "q43",
+   "number": 43,
+   "block": "b10",
+   "text": "Насколько для Вас важно высокое содержание белка в мясных продуктах?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Очень важно"
+     ],
+     "line_index": 592,
+     "text": "Очень важно",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       254.72,
+       98.82,
+       265.89
+      ]
+     },
+     "code": "q43.a1"
+    },
+    {
+     "parts": [
+      "Скорее важно"
+     ],
+     "line_index": 594,
+     "text": "Скорее важно",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       266.98,
+       98.82,
+       278.16
+      ]
+     },
+     "code": "q43.a2"
+    },
+    {
+     "parts": [
+      "Скорее неважно"
+     ],
+     "line_index": 596,
+     "text": "Скорее неважно",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       279.25,
+       98.82,
+       290.42
+      ]
+     },
+     "code": "q43.a3"
+    },
+    {
+     "parts": [
+      "Совершенно неважно"
+     ],
+     "line_index": 598,
+     "text": "Совершенно неважно",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       291.51,
+       98.82,
+       302.69
+      ]
+     },
+     "code": "q43.a4"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 600,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       303.78,
+       98.82,
+       314.95
+      ]
+     },
+     "code": "q43.a5"
+    }
+   ],
+   "source": {
+    "page": 11,
+    "bbox": [
+     72.0,
+     210.19,
+     470.44,
+     221.36
+    ]
+   }
+  },
+  {
+   "id": "q44",
+   "number": 44,
+   "block": "b10",
+   "text": "Если два мясных продукта стоят одинаково, насколько утверждение «Высокое содержание белка» повлияет на вероятность того, что Вы выберете такой продукт?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Значительно повысит"
+     ],
+     "line_index": 605,
+     "text": "Значительно повысит",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       382.84,
+       98.82,
+       394.01
+      ]
+     },
+     "code": "q44.a1"
+    },
+    {
+     "parts": [
+      "Скорее повысит"
+     ],
+     "line_index": 607,
+     "text": "Скорее повысит",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       395.11,
+       98.82,
+       406.28
+      ]
+     },
+     "code": "q44.a2"
+    },
+    {
+     "parts": [
+      "Не повлияет на выбор"
+     ],
+     "line_index": 609,
+     "text": "Не повлияет на выбор",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       407.37,
+       98.82,
+       418.55
+      ]
+     },
+     "code": "q44.a3"
+    },
+    {
+     "parts": [
+      "Скорее снизит"
+     ],
+     "line_index": 611,
+     "text": "Скорее снизит",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       419.64,
+       98.82,
+       430.81
+      ]
+     },
+     "code": "q44.a4"
+    },
+    {
+     "parts": [
+      "Значительно снизит"
+     ],
+     "line_index": 613,
+     "text": "Значительно снизит",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       431.91,
+       98.82,
+       443.08
+      ]
+     },
+     "code": "q44.a5"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 615,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       444.17,
+       98.82,
+       455.34
+      ]
+     },
+     "code": "q44.a6"
+    }
+   ],
+   "source": {
+    "page": 11,
+    "bbox": [
+     72.0,
+     326.05,
+     489.52,
+     337.22
+    ]
+   }
+  },
+  {
+   "id": "q45",
+   "number": 45,
+   "block": "b11",
+   "text": "Какой вес упаковки мясных деликатесов (например, ветчины, балыка и т. д.) наиболее удобен для Вашей повседневной покупки?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "До 80 г"
+     ],
+     "line_index": 621,
+     "text": "До 80 г",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       551.5,
+       98.82,
+       562.67
+      ]
+     },
+     "code": "q45.a1"
+    },
+    {
+     "parts": [
+      "81–150 г"
+     ],
+     "line_index": 623,
+     "text": "81–150 г",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       563.76,
+       98.82,
+       574.94
+      ]
+     },
+     "code": "q45.a2"
+    },
+    {
+     "parts": [
+      "151–250 г"
+     ],
+     "line_index": 625,
+     "text": "151–250 г",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       576.03,
+       98.82,
+       587.2
+      ]
+     },
+     "code": "q45.a3"
+    },
+    {
+     "parts": [
+      "251–500 г"
+     ],
+     "line_index": 627,
+     "text": "251–500 г",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       588.3,
+       98.82,
+       599.47
+      ]
+     },
+     "code": "q45.a4"
+    },
+    {
+     "parts": [
+      "Более 500 г"
+     ],
+     "line_index": 629,
+     "text": "Более 500 г",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       600.56,
+       98.82,
+       611.73
+      ]
+     },
+     "code": "q45.a5"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 631,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 11,
+      "bbox": [
+       90.0,
+       612.83,
+       98.82,
+       624.0
+      ]
+     },
+     "code": "q45.a6"
+    }
+   ],
+   "source": {
+    "page": 11,
+    "bbox": [
+     72.0,
+     490.7,
+     525.72,
+     501.87
+    ]
+   }
+  },
+  {
+   "id": "q46",
+   "number": 46,
+   "block": "b11",
+   "text": "Представьте, что Вы можете добавить в ассортимент магазинов новый мясной продукт, которого сейчас не хватает. Что это был бы за продукт? (например, мясной рулет с необычной начинкой, набор разных видов мясной нарезки, мини-формат колбасы и т. д.)",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 11,
+    "bbox": [
+     72.0,
+     637.09,
+     534.98,
+     648.26
+    ]
+   }
+  },
+  {
+   "id": "q47",
+   "number": 47,
+   "block": "b11",
+   "text": "Как Вы относитесь к идее премиальной варёной колбасы — продукта более высокого качества и ценового уровня по сравнению с обычной вареной колбасой?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Такая колбаса вполне может быть премиальным продуктом, и мне был бы интересен этот",
+      "продукт"
+     ],
+     "line_index": 640,
+     "text": "Такая колбаса вполне может быть премиальным продуктом, и мне был бы интересен этот продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       133.12,
+       98.82,
+       144.3
+      ]
+     },
+     "code": "q47.a1"
+    },
+    {
+     "parts": [
+      "Варёная колбаса может быть премиальной, но только если она заметно отличается от",
+      "обычной по качеству и внешнему виду"
+     ],
+     "line_index": 643,
+     "text": "Варёная колбаса может быть премиальной, но только если она заметно отличается от обычной по качеству и внешнему виду",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       157.66,
+       98.82,
+       168.83
+      ]
+     },
+     "code": "q47.a2"
+    },
+    {
+     "parts": [
+      "Варёная колбаса может быть премиальной, но лично мне такой продукт неинтересен"
+     ],
+     "line_index": 646,
+     "text": "Варёная колбаса может быть премиальной, но лично мне такой продукт неинтересен",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       182.19,
+       98.82,
+       193.36
+      ]
+     },
+     "code": "q47.a3"
+    },
+    {
+     "parts": [
+      "Мне сложно воспринимать варёную колбасу как премиальный продукт"
+     ],
+     "line_index": 648,
+     "text": "Мне сложно воспринимать варёную колбасу как премиальный продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       194.45,
+       98.82,
+       205.62
+      ]
+     },
+     "code": "q47.a4"
+    },
+    {
+     "parts": [
+      "Варёная колбаса в принципе не может быть премиальным продуктом"
+     ],
+     "line_index": 650,
+     "text": "Варёная колбаса в принципе не может быть премиальным продуктом",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       206.72,
+       98.82,
+       217.89
+      ]
+     },
+     "code": "q47.a5"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 652,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       218.98,
+       98.82,
+       230.16
+      ]
+     },
+     "code": "q47.a6"
+    }
+   ],
+   "source": {
+    "page": 12,
+    "bbox": [
+     72.0,
+     72.33,
+     523.84,
+     83.5
+    ]
+   }
+  },
+  {
+   "id": "q48",
+   "number": 48,
+   "block": "b11",
+   "text": "Какие характеристики прежде всего должны отличать премиальную варёную колбасу от обычной, чтобы Вы воспринимали её как действительно премиальный продукт? Выберите не более 3 вариантов.",
+   "type": "multi",
+   "instruction": "(Множественный выбор, не более 3 вариантов)",
+   "options": [
+    {
+     "parts": [
+      "Более высокое содержание мяса"
+     ],
+     "line_index": 658,
+     "text": "Более высокое содержание мяса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       316.31,
+       98.82,
+       327.48
+      ]
+     },
+     "code": "q48.a1"
+    },
+    {
+     "parts": [
+      "Использование отборного мяса и сырья более высокого качества"
+     ],
+     "line_index": 660,
+     "text": "Использование отборного мяса и сырья более высокого качества",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       328.58,
+       98.82,
+       339.75
+      ]
+     },
+     "code": "q48.a2"
+    },
+    {
+     "parts": [
+      "Натуральный и понятный состав"
+     ],
+     "line_index": 662,
+     "text": "Натуральный и понятный состав",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       340.84,
+       98.82,
+       352.01
+      ]
+     },
+     "code": "q48.a3"
+    },
+    {
+     "parts": [
+      "Минимальное количество добавок"
+     ],
+     "line_index": 664,
+     "text": "Минимальное количество добавок",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       353.11,
+       98.82,
+       364.28
+      ]
+     },
+     "code": "q48.a4"
+    },
+    {
+     "parts": [
+      "Особая рецептура"
+     ],
+     "line_index": 666,
+     "text": "Особая рецептура",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       365.37,
+       98.82,
+       376.55
+      ]
+     },
+     "code": "q48.a5"
+    },
+    {
+     "parts": [
+      "Более выраженный и насыщенный вкус"
+     ],
+     "line_index": 668,
+     "text": "Более выраженный и насыщенный вкус",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       377.64,
+       98.82,
+       388.81
+      ]
+     },
+     "code": "q48.a6"
+    },
+    {
+     "parts": [
+      "Более плотная, мясная текстура"
+     ],
+     "line_index": 670,
+     "text": "Более плотная, мясная текстура",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       389.91,
+       98.82,
+       401.08
+      ]
+     },
+     "code": "q48.a7"
+    },
+    {
+     "parts": [
+      "Аппетитный внешний вид и срез"
+     ],
+     "line_index": 672,
+     "text": "Аппетитный внешний вид и срез",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       402.17,
+       98.82,
+       413.34
+      ]
+     },
+     "code": "q48.a8"
+    },
+    {
+     "parts": [
+      "Необычный формат, форма или размер продукта"
+     ],
+     "line_index": 674,
+     "text": "Необычный формат, форма или размер продукта",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       414.44,
+       98.82,
+       425.61
+      ]
+     },
+     "code": "q48.a9"
+    },
+    {
+     "parts": [
+      "Более премиальная упаковка и дизайн"
+     ],
+     "line_index": 676,
+     "text": "Более премиальная упаковка и дизайн",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       426.7,
+       98.82,
+       437.87
+      ]
+     },
+     "code": "q48.a10"
+    },
+    {
+     "parts": [
+      "Подробная информация о происхождении мяса и сырья"
+     ],
+     "line_index": 678,
+     "text": "Подробная информация о происхождении мяса и сырья",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       438.97,
+       98.82,
+       450.14
+      ]
+     },
+     "code": "q48.a11"
+    },
+    {
+     "parts": [
+      "Известный бренд или производитель, которому я доверяю"
+     ],
+     "line_index": 680,
+     "text": "Известный бренд или производитель, которому я доверяю",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       451.23,
+       98.82,
+       462.41
+      ]
+     },
+     "code": "q48.a12"
+    },
+    {
+     "parts": [
+      "Более высокая цена"
+     ],
+     "line_index": 682,
+     "text": "Более высокая цена",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       463.5,
+       98.82,
+       474.67
+      ]
+     },
+     "code": "q48.a13"
+    },
+    {
+     "parts": [
+      "Другое (укажите)"
+     ],
+     "line_index": 684,
+     "text": "Другое (укажите)",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       475.76,
+       98.82,
+       486.94
+      ]
+     },
+     "code": "q48.a14"
+    },
+    {
+     "parts": [
+      "Никакие — варёная колбаса не может восприниматься мной как премиальный продукт"
+     ],
+     "line_index": 686,
+     "text": "Никакие — варёная колбаса не может восприниматься мной как премиальный продукт",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 12,
+      "bbox": [
+       90.0,
+       488.03,
+       98.82,
+       499.2
+      ]
+     },
+     "code": "q48.a15"
+    }
+   ],
+   "source": {
+    "page": 12,
+    "bbox": [
+     72.0,
+     243.25,
+     535.85,
+     254.42
+    ]
+   },
+   "max_choices": 3
+  },
+  {
+   "id": "q49",
+   "number": 49,
+   "block": "b11",
+   "text": "Как Вы воспринимаете каждую из следующих продуктовых новинок?",
+   "type": "matrix",
+   "instruction": "Матрица; один вариант ответа для каждой новинки",
+   "options": [],
+   "source": {
+    "page": 12,
+    "bbox": [
+     72.0,
+     512.3,
+     444.25,
+     523.47
+    ]
+   },
+   "table_cells": [
+    "Новинка / характеристика",
+    "Скорее маркетинговый ход",
+    "Скорее реальное",
+    "преимущество",
+    "Продукты без нитритной",
+    "соли",
+    "Упаковка Easy-Peel,",
+    "которую легко открыть без",
+    "ножниц",
+    "Использование",
+    "натуральных ингредиентов",
+    "для придания продукту",
+    "цвета (например,",
+    "свекольного сока, черного",
+    "чеснока и т. д.) вместо",
+    "искусственных красителей",
+    "Мясные чипсы (сушеное",
+    "мясо) к пиву или вину"
+   ],
+   "rows": [
+    "Продукты без нитритной соли",
+    "Упаковка Easy-Peel, которую легко открыть без ножниц",
+    "Использование натуральных ингредиентов для придания продукту цвета (например, свекольного сока, черного чеснока и т. д.) вместо искусственных красителей",
+    "Мясные чипсы (сушеное мясо) к пиву или вину"
+   ],
+   "columns": [
+    "Скорее маркетинговый ход",
+    "Скорее реальное преимущество"
+   ],
+   "notes": "Таблица в PDF без рамок; строки и столбцы восстановлены из порядка ячеек и сверены с текстом страниц 12–13."
+  },
+  {
+   "id": "q50",
+   "number": 50,
+   "block": "b12",
+   "text": "Готовы ли Вы платить больше за колбасное изделие с маркировкой «ГОСТ»? Если да, то насколько?",
+   "type": "single",
+   "instruction": "(Одиночный выбор) (для РФ)",
+   "options": [
+    {
+     "parts": [
+      "Не готов(а) платить больше"
+     ],
+     "line_index": 712,
+     "text": "Не готов(а) платить больше",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       421.08,
+       98.82,
+       432.25
+      ]
+     },
+     "code": "q50.a1"
+    },
+    {
+     "parts": [
+      "На 1–10%"
+     ],
+     "line_index": 714,
+     "text": "На 1–10%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       433.34,
+       98.82,
+       444.51
+      ]
+     },
+     "code": "q50.a2"
+    },
+    {
+     "parts": [
+      "На 11–20%"
+     ],
+     "line_index": 716,
+     "text": "На 11–20%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       445.61,
+       98.82,
+       456.78
+      ]
+     },
+     "code": "q50.a3"
+    },
+    {
+     "parts": [
+      "На 21–30%"
+     ],
+     "line_index": 718,
+     "text": "На 21–30%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       457.87,
+       98.82,
+       469.05
+      ]
+     },
+     "code": "q50.a4"
+    },
+    {
+     "parts": [
+      "Более чем на 30%"
+     ],
+     "line_index": 720,
+     "text": "Более чем на 30%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       470.14,
+       98.82,
+       481.31
+      ]
+     },
+     "code": "q50.a5"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 722,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       482.41,
+       98.82,
+       493.58
+      ]
+     },
+     "code": "q50.a6"
+    }
+   ],
+   "source": {
+    "page": 13,
+    "bbox": [
+     72.0,
+     360.28,
+     539.24,
+     371.45
+    ]
+   },
+   "scope": "RF"
+  },
+  {
+   "id": "q51",
+   "number": 51,
+   "block": "b12",
+   "text": "Готовы ли Вы платить больше за колбасное изделие с маркировкой «СТБ/ТУ»? Если да, то насколько?",
+   "type": "single",
+   "instruction": "(Одиночный выбор) (для РБ)",
+   "options": [
+    {
+     "parts": [
+      "Не готов(а) платить больше"
+     ],
+     "line_index": 727,
+     "text": "Не готов(а) платить больше",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       567.47,
+       98.82,
+       578.64
+      ]
+     },
+     "code": "q51.a1"
+    },
+    {
+     "parts": [
+      "На 5–10%"
+     ],
+     "line_index": 729,
+     "text": "На 5–10%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       579.73,
+       98.82,
+       590.91
+      ]
+     },
+     "code": "q51.a2"
+    },
+    {
+     "parts": [
+      "На 10–20%"
+     ],
+     "line_index": 731,
+     "text": "На 10–20%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       592.0,
+       98.82,
+       603.17
+      ]
+     },
+     "code": "q51.a3"
+    },
+    {
+     "parts": [
+      "На 20–30%"
+     ],
+     "line_index": 733,
+     "text": "На 20–30%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       604.26,
+       98.82,
+       615.44
+      ]
+     },
+     "code": "q51.a4"
+    },
+    {
+     "parts": [
+      "Более чем на 30%"
+     ],
+     "line_index": 735,
+     "text": "Более чем на 30%",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       616.53,
+       98.82,
+       627.7
+      ]
+     },
+     "code": "q51.a5"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 737,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 13,
+      "bbox": [
+       90.0,
+       628.8,
+       98.82,
+       639.97
+      ]
+     },
+     "code": "q51.a6"
+    }
+   ],
+   "source": {
+    "page": 13,
+    "bbox": [
+     72.0,
+     506.67,
+     534.19,
+     517.84
+    ]
+   },
+   "scope": "RB"
+  },
+  {
+   "id": "q52",
+   "number": 52,
+   "block": "b12",
+   "text": "При одинаковой цене какому из следующих мясных продуктов Вы отдадите предпочтение?",
+   "type": "single",
+   "instruction": "(Одиночный выбор)",
+   "options": [
+    {
+     "parts": [
+      "Продукту с высоким содержанием белка"
+     ],
+     "line_index": 742,
+     "text": "Продукту с высоким содержанием белка",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 14,
+      "bbox": [
+       90.0,
+       72.33,
+       98.82,
+       83.5
+      ]
+     },
+     "code": "q52.a1"
+    },
+    {
+     "parts": [
+      "Продукту с простым и понятным составом без лишних добавок"
+     ],
+     "line_index": 744,
+     "text": "Продукту с простым и понятным составом без лишних добавок",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 14,
+      "bbox": [
+       90.0,
+       84.59,
+       98.82,
+       95.76
+      ]
+     },
+     "code": "q52.a2"
+    },
+    {
+     "parts": [
+      "Продукту с высоким содержанием мяса"
+     ],
+     "line_index": 746,
+     "text": "Продукту с высоким содержанием мяса",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 14,
+      "bbox": [
+       90.0,
+       96.86,
+       98.82,
+       108.03
+      ]
+     },
+     "code": "q52.a3"
+    },
+    {
+     "parts": [
+      "Продукту, обогащённому витаминами и минералами"
+     ],
+     "line_index": 748,
+     "text": "Продукту, обогащённому витаминами и минералами",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 14,
+      "bbox": [
+       90.0,
+       109.12,
+       98.82,
+       120.3
+      ]
+     },
+     "code": "q52.a4"
+    },
+    {
+     "parts": [
+      "Затрудняюсь ответить"
+     ],
+     "line_index": 750,
+     "text": "Затрудняюсь ответить",
+     "kind": "option",
+     "exclusive": false,
+     "source": {
+      "page": 14,
+      "bbox": [
+       90.0,
+       121.39,
+       98.82,
+       132.56
+      ]
+     },
+     "code": "q52.a5"
+    }
+   ],
+   "source": {
+    "page": 13,
+    "bbox": [
+     72.0,
+     653.06,
+     474.18,
+     664.23
+    ]
+   }
+  },
+  {
+   "id": "q53",
+   "number": 53,
+   "block": "b12",
+   "text": "Представьте мясной продукт для быстрого перекуса в дороге или на работе. Каким был бы такой продукт? Дайте развёрнутый ответ.",
+   "type": "open",
+   "instruction": "(Открытый вопрос)",
+   "options": [],
+   "source": {
+    "page": 14,
+    "bbox": [
+     72.0,
+     145.66,
+     534.79,
+     156.83
+    ]
+   }
+  }
+ ],
+ "totals": {
+  "pages": 14,
+  "blocks": 12,
+  "questions": 53,
+  "options": 321,
+  "options_from_bullets": 243,
+  "options_from_brand_lists": 78,
+  "scale_items": 29,
+  "bullets_in_pdf": 272
+ }
+}

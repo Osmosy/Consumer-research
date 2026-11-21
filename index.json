@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22",
+ "generated_at": "2026-11-21",
  "decks": [
   {
    "slug": "inkofood-2026",
@@ -169,6 +169,343 @@
    "json": "decks/ekopsi-debaty-pro-pokoleniya/deck.json",
    "slides_dir": "decks/ekopsi-debaty-pro-pokoleniya/slides",
    "print_pdf": "decks/ekopsi-debaty-pro-pokoleniya/ekopsi-debaty-pro-pokoleniya-print.pdf"
+  },
+  {
+   "slug": "euromonitor-trendy-2027",
+   "title": "Euromonitor — Top Global Consumer Trends 2027",
+   "topic": "глобальные потребительские тренды",
+   "pages": 67,
+   "table_rows": 6,
+   "source_pdf": "Euromonitor_Top Global Consumer Trends_2027 (67 pgs).pdf",
+   "source_pdf_sha256": "368fae57cb99e2a45781ed39c80568243582aeb41d2a38f7c2a6713f9e28a42b",
+   "dir": "decks/euromonitor-trendy-2027",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "euromonitor-trendy-2027-print.pdf",
+    "euromonitor-trendy-2027.md",
+    "index.html",
+    "llms.txt"
+   ],
+   "md": "decks/euromonitor-trendy-2027/euromonitor-trendy-2027.md",
+   "html": "decks/euromonitor-trendy-2027/index.html",
+   "json": "decks/euromonitor-trendy-2027/deck.json",
+   "slides_dir": "decks/euromonitor-trendy-2027/slides",
+   "print_pdf": "decks/euromonitor-trendy-2027/euromonitor-trendy-2027-print.pdf",
+   "verification": {
+    "numbers_in_pdf": 544,
+    "numbers_found": 544,
+    "gaps": 0,
+    "gap_pages": [],
+    "curated_pages": 24,
+    "pages_without_pairs": [
+     4,
+     6,
+     7,
+     9,
+     10,
+     17,
+     18,
+     20,
+     21,
+     28,
+     30,
+     40,
+     42,
+     46,
+     54,
+     55,
+     56,
+     57,
+     58
+    ],
+    "slides_with_note": 24
+   }
+  },
+  {
+   "slug": "gartner-tech-trends-2027",
+   "title": "Gartner — Top 10 Strategic Tech Trends 2027",
+   "topic": "технологические тренды, стратегия",
+   "pages": 28,
+   "table_rows": 17,
+   "source_pdf": "Gartner_Top 10 Strategic Tech Trends_2027 (28 pgs).pdf",
+   "source_pdf_sha256": "cdba1b28373f892a4f07edd092c47d3ce8a12dcc5e962768db2922634a25799b",
+   "dir": "decks/gartner-tech-trends-2027",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "gartner-tech-trends-2027-print.pdf",
+    "gartner-tech-trends-2027.md",
+    "index.html",
+    "llms.txt"
+   ],
+   "md": "decks/gartner-tech-trends-2027/gartner-tech-trends-2027.md",
+   "html": "decks/gartner-tech-trends-2027/index.html",
+   "json": "decks/gartner-tech-trends-2027/deck.json",
+   "slides_dir": "decks/gartner-tech-trends-2027/slides",
+   "print_pdf": "decks/gartner-tech-trends-2027/gartner-tech-trends-2027-print.pdf",
+   "verification": {
+    "numbers_in_pdf": 174,
+    "numbers_found": 174,
+    "gaps": 0,
+    "gap_pages": [],
+    "curated_pages": 10,
+    "pages_without_pairs": [
+     9,
+     12
+    ],
+    "slides_with_note": 11
+   }
+  },
+  {
+   "slug": "ntech-konferenciya-2026",
+   "title": "NTech — Годовая конференция 2026",
+   "topic": "FMCG, рынок и категории",
+   "pages": 106,
+   "table_rows": 67,
+   "source_pdf": "NTech. Годовая конференция 2026..pdf",
+   "source_pdf_sha256": "55e7f08bcb6aaf4cd6b9f444a688bc39552f7cf4f543d7306a8a36157381d7e4",
+   "dir": "decks/ntech-konferenciya-2026",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "llms.txt",
+    "ntech-konferenciya-2026-print.pdf",
+    "ntech-konferenciya-2026.md"
+   ],
+   "md": "decks/ntech-konferenciya-2026/ntech-konferenciya-2026.md",
+   "html": "decks/ntech-konferenciya-2026/index.html",
+   "json": "decks/ntech-konferenciya-2026/deck.json",
+   "slides_dir": "decks/ntech-konferenciya-2026/slides",
+   "print_pdf": "decks/ntech-konferenciya-2026/ntech-konferenciya-2026-print.pdf",
+   "verification": {
+    "numbers_in_pdf": 955,
+    "numbers_found": 955,
+    "gaps": 0,
+    "gap_pages": [],
+    "curated_pages": 77,
+    "pages_without_pairs": [
+     3,
+     4,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     18,
+     19,
+     20,
+     21,
+     22,
+     24,
+     26,
+     27,
+     30,
+     32,
+     33,
+     34,
+     36,
+     37,
+     39,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     60,
+     62,
+     63,
+     64,
+     65,
+     67,
+     69,
+     70,
+     71,
+     73,
+     77,
+     78,
+     80,
+     81,
+     82,
+     83,
+     84,
+     86,
+     93,
+     94,
+     95,
+     96,
+     97,
+     99,
+     100,
+     101,
+     102,
+     103
+    ],
+    "slides_with_note": 87
+   }
+  },
+  {
+   "slug": "nielsen-put-k-pokupatelyu",
+   "title": "Нильсен — Как найти путь к покупателю",
+   "topic": "потребитель, бренды, FMCG",
+   "pages": 30,
+   "table_rows": 191,
+   "source_pdf": "Нильсен_Как_найти_путь_к_покупателю.pdf",
+   "source_pdf_sha256": "8273e886e3a59743b41fbcf7ffbd6cda2ead58a4356d8597145bd4f15ac939b9",
+   "dir": "decks/nielsen-put-k-pokupatelyu",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "llms.txt",
+    "nielsen-put-k-pokupatelyu-print.pdf",
+    "nielsen-put-k-pokupatelyu.md"
+   ],
+   "md": "decks/nielsen-put-k-pokupatelyu/nielsen-put-k-pokupatelyu.md",
+   "html": "decks/nielsen-put-k-pokupatelyu/index.html",
+   "json": "decks/nielsen-put-k-pokupatelyu/deck.json",
+   "slides_dir": "decks/nielsen-put-k-pokupatelyu/slides",
+   "print_pdf": "decks/nielsen-put-k-pokupatelyu/nielsen-put-k-pokupatelyu-print.pdf",
+   "verification": {
+    "numbers_in_pdf": 513,
+    "numbers_found": 513,
+    "gaps": 0,
+    "gap_pages": [],
+    "curated_pages": 16,
+    "pages_without_pairs": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     10,
+     11,
+     13,
+     15,
+     19,
+     24,
+     25,
+     27,
+     28
+    ],
+    "slides_with_note": 16
+   }
+  },
+  {
+   "slug": "wonderfull-cx-trendy-2030",
+   "title": "Wonderfull — CX-тренды 2030",
+   "topic": "клиентский опыт, CX",
+   "pages": 27,
+   "table_rows": 1,
+   "source_pdf": "Wonderfull_CX Тренды_2030 (27 стр).pdf",
+   "source_pdf_sha256": "9fa86a7d2f1abc1f54ec1af30490787c58dfeafe41ac0e78f3ca7b439d27e3c4",
+   "dir": "decks/wonderfull-cx-trendy-2030",
+   "files": [
+    "README.md",
+    "VERIFICATION.md",
+    "deck.json",
+    "index.html",
+    "llms.txt",
+    "wonderfull-cx-trendy-2030-print.pdf",
+    "wonderfull-cx-trendy-2030.md"
+   ],
+   "md": "decks/wonderfull-cx-trendy-2030/wonderfull-cx-trendy-2030.md",
+   "html": "decks/wonderfull-cx-trendy-2030/index.html",
+   "json": "decks/wonderfull-cx-trendy-2030/deck.json",
+   "slides_dir": "decks/wonderfull-cx-trendy-2030/slides",
+   "print_pdf": "decks/wonderfull-cx-trendy-2030/wonderfull-cx-trendy-2030-print.pdf",
+   "verification": {
+    "numbers_in_pdf": 312,
+    "numbers_found": 306,
+    "gaps": 6,
+    "gap_pages": [
+     [
+      1,
+      [
+       "01"
+      ]
+     ],
+     [
+      2,
+      [
+       "02"
+      ]
+     ],
+     [
+      5,
+      [
+       "05"
+      ]
+     ],
+     [
+      6,
+      [
+       "06"
+      ]
+     ],
+     [
+      8,
+      [
+       "08"
+      ]
+     ],
+     [
+      9,
+      [
+       "09"
+      ]
+     ]
+    ],
+    "curated_pages": 24,
+    "pages_without_pairs": [
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ],
+    "slides_with_note": 24
+   }
   }
  ],
  "instruments": [
@@ -206,9 +543,9 @@
   }
  ],
  "totals": {
-  "decks": 7,
-  "pages": 260,
-  "table_rows": 2758,
+  "decks": 12,
+  "pages": 518,
+  "table_rows": 3040,
   "instruments": 1,
   "instrument_questions": 53,
   "instrument_options": 321

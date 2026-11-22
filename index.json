@@ -576,32 +576,39 @@
     "numbers_found": 25,
     "gaps": 0,
     "gap_pages": [],
-    "curated_pages": 31,
+    "curated_pages": 33,
     "pages_without_pairs": [],
     "slides_with_note": 31,
     "raster_pages": 31,
-    "text_layer_pages": 2
+    "text_layer_pages": 2,
+    "text_blocks": 885
    },
    "reading": {
-    "text_layer_pages": 2,
-    "raster_pages": 31,
-    "read_by_render": 12,
+    "method": "OCR tesseract 5.5 rus+eng (400 dpi, сверка с 300 dpi) для 19 страниц; 12 страниц прочитаны по рендеру",
     "read_by_ocr": 19,
+    "read_by_render": 12,
+    "text_layer_pages": 2,
     "ocr_engine": "tesseract 5.5.0 rus+eng, 400 dpi, сверка с прогоном 300 dpi",
-    "ocr_mean_confidence": 87.1,
-    "number_check": "числа сверены по рендеру на страницах 7, 11, 19 (совпало), на 30 OCR ошибался — страница прочитана по рендеру",
-    "manual_proofread": false,
-    "blocks": 936,
-    "ocr_layout": "строки разрезаны по разрывам между словами и разложены по колонкам (полоса → левая → правая)",
+    "ocr_layout": "двухколоночная раскладка восстановлена: строки режутся по горизонтальным разрывам, порядок «широкая полоса → левая → правая»",
     "page_corrections": {
      "3": 3,
      "4": 2,
      "6": 5,
      "11": 3,
      "12": 2,
-     "13": 2,
-     "19": 1
-    }
+     "13": 6,
+     "19": 1,
+     "14": 10,
+     "18": 11,
+     "20": 1,
+     "27": 2,
+     "29": 3,
+     "32": 1,
+     "28": 1
+    },
+    "global_corrections": 3,
+    "junk_blocks_dropped": 39,
+    "manual_proofread": "вычитаны 14 страниц с ошибками распознавания (52 правки, включая заголовки) и удалены обрывки OCR со скриншотов; текст страниц с текстовым слоем (15, 16) взят из слоя PDF; сплошной построчной сверки остальных блоков нет"
    }
   }
  ],

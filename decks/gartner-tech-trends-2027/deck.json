@@ -168,43 +168,35 @@
    ],
    "table": [
     {
-     "label": "Now 1 – 3 years",
-     "value": "1"
-    },
-    {
-     "label": "3 World models",
+     "label": "This multiyear outlook organizes the Gartner",
      "value": "3"
     },
     {
-     "label": "2 Speech reasoning models",
+     "label": "to prepare, pilot and scale each capability.",
      "value": "2"
     },
     {
-     "label": "4 AI context platforms",
+     "label": "Top Strategic Technology Trends into sequential",
      "value": "4"
     },
     {
-     "label": "Near 3 – 5 years",
+     "label": "planning horizons to help you determine when",
      "value": "5"
     },
     {
-     "label": "6 AI agent identity",
+     "label": "to prepare, pilot and scale each capability.",
      "value": "6"
     },
     {
-     "label": "7 Autonomous exposure remediation",
+     "label": "to prepare, pilot and scale each capability.",
      "value": "7"
     },
     {
-     "label": "8 SovereignTech",
-     "value": "8"
-    },
-    {
-     "label": "9 Disposable applications",
+     "label": "This multiyear outlook organizes the Gartner",
      "value": "9"
     },
     {
-     "label": "10 Wetware as a service",
+     "label": "planning horizons to help you determine when",
      "value": "10"
     }
    ],
@@ -226,7 +218,7 @@
    "values": 40,
    "images": 108.5,
    "words": 168,
-   "note": "Числа взяты из формулировок слайда дословно; подпись строки — фраза, в которой число стоит."
+   "note": "Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже."
   },
   {
    "page": 4,
@@ -793,13 +785,18 @@
     {
      "kind": "p",
      "text": "The world is collective intelligence. Sample techniques: complex system, multiagent system"
-    },
-    {
-     "kind": "p",
-     "text": "Значения на слайде: 1, 40"
     }
    ],
-   "table": [],
+   "table": [
+    {
+     "label": "World models",
+     "value": "1"
+    },
+    {
+     "label": "World models",
+     "value": "40"
+    }
+   ],
    "footnotes": [
     "Source: Gartner"
    ],
@@ -807,7 +804,7 @@
    "values": 23,
    "images": 73.6,
    "words": 251,
-   "note": "Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 40."
+   "note": "Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже."
   },
   {
    "page": 10,
@@ -1018,13 +1015,18 @@
     {
      "kind": "li",
      "text": "• Tracking of data • Processes • Decisions • Actions • Outcomes"
-    },
-    {
-     "kind": "p",
-     "text": "Значения на слайде: 60, 80"
     }
    ],
-   "table": [],
+   "table": [
+    {
+     "label": "AI context platforms",
+     "value": "60"
+    },
+    {
+     "label": "AI context platforms",
+     "value": "80"
+    }
+   ],
    "footnotes": [
     "Source: Gartner"
    ],
@@ -1032,7 +1034,7 @@
    "values": 30,
    "images": 73.6,
    "words": 212,
-   "note": "Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 80."
+   "note": "Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже."
   },
   {
    "page": 13,

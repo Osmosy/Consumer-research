@@ -130,7 +130,7 @@ Let’s scroll.
 
 ## Слайд 4 — 2027 consumer trends
 
-> Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 16, 27, 39, 52, 64.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 Shelf Assured Ali Angus, Head of Innovation
 
@@ -146,9 +146,16 @@ About Euromonitor International
 
 ### Trusted intelligence, wherever you need it with Passport →
 
-Значения на слайде: 5, 16, 27, 39, 52, 64
-
 *© 2026 Euromonitor International*
+
+| Показатель | Значение |
+|---|---|
+| Shelf Assured | 5 |
+| Reluctant Reliance | 16 |
+| Peer Powered | 27 |
+| Mode-Switching | 39 |
+| Future Tense | 52 |
+| About Euromonitor International | 64 |
 
 ---
 
@@ -1322,7 +1329,7 @@ Irina Barbalova Global Lead – Beauty & Wellness
 
 ## Слайд 40 — 2 in 5
 
-> Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда. Числа на слайде: 69%.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 ### Swing states
 
@@ -1352,8 +1359,6 @@ to simplify their lives, up
 
 from two-thirds in 2025¹⁴
 
-Значения на слайде: 42%, 69%
-
 *¹Euromonitor International, Passport, Lifestyles Consumer Survey, fielded January to February 2026 (n=40,225)*
 
 *¹⁴Euromonitor International, Passport, Lifestyles Consumer Survey, fielded January to February 2026 (n=40,225) and 2025 (n=40,337)*
@@ -1365,6 +1370,11 @@ from two-thirds in 2025¹⁴
 *³³Euromonitor International, Passport, Lifestyles Consumer Survey, fielded January to February 2026 (n=11,058)*
 
 *© 2026 Euromonitor International*
+
+| Показатель | Значение |
+|---|---|
+| 2 in 5 | 42% |
+| 2 in 5 | 69% |
 
 ---
 
@@ -1857,7 +1867,7 @@ are an important part of their lives¹
 
 ## Слайд 56 — On the horizon
 
-> Данные слайда — в диаграмме: подписи серий и значений в текстовом слое не сходятся в пары (многорядные бары, легенда отдельно), поэтому числа сохранены перечислением в порядке PDF. Точные значения — на рендере слайда.
+> Пары «подпись → значение» собраны по геометрии слайда: подпись слева в той же строке (±8 px по вертикали). Проверено глазами на контрольных страницах; остальные значения — в списке ниже.
 
 ### On the horizon
 
@@ -1897,8 +1907,6 @@ compared with only 27% weighing
 
 speed of ROI⁴⁷
 
-Значения на слайде: 51%, 64%, 55%, 51%, 40%, 38%, 36%, 36%, 27%, 17%
-
 *Source: Euromonitor International, Voice of the Industry Survey, fielded May 2026 (n=420)*
 
 *Note: multi-select question; respondents are counted in each applicable category.*
@@ -1908,6 +1916,19 @@ speed of ROI⁴⁷
 *⁴⁷Euromonitor International, Voice of the Industry Survey, fielded May 2026 (n=420)*
 
 *© 2026 Euromonitor International*
+
+| Показатель | Значение |
+|---|---|
+| Level of ROI | 51% |
+| Alignment with consumer needs/demands | 64% |
+| Alignment with corporate strategy | 55% |
+| Long-term potential | 51% |
+| Scalability | 40% |
+| Ease of execution | 38% |
+| Level of ROI | 36% |
+| Investment cost | 36% |
+| Speed of ROI | 27% |
+| Broad appeal | 17% |
 
 ---
 

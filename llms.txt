@@ -1,4 +1,4 @@
-# Исследования потребителя — 13 презентаций, 3040 строк данных
+# Исследования потребителя — 13 презентаций, 3716 строк данных
 
 > Машинно-читаемые выгрузки семи презентаций о потребительском рынке. Числа — из текстового слоя PDF,
 > привязка «подпись → значение» сверена с рендером страниц.
@@ -17,11 +17,11 @@
 - `sbermarket-globalnye-trendy-2026` — СберМаркетинг — Глобальные тренды 2026; 36 слайдов, 36 строк
 - `sbermarket-serebryanyy-vozrast-2026` — СберМаркетинг — Серебряный возраст 2026; 30 слайдов, 299 строк
 - `ekopsi-debaty-pro-pokoleniya` — ЭКОПСИ — Дебаты про поколения; 21 слайдов, 26 строк
-- `euromonitor-trendy-2027` — Euromonitor — Top Global Consumer Trends 2027; 67 слайдов, 6 строк
-- `gartner-tech-trends-2027` — Gartner — Top 10 Strategic Tech Trends 2027; 28 слайдов, 17 строк
-- `ntech-konferenciya-2026` — NTech — Годовая конференция 2026; 106 слайдов, 67 строк
-- `nielsen-put-k-pokupatelyu` — Нильсен — Как найти путь к покупателю; 30 слайдов, 191 строк
-- `wonderfull-cx-trendy-2030` — Wonderfull — CX-тренды 2030; 27 слайдов, 1 строк
+- `euromonitor-trendy-2027` — Euromonitor — Top Global Consumer Trends 2027; 67 слайдов, 24 строк
+- `gartner-tech-trends-2027` — Gartner — Top 10 Strategic Tech Trends 2027; 28 слайдов, 19 строк
+- `ntech-konferenciya-2026` — NTech — Годовая конференция 2026; 106 слайдов, 400 строк
+- `nielsen-put-k-pokupatelyu` — Нильсен — Как найти путь к покупателю; 30 слайдов, 486 строк
+- `wonderfull-cx-trendy-2030` — Wonderfull — CX-тренды 2030; 27 слайдов, 29 строк
 - `studiya-chizhova-fmcg-2027` — Студия Чижова — FMCG тренды 2027; 33 слайдов, 0 строк
 
 ## Опросники

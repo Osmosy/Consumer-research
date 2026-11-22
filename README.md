@@ -4,7 +4,7 @@
 таблицы «показатель → значение», JSON, рендеры слайдов. Всё, что нужно для анализа, лежит в
 открытых форматах — без PowerPoint и без OCR-догадок.
 
-- Колод: **13**, слайдов: **551**, строк данных: **3040**. Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант).
+- Колод: **13**, слайдов: **551**, строк данных: **3716**. Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант). Опросник: **1** — анкета колоды `inkofood-2026` (53 вопроса, 321 вариант).
 - Числа взяты из текстового слоя PDF. Каждое число исходника присутствует в выгрузке — проверено скриптом.
 - Привязка «какая подпись владеет каким числом» сделана постранично и сверена с рендером страницы.
 
@@ -45,11 +45,11 @@ slide["title"], slide["table"][:3], slide["note"]
 | [`decks/sbermarket-globalnye-trendy-2026/`](decks/sbermarket-globalnye-trendy-2026/) | СберМаркетинг — Глобальные тренды 2026 — глобальные тренды, маркетинг | 36 | 36 |
 | [`decks/sbermarket-serebryanyy-vozrast-2026/`](decks/sbermarket-serebryanyy-vozrast-2026/) | СберМаркетинг — Серебряный возраст 2026 — сегмент 55+, поведение | 30 | 299 |
 | [`decks/ekopsi-debaty-pro-pokoleniya/`](decks/ekopsi-debaty-pro-pokoleniya/) | ЭКОПСИ — Дебаты про поколения — HR, вовлечённость, поколения | 21 | 26 |
-| [`decks/euromonitor-trendy-2027/`](decks/euromonitor-trendy-2027/) | Euromonitor — Top Global Consumer Trends 2027 — глобальные потребительские тренды | 67 | 6 |
-| [`decks/gartner-tech-trends-2027/`](decks/gartner-tech-trends-2027/) | Gartner — Top 10 Strategic Tech Trends 2027 — технологические тренды, стратегия | 28 | 17 |
-| [`decks/ntech-konferenciya-2026/`](decks/ntech-konferenciya-2026/) | NTech — Годовая конференция 2026 — FMCG, рынок и категории | 106 | 67 |
-| [`decks/nielsen-put-k-pokupatelyu/`](decks/nielsen-put-k-pokupatelyu/) | Нильсен — Как найти путь к покупателю — потребитель, бренды, FMCG | 30 | 191 |
-| [`decks/wonderfull-cx-trendy-2030/`](decks/wonderfull-cx-trendy-2030/) | Wonderfull — CX-тренды 2030 — клиентский опыт, CX | 27 | 1 |
+| [`decks/euromonitor-trendy-2027/`](decks/euromonitor-trendy-2027/) | Euromonitor — Top Global Consumer Trends 2027 — глобальные потребительские тренды | 67 | 24 |
+| [`decks/gartner-tech-trends-2027/`](decks/gartner-tech-trends-2027/) | Gartner — Top 10 Strategic Tech Trends 2027 — технологические тренды, стратегия | 28 | 19 |
+| [`decks/ntech-konferenciya-2026/`](decks/ntech-konferenciya-2026/) | NTech — Годовая конференция 2026 — FMCG, рынок и категории | 106 | 400 |
+| [`decks/nielsen-put-k-pokupatelyu/`](decks/nielsen-put-k-pokupatelyu/) | Нильсен — Как найти путь к покупателю — потребитель, бренды, FMCG | 30 | 486 |
+| [`decks/wonderfull-cx-trendy-2030/`](decks/wonderfull-cx-trendy-2030/) | Wonderfull — CX-тренды 2030 — клиентский опыт, CX | 27 | 29 |
 | [`decks/studiya-chizhova-fmcg-2027/`](decks/studiya-chizhova-fmcg-2027/) | Студия Чижова — FMCG тренды 2027 — FMCG, тренды 2027 | 33 | 0 |
 
 ## Опросники

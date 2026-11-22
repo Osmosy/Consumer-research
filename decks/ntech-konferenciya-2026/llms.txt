@@ -3,6 +3,6 @@
 > Расшифровка презентации (106 слайдов) из PDF-текста, с таблицами «показатель → значение».
 
 - [ntech-konferenciya-2026.md](ntech-konferenciya-2026.md) — текст по слайдам.
-- [deck.json](deck.json) — JSON: 67 строк данных.
+- [deck.json](deck.json) — JSON: 400 строк данных.
 - [index.html](index.html) — просмотр с картинками и поиском.
 - [README.md](README.md) — устройство; [VERIFICATION.md](VERIFICATION.md) — проверка.
